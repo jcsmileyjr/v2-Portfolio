@@ -3,6 +3,7 @@ import './App.css';
 
 import Intro from './components/intro';
 import Project from './components/project'
+import About from './components/about';
 
 class App extends Component {
   constructor(props){
@@ -16,7 +17,7 @@ class App extends Component {
   render() {
     return (
       <div className="projectContainer">
-          {this.state.intro && <Project />}
+          {this.state.intro && <About />}
       </div>
       
     );
