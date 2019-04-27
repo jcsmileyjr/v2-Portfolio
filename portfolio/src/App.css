@@ -1,4 +1,4 @@
-.container {
+.introContainer {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -6,7 +6,7 @@
   justify-content: center;
 }
 
-.introContainer {
+.introTitle {
   text-align: center;
   color: white;
   z-index: 1;
@@ -28,6 +28,11 @@
   left: 0;
   top: 0;
   background: #000;
+
   opacity: 0.6;
   color: white;
+}
+
+.projectContainer {
+
 }

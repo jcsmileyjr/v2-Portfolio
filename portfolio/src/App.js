@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 
 import Intro from './components/intro';
+import Project from './components/project'
 
 class App extends Component {
   constructor(props){
@@ -14,8 +15,8 @@ class App extends Component {
   }
   render() {
     return (
-      <div>
-          {this.state.intro && <Intro />}
+      <div className="projectContainer">
+          {this.state.intro && <Project />}
       </div>
       
     );
