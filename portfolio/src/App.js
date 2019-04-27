@@ -1,22 +1,23 @@
 import React, { Component } from 'react';
 import './App.css';
 
-import Intro from './components/intro'
+import Intro from './components/intro';
 
 class App extends Component {
   constructor(props){
     super(props);
     this.state ={
-      intro:false,
+      intro:true,
       project:false,
       about:false,
     }
   }
   render() {
     return (
-      <div className="container">
-        <Intro />        
+      <div>
+          {this.state.intro && <Intro />}
       </div>
+      
     );
   }
 }
