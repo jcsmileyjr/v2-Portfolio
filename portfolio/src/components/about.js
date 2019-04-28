@@ -1,14 +1,25 @@
 import React from 'react';
+import { Container, Row, Col, Card} from 'react-bootstrap';
 import '../App.css';
 
 export default function About(props){
     return(
-        <div>
-            <section className="center"><h1>About</h1></section>
-            <div>
+    <Container>
+            <Row className="center"><h1>About</h1></Row>
+            <Row>
                 <section>
                     <h3 className="center">Community Involvment</h3>
-                    <p></p>
+                    <Card style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src="../img/intro_meetup.jpg" />
+                        <Card.Body>
+                            <Card.Title>Card Title</Card.Title>
+                            <Card.Text>
+                            Some quick example text to build on the card title and make up the bulk of
+                            the card's content.
+                            </Card.Text>
+                            <Button variant="primary">Go somewhere</Button>
+                        </Card.Body>
+                    </Card>
                     <p>Code Connector: Nonprofit tech organization that help connect beginners with coding and career resources. https://www.codeconnective.com</p>
                     <ul>
                         <li>Engagement Manager/Blog Editor </li>
@@ -54,8 +65,8 @@ export default function About(props){
                     
                 </section>
                 <section></section>
-            </div>
+            </Row>
             
-        </div>
+        </Container>
     );
 }
