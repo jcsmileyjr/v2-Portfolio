@@ -9,10 +9,10 @@ export default function About(props){
             <Row className="center"><Col><h3>Community Involvment</h3></Col></Row>           
                 <Row>
                     <Col h-100 xs={12} lg={{span:5, offset:1}}>                    
-                        <Card >
+                        <Card className="h-100" >
                             <Card.Img 
                                 variant="top"                         
-                                src={require("../img/intro_meetup_small.jpg")} />
+                                src={require("../img/cc_meetup2.jpg")} />
                             <Card.Body>
                                 <Card.Title className="center">Code Connector</Card.Title>
                                 <Card.Subtitle  className="center greyColor"> Nonprofit Tech Meetup https://www.codeconnective.com</Card.Subtitle>
@@ -28,10 +28,10 @@ export default function About(props){
                         </Card>
                     </Col>
                     <Col xs={12} lg={{span:5, offset:1, height:"75%"}}>                    
-                        <Card >
+                        <Card className="h-100">
                             <Card.Img 
                                 variant="top"                         
-                                src={require("../img/intro_meetup_small.jpg")} />
+                                src={require("../img/cc_meetup1.jpg")} />
                             <Card.Body>
                                 <Card.Title  className="center">Smart City Hackathon 2019</Card.Title>
                                 <Card.Text>
@@ -45,7 +45,7 @@ export default function About(props){
                         </Card>
                     </Col>
                     <Col xs={12} lg={{span:5, offset:1}}>                    
-                        <Card >
+                        <Card className="h-100">
                             <Card.Img 
                                 variant="top"                         
                                 src={require("../img/intro_meetup_small.jpg")} />
@@ -61,7 +61,7 @@ export default function About(props){
                         </Card>
                     </Col>                                        
                     <Col xs={12} md={{span:5, offset:1}}>                    
-                        <Card >
+                        <Card className="h-100">
                             <Card.Img 
                                 variant="top"                         
                                 src={require("../img/intro_meetup_small.jpg")} />
@@ -78,10 +78,10 @@ export default function About(props){
                         </Card>
                     </Col>                    
                     <Col xs={12} lg={{span:5, offset:1}}>                    
-                        <Card >
+                        <Card className="h-100">
                             <Card.Img 
                                 variant="top"                         
-                                src={require("../img/intro_meetup_small.jpg")} />
+                                src={require("../img/presentation.jpg")} />
                             <Card.Body>
                                 <Card.Title>Blog Posts</Card.Title>
                                 <Card.Text>
@@ -93,10 +93,10 @@ export default function About(props){
                         </Card>
                     </Col>                    
                     <Col xs={12} lg={{span:5, offset:1}}>                    
-                        <Card >
+                        <Card className="h-100">
                             <Card.Img 
                                 variant="top"                         
-                                src={require("../img/intro_meetup_small.jpg")} />
+                                src={require("../img/inaugural-meetup.jpg")} />
                             <Card.Body>
                                 <Card.Title>Meetups I Attend</Card.Title>
                                 <Card.Text>
@@ -112,7 +112,7 @@ export default function About(props){
                 <Row className="center"><Col><h3>Hobbies</h3></Col></Row>
                 <Row>
                     <Col xs={12} lg={{span:5, offset:1}}>                    
-                        <Card >
+                        <Card className="h-100">
                             <Card.Img 
                                 variant="top"                         
                                 src={require("../img/intro_meetup_small.jpg")} />
