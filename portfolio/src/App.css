@@ -1,49 +1,45 @@
-.introContainer {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  //opacity: 0.6;
+
+/********** Global App Styling **********/
+
+.center {
+  text-align: center;
 }
 
+/********** End of Global App Styling **********/
+
+
+/********** Intro Page Styling **********/
+
+/*Style for the entire Intro Container*/
+.introContainer {
+  min-height: 100vh; /*made the container the height of the screen window*/
+  display: flex; /* Affect content of this container*/
+  align-items: center; /*Center the content on the x axis*/
+  justify-content: center; /*Center the content on the y axis*/
+}
+
+/*Style for the text content in Intro*/
 .introTitle {
   text-align: center;
   color: white;
   z-index: 1;
 }
 
-
+/* Stylin
+Bug fix: Was using a dark overlay and z-index for text to darken image but show text on top but it 
+really wasn't working. The fix was to use a linear-gradient. 
+*/
 .introImage {
-  background-image: url(./img/intro_meetup.jpg);
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(./img/intro_meetup.jpg);
   background-size: cover;
   background-position: center center;
   overflow: hidden;
   background-attachment: fixed;
 }
+/********** End Intro Page Styling **********/
 
-.overlay {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  background: #000;
-  opacity: 0.6;
-}
 
-/*Show the nav bar above the overlay*/
-.aboveOverlay {
-  z-index: 2;
-}
-
-.halfScreen {
-  width: 50%;
-}
-
-.center {
-  text-align: center;
-}
+/********** About Page Styling **********/
 
 /*Style for Sub-Title on About page*/
 .greyColor {

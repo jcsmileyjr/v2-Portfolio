@@ -6,9 +6,9 @@ export default function Nav(props){
     return(
         <Container >
             <Row className="aboveOverlay">
-                <Col>JC Smiley </Col>
-                <Col>Projects</Col>
-                <Col>About</Col>
+                <Col className="center rowWhiteSpace">JC Smiley </Col>
+                <Col className="center rowWhiteSpace">Projects</Col>
+                <Col className="center rowWhiteSpace">About</Col>
             </Row>
         </Container>       
     );
