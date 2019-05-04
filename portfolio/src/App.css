@@ -4,6 +4,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  //opacity: 0.6;
 }
 
 .introTitle {
@@ -28,9 +29,12 @@
   left: 0;
   top: 0;
   background: #000;
-
   opacity: 0.6;
-  color: white;
+}
+
+/*Show the nav bar above the overlay*/
+.aboveOverlay {
+  z-index: 2;
 }
 
 .halfScreen {
