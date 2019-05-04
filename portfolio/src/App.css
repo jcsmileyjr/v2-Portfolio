@@ -41,6 +41,14 @@
   text-align: center;
 }
 
+/*Style for Sub-Title on About page*/
 .greyColor {
   color: grey;
+  margin-bottom: 10px;
+}
+
+/*Add space above and below the heading on the About page*/
+.rowWhiteSpace {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
