@@ -1,0 +1,58 @@
+.introContainer {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  //opacity: 0.6;
+}
+
+.introTitle {
+  text-align: center;
+  color: white;
+  z-index: 1;
+}
+
+
+.introImage {
+  background-image: url(./img/intro_meetup.jpg);
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+  background-attachment: fixed;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: #000;
+  opacity: 0.6;
+}
+
+/*Show the nav bar above the overlay*/
+.aboveOverlay {
+  z-index: 2;
+}
+
+.halfScreen {
+  width: 50%;
+}
+
+.center {
+  text-align: center;
+}
+
+/*Style for Sub-Title on About page*/
+.greyColor {
+  color: grey;
+  margin-bottom: 10px;
+}
+
+/*Add space above and below the heading on the About page*/
+.rowWhiteSpace {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
