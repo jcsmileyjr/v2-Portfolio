@@ -7,7 +7,7 @@ export default function Intro(props){
     return(
         <Container className="introContainer introImage">
             <Row className="introTitle">
-                <Col>
+                <Col index="intro">
                     <h1>JC Smiley</h1>
                     <h3>Software Developer & Tech Meetup Organizer</h3>        
                     <button>Download Resume PDF</button>
