@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
-import { Container, Row, Col} from 'react-bootstrap';
+import { Container, Row} from 'react-bootstrap';
+
 import './App.css';
 
 import Intro from './components/intro';
-import Project from './components/project'
 import About from './components/about';
 import Nav from './components/Nav';
+import Project from './components/project'
 
 function HomePage(props){
   return(
@@ -13,6 +14,17 @@ function HomePage(props){
       <Nav />
       <Intro />
     </div>
+  );
+}
+
+function AboutPage(props){
+  return(
+    <Container>
+      <Row>
+        <Nav />
+        <About />
+      </Row>
+    </Container>
   );
 }
 

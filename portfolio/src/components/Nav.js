@@ -4,16 +4,16 @@ import '../App.css';
 
 export default function Nav(props){
     return(
-        <Container >
+        <Container className="navSection">
             <Row className="aboveOverlay">
             <Col className="center">
-                    <Button variant="link">Home</Button>
+                    <Button variant="link" className="navButton">Home</Button>
                 </Col>
                 <Col className="center">
-                    <Button variant="link">Project</Button>
+                    <Button variant="link" className="navButton">Projects</Button>
                 </Col>
                 <Col className="center">
-                    <Button variant="link">About</Button>
+                    <Button variant="link" className="navButton">About</Button>
                 </Col>
             </Row>
         </Container>       

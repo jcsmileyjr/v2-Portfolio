@@ -5,7 +5,7 @@
   text-align: center;
 }
 
-/*Add space above and below the heading on the About page*/
+/*Add space above and below the heading on the About Component*/
 .rowWhiteSpace, #intro > h1, h3, Button {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -14,14 +14,23 @@
 /********** End of Global App Styling **********/
 
 
-/********** Intro Page Styling **********/
+/********** Nav Component Styling **********/
+.navSection {
+  background-color: navy;
+}
+
+.navButton {
+  color: white;
+}
+
+/********** End of Nav Component Styling **********/
+
+/********** Intro Component Styling **********/
 
 /*Style for the entire Intro Container*/
 .introContainer {
-  min-height: 100vh; /*made the container the height of the screen window*/
-  display: flex; /* Affect content of this container*/
-  align-items: center; /*Center the content on the x axis*/
-  justify-content: center; /*Center the content on the y axis*/
+  min-height: 80vh; /*made the container the height of the screen window*/
+
 }
 
 /*Style for the text content in Intro*/
@@ -41,15 +50,28 @@ really wasn't working. The fix was to use a linear-gradient.
   background-position: center center;
   overflow: hidden;
   background-attachment: fixed;
+  display: flex; /* Affect content of this container*/
+  align-items: center; /*Center the content on the x axis*/
+  justify-content: center; /*Center the content on the y axis*/  
 }
 
-/********** End Intro Page Styling **********/
 
 
-/********** About Page Styling **********/
+/********** End Intro Component Styling **********/
 
-/*Style for Sub-Title on About page*/
+
+/********** About Component Styling **********/
+
+/*Style for Sub-Title on About Component*/
 .greyColor {
   color: grey;
   margin-bottom: 10px;
 }
+
+/********** End of About Component Styling **********/
+
+
+/********** Project Component Styling **********/
+
+
+/********** End of Project Component Styling **********/
