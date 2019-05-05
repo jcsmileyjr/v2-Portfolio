@@ -6,7 +6,7 @@ import Project from './project';
 
 export default function Intro(props){
     return(
-        <Container >
+        <Container fluid={true} >
             <Row className="introContainer introImage">
                 <Col className="introTitle">
                     <h1>JC Smiley</h1>

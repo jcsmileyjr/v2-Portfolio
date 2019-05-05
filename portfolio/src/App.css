@@ -17,6 +17,9 @@
 /********** Nav Component Styling **********/
 .navSection {
   background-color: navy;
+  display: flex; /* Affect content of this container*/
+  align-items: center; /*Center the content on the x axis*/
+  justify-content: center; /*Center the content on the y axis*/  
 }
 
 .navButton {
