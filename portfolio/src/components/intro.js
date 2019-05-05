@@ -15,15 +15,19 @@ export default function Intro(props){
                 </Col>
             </Row>
             <Row>                
-                <Col xs={{span:8, offset:2}}>
+                <Col xs={12} md={{span:8, offset:2}}>
                 <h2 className="center rowWhiteSpace" style={{color:"navy"}}>Featured Project</h2>
                 <Card>
                     <Card.Title  className="center">Android Photo App for Edge Motors Car Museum</Card.Title>
                     <Card.Img 
-                                variant="top"                         
+                                variant="top"
+                                fluid ={true}                         
                                 src={require("../img/car-boy.jpg")} />
                         <Card.Body>                        
-                            <Card.Subtitle className="center">Freelance project for Edge Motors Museum</Card.Subtitle>                            
+                            <ul>
+                                <li>Freelance project completed in April of 2019</li>
+                                <li></li>
+                            </ul>                            
                         </Card.Body>
                     </Card>
                 </Col>
