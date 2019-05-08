@@ -12,8 +12,8 @@ export default function Project(props){
                 <Card.Title>Android Photo App for a Car Museum</Card.Title>
                     <Card.Header className="projectImage"></Card.Header>
                     <Card.Body>                        
-                        <Card.Subtitle>Freelance project for Edge Motors Museum</Card.Subtitle>
-                        
+                        <Card.Subtitle>Paid PFreelance project for Edge Motors Museum</Card.Subtitle>
+                        <a href="">fafdf</a>
                     </Card.Body>
                 </Card>
                 </Col>
