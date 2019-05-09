@@ -13,7 +13,7 @@ export default function Project(props){
                     <Card.Header className="projectImage"></Card.Header>
                     <Card.Body>                        
                         <Card.Subtitle>Paid PFreelance project for Edge Motors Museum</Card.Subtitle>
-                        <a href="">fafdf</a>
+                        
                     </Card.Body>
                 </Card>
                 </Col>

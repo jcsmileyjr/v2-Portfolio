@@ -2,7 +2,6 @@ import React from 'react';
 import { Container, Row, Col, Button, Card} from 'react-bootstrap';
 
 import '../App.css';
-import Project from './project';
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -14,11 +13,28 @@ export default function Intro(props){
     return(
         <Container fluid={true} >
             <Row className="introContainer introImage">
-                <Col className="introTitle">
+                <div className="introTitle">
                     <h1>JC Smiley</h1>
-                    <h3>Software Developer & Tech Meetup Organizer</h3>        
-                    <Button variant="primary">Download Resume PDF</Button>
-                </Col>
+                    <h3>Software Developer & Tech Meetup Organizer</h3>
+                    <Row>
+                        <Col xs={4}>
+                            <FontAwesomeIcon icon="swimmer" />
+                            <br/>
+                            <Button href="#" variant="Link" style={{color:"white"}}>LinkedIn</Button>
+                        </Col> 
+                        <Col  xs={4}>
+                            <FontAwesomeIcon icon="swimmer" />
+                            <br/>
+                            <Button href="#" variant="Link" style={{color:"white"}}>Twitter</Button>
+                        </Col>
+                        <Col  xs={4}>
+                            <FontAwesomeIcon icon="swimmer" />
+                            <br/>
+                            <Button href="#" variant="Link" style={{color:"white"}}>GitHub</Button>
+                        </Col>                                                    
+                    </Row>      
+                    <Button className="rowWhiteSpace" variant="primary">Download Resume PDF</Button>
+                </div>
             </Row>
             <Row>                
                 <Col xs={12} md={{span:8, offset:2}}>
