@@ -19,7 +19,8 @@
   background-color: navy;
   display: flex; /* Affect content of this container*/
   align-items: center; /*Center the content on the x axis*/
-  justify-content: space-around; /*Center the content on the y axis*/  
+  justify-content: space-around; /*Center the content on the y axis*/ 
+  margin-bottom: 65px;
 }
 
 .navButton {

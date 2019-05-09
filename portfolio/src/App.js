@@ -6,14 +6,28 @@ import './App.css';
 import Intro from './components/intro';
 import About from './components/about';
 import Nav from './components/Nav';
+import Portfolio from './components/portfolio';
 
 function HomePage(props){
   return(
     <div>
       <Nav
+          showPortfolioPage= {props.showPortfolioPage}
           showHomePage= {props.showHomePage} 
           showAboutPage= {props.showAboutPage}  />
       <Intro  />
+    </div>
+  );
+}
+
+function PortfolioPage(props){
+  return(
+    <div>
+      <Nav
+          showPortfolioPage= {props.showPortfolioPage}
+          showHomePage= {props.showHomePage} 
+          showAboutPage= {props.showAboutPage}  />
+      <Portfolio  />
     </div>
   );
 }
@@ -23,6 +37,7 @@ function AboutPage(props){
     <Container>
       <Row>
         <Nav 
+            showPortfolioPage= {props.showPortfolioPage}
             showHomePage= {props.showHomePage}
             showAboutPage= {props.showAboutPage} />
         <About />
@@ -69,15 +84,35 @@ class App extends Component {
     }));       
   }
 
+  showPortfolioPage = () => {
+    this.setState(previousState => ({
+      intro: false,
+    }));
+    
+    this.setState(previousState => ({
+      portfolio: true,
+    }));  
+    
+    this.setState(previousState => ({
+      about: false,
+    }));       
+  }
+
   render() {
     return (
-      <div className="projectContainer">
-          {this.state.intro && <HomePage 
+      <div>
+          {this.state.intro && <HomePage
+              showPortfolioPage={this.showPortfolioPage} 
               showHomePage={this.showHomePage}
               showAboutPage={this.showAboutPage} />}
           {this.state.about && <AboutPage
+              showPortfolioPage={this.showPortfolioPage}
               showHomePage={this.showHomePage} 
               showAboutPage={this.showAboutPage} />}
+          {this.state.portfolio && <PortfolioPage
+              showPortfolioPage={this.showPortfolioPage}
+              showHomePage={this.showHomePage} 
+              showAboutPage={this.showAboutPage} />}              
       </div>
       
     );
