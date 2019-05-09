@@ -4,13 +4,11 @@ import { Container, Row, Col, Button, Card} from 'react-bootstrap';
 import '../App.css';
 import Project from './project';
 
-//import { library } from '@fortawesome/fontawesome-svg-core'
-//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-//import { faReact } from '@fortawesome/free-solid-svg-icons'
-//library.add(faReact)
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faSwimmer } from '@fortawesome/free-solid-svg-icons'
 
-
-//<i class="fab fa-react"></i>
+library.add(faSwimmer);
 
 export default function Intro(props){
     return(
@@ -32,13 +30,33 @@ export default function Intro(props){
                                 fluid ={true}                         
                                 src={require("../img/car-boy.jpg")} />
                         <Card.Body>
-                        <Card.Subtitle className="center rowWhiteSpace">Paid Freelance project completed in April of 2019</Card.Subtitle>                        
-                            <ul>                                
-                                <li>Build components with React Native, HTML, and CSS based on Adobe Photoshop and XD wireframes</li>
-                                <li>Develop functionality with JavaScript to update the state, insert data to be displayed, and navigate between components</li>
-                                <li>Test each component for user experience and functionality</li>
-                                <li>Passed the initial stress test of 700 patrons on grand opening day</li>
-                            </ul>                            
+                            <Row>
+                                <Col>
+                                    <FontAwesomeIcon icon="swimmer" />
+                                    <Card.Text>React Native</Card.Text>
+                                </Col>
+                                <Col>
+                                    <FontAwesomeIcon icon="swimmer" />
+                                    <Card.Text>React Native</Card.Text>
+                                </Col>
+                                <Col>
+                                    <FontAwesomeIcon icon="swimmer" />
+                                    <Card.Text>React Native</Card.Text>
+                                </Col>
+                                <Col>
+                                    <FontAwesomeIcon icon="swimmer" />
+                                    <Card.Text>React Native</Card.Text>
+                                </Col>                                                                                                                                                               
+                            </Row>
+                            <Card.Subtitle className="rowWhiteSpace">Paid Freelance project completed in April of 2019</Card.Subtitle>                        
+                            <Row>
+                                <Col xs={{span:9, offset:2}} sm={{span:6, offset:5}} md={{span:6, offset:3}} lg={{span:6, offset:4}}>
+                                    <Button variant="link" >View GitHub Code</Button>
+                                </Col>
+                                <Col xs={{span:9, offset:2}} sm={{span:6, offset:5}} md={{span:6, offset:3}} lg={{span:6, offset:4}}>
+                                    <Button variant="link" >Read Case Study</Button>
+                                </Col>                                
+                            </Row>                             
                         </Card.Body>
                     </Card>
                 </Col>
