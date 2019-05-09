@@ -49,6 +49,7 @@ really wasn't working. The fix was to use a linear-gradient.
 */
 .introImage {
   background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(./img/intro_meetup.jpg);
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(./img/intro_meetup.jpg);
   background-size: cover;
   background-position: center center;
   overflow: hidden;
@@ -56,6 +57,12 @@ really wasn't working. The fix was to use a linear-gradient.
   display: flex; /* Affect content of this container*/
   align-items: center; /*Center the content on the x axis*/
   justify-content: center; /*Center the content on the y axis*/  
+}
+
+@media only screen and (max-width:425px){
+  .showMobileImage {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(./img/meetup-me-standing-small.jpg);
+  }
 }
 
 /********** End Intro Component Styling **********/

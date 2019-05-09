@@ -12,7 +12,7 @@ library.add(faSwimmer);
 export default function Intro(props){
     return(
         <Container fluid={true} >
-            <Row className="introContainer introImage">
+            <Row className="introContainer introImage showMobileImage">
                 <div className="introTitle">
                     <h1>JC Smiley</h1>
                     <h3>Software Developer & Tech Meetup Organizer</h3>
