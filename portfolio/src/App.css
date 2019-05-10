@@ -1,58 +1,91 @@
-.introContainer {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  //opacity: 0.6;
+
+/********** Global App Styling **********/
+
+.center {
+  text-align: center;
 }
 
+/*Add space above and below the heading on the About Component*/
+.rowWhiteSpace, #intro > h1, h3, Button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/********** End of Global App Styling **********/
+
+
+/********** Nav Component Styling **********/
+.navSection {
+  background-color: navy;
+  display: flex; /* Affect content of this container*/
+  align-items: center; /*Center the content on the x axis*/
+  justify-content: space-around; /*Center the content on the y axis*/ 
+  margin-bottom: 65px;
+}
+
+.navButton {
+  color: white;
+}
+
+/********** End of Nav Component Styling **********/
+
+/********** Intro Component Styling **********/
+
+/*Style for the entire Intro Container*/
+.introContainer {
+  min-height: 80vh; /*made the container the height of the screen window*/
+
+}
+
+/*Style for the text content in Intro*/
 .introTitle {
   text-align: center;
   color: white;
   z-index: 1;
 }
 
-
+/*
+Bug fix: Was using a dark overlay and z-index for text to darken image but show text on top but it 
+really wasn't working. The fix was to use a linear-gradient. 
+*/
 .introImage {
-  background-image: url(./img/intro_meetup.jpg);
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(./img/intro_meetup.jpg);
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(./img/intro_meetup.jpg);
   background-size: cover;
   background-position: center center;
   overflow: hidden;
   background-attachment: fixed;
+  display: flex; /* Affect content of this container*/
+  align-items: center; /*Center the content on the x axis*/
+  justify-content: center; /*Center the content on the y axis*/  
 }
 
-.overlay {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  background: #000;
-  opacity: 0.6;
+@media only screen and (max-width:425px){
+  .showMobileImage {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(./img/meetup-me-standing-small.jpg);
+  }
 }
 
-/*Show the nav bar above the overlay*/
-.aboveOverlay {
-  z-index: 2;
-}
+/********** End Intro Component Styling **********/
 
-.halfScreen {
-  width: 50%;
-}
 
-.center {
-  text-align: center;
-}
+/********** About Component Styling **********/
 
-/*Style for Sub-Title on About page*/
+/*Style for Sub-Title on About Component*/
 .greyColor {
   color: grey;
   margin-bottom: 10px;
 }
 
-/*Add space above and below the heading on the About page*/
-.rowWhiteSpace {
-  margin-top: 10px;
-  margin-bottom: 10px;
+/********** End of About Component Styling **********/
+
+
+/********** Project Component Styling **********/
+.equalTitleHeight {
+  height: 10vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
+
+/********** End of Project Component Styling **********/

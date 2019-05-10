@@ -1,15 +1,15 @@
 import React from 'react';
-import { Container, Row, Col} from 'react-bootstrap';
+import { Container, Button, Navbar} from 'react-bootstrap';
 import '../App.css';
 
 export default function Nav(props){
     return(
-        <Container >
-            <Row className="aboveOverlay">
-                <Col>JC Smiley </Col>
-                <Col>Projects</Col>
-                <Col>About</Col>
-            </Row>
+        <Container className="navSection">
+            <Navbar className="navSection center" fixed="top">      
+                    <Button onClick={props.showHomePage} variant="link" className="navButton">Home</Button>
+                    <Button onClick={props.showPortfolioPage} variant="link" className="navButton">Portfolio</Button>
+                    <Button onClick={props.showAboutPage} variant="link" className="navButton">About</Button>
+            </Navbar>
         </Container>       
     );
 }

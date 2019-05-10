@@ -105,7 +105,7 @@ export default function About(props){
                                     <li>​DevMemphis</li>
                                     <li>Memphis Web Workers</li>
                                     <li>Code Connector Memphis</li>
-                                    <li>Code Connector N. Mississippi</li>                                    
+                                    <li>Code Connector North Mississippi</li>                                    
                                 </ul>
                                 </Card.Text>
                             </Card.Body>
