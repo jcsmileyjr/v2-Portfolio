@@ -100,4 +100,15 @@ really wasn't working. The fix was to use a linear-gradient.
   height: 15vh;
 }
 
+@media screen and (max-width:1024px) and (min-width:768px){
+  .equalTechHeight {
+    height: 25vh;
+  }
+  
+  .equalObjHeight {
+    height: 25vh;
+  }
+}
+
+
 /********** End of Project Component Styling **********/

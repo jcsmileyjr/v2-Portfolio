@@ -19,7 +19,7 @@ export default function Intro(props){
                     <h3>Software Developer & Tech Meetup Organizer</h3>
                     <Row>
                         <Col xs={4}>
-                            <FontAwesomeIcon icon={['fab', 'linkedin']} size="lg" />
+                            <FontAwesomeIcon style={{backgroundColor:"black"}} icon={['fab', 'linkedin']} size="lg" />
                             <br/>
                             <Button href="#" variant="Link" style={{color:"white"}}>LinkedIn</Button>
                         </Col> 
@@ -29,7 +29,7 @@ export default function Intro(props){
                             <Button href="#" variant="Link" style={{color:"white"}}>Twitter</Button>
                         </Col>
                         <Col  xs={4}>
-                            <FontAwesomeIcon icon={['fab', 'github']} size="lg" />
+                            <FontAwesomeIcon style={{backgroundColor:"black"}} icon={['fab', 'github']} size="lg" />
                             <br/>
                             <Button href="#" variant="Link" style={{color:"white"}}>GitHub</Button>
                         </Col>                                                    

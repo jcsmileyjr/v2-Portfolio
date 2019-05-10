@@ -87,6 +87,9 @@ export default function Portfolio(props){
                                     <Button variant="link" >View GitHub Code</Button>
                                 </Col>
                                 <Col xs={{span:9, offset:2}} sm={{span:6, offset:5}} md={{span:10, offset:1}} lg={{span:10, offset:2}}>
+                                    <Button variant="link" >Visit Project Demo</Button>
+                                </Col>                                
+                                <Col xs={{span:9, offset:2}} sm={{span:6, offset:5}} md={{span:10, offset:1}} lg={{span:10, offset:2}}>
                                     <Button variant="link" >Read Case Study</Button>
                                 </Col>                                
                             </Row>                           
@@ -126,6 +129,9 @@ export default function Portfolio(props){
                                 <Col xs={{span:9, offset:2}} sm={{span:6, offset:5}} md={{span:10, offset:1}} lg={{span:10, offset:2}}>
                                     <Button variant="link" >View GitHub Code</Button>
                                 </Col>
+                                <Col xs={{span:9, offset:2}} sm={{span:6, offset:5}} md={{span:10, offset:1}} lg={{span:10, offset:2}}>
+                                    <Button variant="link" >Visit Project Demo</Button>
+                                </Col>                                 
                                 <Col xs={{span:9, offset:2}} sm={{span:6, offset:5}} md={{span:10, offset:1}} lg={{span:10, offset:2}}>
                                     <Button variant="link" >Read Case Study</Button>
                                 </Col>                                
@@ -167,6 +173,9 @@ export default function Portfolio(props){
                                     <Button variant="link" >View GitHub Code</Button>
                                 </Col>
                                 <Col xs={{span:9, offset:2}} sm={{span:6, offset:5}} md={{span:10, offset:1}} lg={{span:10, offset:2}}>
+                                    <Button variant="link" >Visit Project Demo</Button>
+                                </Col>                                 
+                                <Col xs={{span:9, offset:2}} sm={{span:6, offset:5}} md={{span:10, offset:1}} lg={{span:10, offset:2}}>
                                     <Button variant="link" >Read Case Study</Button>
                                 </Col>                                
                             </Row>                             
@@ -206,6 +215,9 @@ export default function Portfolio(props){
                                 <Col xs={{span:9, offset:2}} sm={{span:6, offset:5}} md={{span:10, offset:1}} lg={{span:10, offset:2}}>
                                     <Button variant="link" >View GitHub Code</Button>
                                 </Col>
+                                <Col xs={{span:9, offset:2}} sm={{span:6, offset:5}} md={{span:10, offset:1}} lg={{span:10, offset:2}}>
+                                    <Button variant="link" >Visit Project Demo</Button>
+                                </Col>                                 
                                 <Col xs={{span:9, offset:2}} sm={{span:6, offset:5}} md={{span:10, offset:1}} lg={{span:10, offset:2}}>
                                     <Button variant="link" >Read Case Study</Button>
                                 </Col>                                
