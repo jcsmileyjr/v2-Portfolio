@@ -81,6 +81,11 @@ really wasn't working. The fix was to use a linear-gradient.
 
 
 /********** Project Component Styling **********/
-
+.equalTitleHeight {
+  height: 10vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
 
 /********** End of Project Component Styling **********/

@@ -38,10 +38,10 @@ export default function Intro(props){
             </Row>
             <Row>                
                 <Col xs={12} md={{span:8, offset:2}}>
-                <h2 className="center rowWhiteSpace" style={{color:"navy"}}>Featured Project</h2>
-                <Card>
-                    <Card.Title className="center">Android Mobile Photo App for Edge Motors Car Museum</Card.Title>
-                    <Card.Img 
+                    <h2 className="center rowWhiteSpace" style={{color:"navy"}}>Featured Project</h2>
+                    <Card>
+                        <Card.Title className="center">Android Mobile Photo App for Edge Motors Car Museum</Card.Title>
+                        <Card.Img 
                                 variant="top"
                                 fluid ={true}                         
                                 src={require("../img/car-boy.jpg")} />
