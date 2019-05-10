@@ -49,23 +49,23 @@ export default function Intro(props){
                         <Card.Body>
                             <Row>
                                 <Col className="center" xs={6} sm={3}>
-                                    <FontAwesomeIcon icon={['fab', 'react']} size="lg" />
+                                    <FontAwesomeIcon style={{color:"navy"}} icon={['fab', 'react']} size="lg" />
                                     <Card.Text>React Native</Card.Text>
                                 </Col>
                                 <Col className="center" xs={6} sm={3}>
-                                    <FontAwesomeIcon icon={['fab', 'html5']} size="lg" />
+                                    <FontAwesomeIcon style={{color:"orange"}} icon={['fab', 'html5']} size="lg" />
                                     <Card.Text>HTML5</Card.Text>
                                 </Col>
                                 <Col className="center" xs={6} sm={3}>
-                                    <FontAwesomeIcon icon={['fab', 'css3']} size="lg" />
+                                    <FontAwesomeIcon style={{color:"navy"}} icon={['fab', 'css3']} size="lg" />
                                     <Card.Text>CSS3</Card.Text>
                                 </Col>
                                 <Col className="center" xs={6} sm={3}>
-                                    <FontAwesomeIcon icon={['fab', 'js']} size="lg" />
+                                    <FontAwesomeIcon style={{color:"green"}} icon={['fab', 'js']} size="lg" />
                                     <Card.Text>JavaScript</Card.Text>
                                 </Col>                                                                                                                                                               
                             </Row>
-                            <Card.Subtitle className="rowWhiteSpace">Paid Freelance project completed in April of 2019</Card.Subtitle>                        
+                            <Card.Subtitle className="rowWhiteSpace center">Paid Freelance project completed in April of 2019</Card.Subtitle>                        
                             <Row>
                                 <Col xs={{span:9, offset:2}} sm={{span:6, offset:5}} md={{span:6, offset:3}} lg={{span:6, offset:4}}>
                                     <Button variant="link" >View GitHub Code</Button>

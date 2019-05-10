@@ -88,4 +88,16 @@ really wasn't working. The fix was to use a linear-gradient.
   align-items: center;
 }
 
+.equalImgHeight {
+  height: 30vh;
+}
+
+.equalTechHeight {
+  height: 20vh;
+}
+
+.equalObjHeight {
+  height: 15vh;
+}
+
 /********** End of Project Component Styling **********/
