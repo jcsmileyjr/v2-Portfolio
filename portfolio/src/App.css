@@ -66,6 +66,10 @@ really wasn't working. The fix was to use a linear-gradient.
   }
 }
 
+.introTitle > h1,h3 {
+  margin-bottom: 8vh ;
+}
+
 /********** End Intro Component Styling **********/
 
 
