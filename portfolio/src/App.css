@@ -66,6 +66,10 @@ really wasn't working. The fix was to use a linear-gradient.
   }
 }
 
+.introTitle > h1,h3 {
+  margin-bottom: 8vh ;
+}
+
 /********** End Intro Component Styling **********/
 
 
@@ -87,5 +91,28 @@ really wasn't working. The fix was to use a linear-gradient.
   justify-content: center;
   align-items: center;
 }
+
+.equalImgHeight {
+  height: 30vh;
+}
+
+.equalTechHeight {
+  height: 20vh;
+}
+
+.equalObjHeight {
+  height: 15vh;
+}
+
+@media screen and (max-width:1024px) and (min-width:768px){
+  .equalTechHeight {
+    height: 25vh;
+  }
+  
+  .equalObjHeight {
+    height: 25vh;
+  }
+}
+
 
 /********** End of Project Component Styling **********/

@@ -6,8 +6,9 @@ import '../App.css';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSwimmer } from '@fortawesome/free-solid-svg-icons'
+import { fab } from '@fortawesome/free-brands-svg-icons'
 
-library.add(faSwimmer);
+library.add(fab, faSwimmer);
 
 export default function Intro(props){
     return(
@@ -18,17 +19,17 @@ export default function Intro(props){
                     <h3>Software Developer & Tech Meetup Organizer</h3>
                     <Row>
                         <Col xs={4}>
-                            <FontAwesomeIcon icon="swimmer" />
+                            <FontAwesomeIcon style={{backgroundColor:"black"}} icon={['fab', 'linkedin']} size="lg" />
                             <br/>
                             <Button href="#" variant="Link" style={{color:"white"}}>LinkedIn</Button>
                         </Col> 
                         <Col  xs={4}>
-                            <FontAwesomeIcon icon="swimmer" />
+                            <FontAwesomeIcon icon={['fab', 'twitter']} size="lg" />
                             <br/>
                             <Button href="#" variant="Link" style={{color:"white"}}>Twitter</Button>
                         </Col>
                         <Col  xs={4}>
-                            <FontAwesomeIcon icon="swimmer" />
+                            <FontAwesomeIcon style={{backgroundColor:"black"}} icon={['fab', 'github']} size="lg" />
                             <br/>
                             <Button href="#" variant="Link" style={{color:"white"}}>GitHub</Button>
                         </Col>                                                    
@@ -47,24 +48,24 @@ export default function Intro(props){
                                 src={require("../img/car-boy.jpg")} />
                         <Card.Body>
                             <Row>
-                                <Col>
-                                    <FontAwesomeIcon icon="swimmer" />
+                                <Col className="center" xs={6} sm={3}>
+                                    <FontAwesomeIcon style={{color:"navy"}} icon={['fab', 'react']} size="lg" />
                                     <Card.Text>React Native</Card.Text>
                                 </Col>
-                                <Col>
-                                    <FontAwesomeIcon icon="swimmer" />
-                                    <Card.Text>React Native</Card.Text>
+                                <Col className="center" xs={6} sm={3}>
+                                    <FontAwesomeIcon style={{color:"orange"}} icon={['fab', 'html5']} size="lg" />
+                                    <Card.Text>HTML5</Card.Text>
                                 </Col>
-                                <Col>
-                                    <FontAwesomeIcon icon="swimmer" />
-                                    <Card.Text>React Native</Card.Text>
+                                <Col className="center" xs={6} sm={3}>
+                                    <FontAwesomeIcon style={{color:"navy"}} icon={['fab', 'css3']} size="lg" />
+                                    <Card.Text>CSS3</Card.Text>
                                 </Col>
-                                <Col>
-                                    <FontAwesomeIcon icon="swimmer" />
-                                    <Card.Text>React Native</Card.Text>
+                                <Col className="center" xs={6} sm={3}>
+                                    <FontAwesomeIcon style={{color:"green"}} icon={['fab', 'js']} size="lg" />
+                                    <Card.Text>JavaScript</Card.Text>
                                 </Col>                                                                                                                                                               
                             </Row>
-                            <Card.Subtitle className="rowWhiteSpace">Paid Freelance project completed in April of 2019</Card.Subtitle>                        
+                            <Card.Subtitle className="rowWhiteSpace center">Paid Freelance project completed in April of 2019</Card.Subtitle>                        
                             <Row>
                                 <Col xs={{span:9, offset:2}} sm={{span:6, offset:5}} md={{span:6, offset:3}} lg={{span:6, offset:4}}>
                                     <Button variant="link" >View GitHub Code</Button>
