@@ -100,7 +100,7 @@ class App extends Component {
 
   render() {
     return (
-      <div>
+      <div className="appBackGroundColor">
           {this.state.intro && <HomePage
               showPortfolioPage={this.showPortfolioPage} 
               showHomePage={this.showHomePage}

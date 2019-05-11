@@ -6,9 +6,13 @@
 }
 
 /*Add space above and below the heading on the About Component*/
-.rowWhiteSpace, #intro > h1, h3, Button {
+.rowWhiteSpace {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.appBackGroundColor {
+  background-color: #f8f9fa;
 }
 
 /********** End of Global App Styling **********/
@@ -20,7 +24,7 @@
   display: flex; /* Affect content of this container*/
   align-items: center; /*Center the content on the x axis*/
   justify-content: space-around; /*Center the content on the y axis*/ 
-  margin-bottom: 65px;
+  margin-bottom: 50px;
 }
 
 .navButton {
@@ -66,7 +70,7 @@ really wasn't working. The fix was to use a linear-gradient.
   }
 }
 
-.introTitle > h1,h3 {
+.introTitle > h1 , .introTitle > h3 {
   margin-bottom: 8vh ;
 }
 
@@ -84,7 +88,11 @@ really wasn't working. The fix was to use a linear-gradient.
 /********** End of About Component Styling **********/
 
 
-/********** Project Component Styling **********/
+/********** Portfolio Component Styling **********/
+.spaceBetweenPortfolioCards {
+  margin-bottom: 2vh;
+}
+
 .equalTitleHeight {
   height: 10vh;
   display:flex;
@@ -115,4 +123,4 @@ really wasn't working. The fix was to use a linear-gradient.
 }
 
 
-/********** End of Project Component Styling **********/
+/********** End of Portfolio Component Styling **********/
