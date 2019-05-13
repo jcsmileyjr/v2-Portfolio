@@ -48,7 +48,7 @@ function PortfolioPage(props){
           showPortfolioPage= {props.showPortfolioPage}
           showHomePage= {props.showHomePage} 
           showAboutPage= {props.showAboutPage}  />
-      <Portfolio  />
+      <Portfolio showCaseStudy = {props.showCaseStudy}  />
     </div>
   );
 }
@@ -71,10 +71,10 @@ class App extends Component {
   constructor(props){
     super(props);
     this.state ={
-      intro:false,
+      intro:true,
       portfolio:false,
       about:false,
-      caseStudy: true,
+      caseStudy: false,
       currentCaseStudy:[],
       currentCaseStudyTitle:"",
       currentCaseStudyOjectives:[],
@@ -116,7 +116,9 @@ class App extends Component {
     
     this.setState(previousState => ({
       currentCaseStudyResults: currentProject[0].results,
-    }));     
+    }));  
+    
+    this.showCaseStudyPage();
   }
 
   showAboutPage = () => {
@@ -130,7 +132,11 @@ class App extends Component {
     
     this.setState(previousState => ({
       about: true,
-    }));       
+    }));   
+    
+    this.setState(previousState => ({
+      caseStudy: false,
+    }));    
   }
 
   showHomePage = () => {
@@ -144,7 +150,11 @@ class App extends Component {
     
     this.setState(previousState => ({
       about: false,
-    }));       
+    })); 
+    
+    this.setState(previousState => ({
+      caseStudy: false,
+    }));      
   }
 
   showPortfolioPage = () => {
@@ -158,7 +168,29 @@ class App extends Component {
     
     this.setState(previousState => ({
       about: false,
-    }));       
+    }));  
+    
+    this.setState(previousState => ({
+      caseStudy: false,
+    }));    
+  }
+
+  showCaseStudyPage = () => {
+    this.setState(previousState => ({
+      intro: false,
+    }));
+    
+    this.setState(previousState => ({
+      portfolio: false,
+    }));  
+    
+    this.setState(previousState => ({
+      about: false,
+    }));  
+    
+    this.setState(previousState => ({
+      caseStudy: true,
+    }));    
   }
 
   render() {
@@ -173,6 +205,7 @@ class App extends Component {
               showHomePage={this.showHomePage} 
               showAboutPage={this.showAboutPage} />}
           {this.state.portfolio && <PortfolioPage
+              showCaseStudy = {this.updateCurrentCaseStudy}
               showPortfolioPage={this.showPortfolioPage}
               showHomePage={this.showHomePage} 
               showAboutPage={this.showAboutPage} />}              

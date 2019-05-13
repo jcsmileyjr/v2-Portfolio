@@ -28,7 +28,35 @@
             "The final stage of the app was inserting the actual copy and photos to the app, building the mobile app SDK, and testing on the actual device that will be used."
         ],
         "results":"The project started and ended in April 2019. We finished the app on time. The app passed the initial stress test of 700 patrons on the grand opening day."
-    }
+    },
+    {
+        "pageTitle":"Chasing the 10 Pound Monster",
+        "objectives":[
+            "A biggest loser style web app where players compete to be the first player to lose 10 pounds.",
+            "Players will enter their weight daily into the web app.",
+            "The web app will show only the gain or loss, not the actual weight, for players"
+        ],
+        "myRole":"I work in an office of 25 people. Throughout the year I hosted several biggest loser style challenges using a chalk board to show weekly weight loss for participants.I wanted a web-based app that will allow each participant to weigh-in at their own convenient time and place, perfect calculation of weight-loss, and transparency in who won. This would allow me more time to encourage participate to lose weight instead of administration of challenge.",
+        "techStack":[
+            "Bootstrap: Web development framework for developing responsive, mobile first front-end projects",
+            "AngularJS: JavaScript-based front-end framework for building single page web applications.",
+            "GitHub: web-based version control repository and Internet hosting service",
+            "JavaScript: Object-oriented programming language for web pages",
+            "HTML: Mark-up language for creating web pages",
+            "CSS: A formatting language for styling web pages",
+            "Heroku: A cloud platform (PaaS) for deploying web apps",
+            "Node.js Server side development platform created to run JavaScript",
+            "ExpressJS: A Node.js web application server framework "
+
+        ],
+        "development":[
+            "Used pencil and paper to draw a lo-fi wireframe of the idea.",
+            "I developed the app with dummy data",
+            "Based on the feedback from co-workers I would make more changes and then ask for another round of feedback",
+            "The best feedback was the request to move the player’s data from the client and to a backend server for privacy. This prompt me to use a Node/Express server on the Heroku platform with a MongoDB to save data."
+        ],
+        "results":"In July 2018 I ran two successful weight loss challenges with the app in which participants raced to losing 10 pounds. The first was a select group 5 co-workers and the second was 6 family members."
+    }    
 ];
 
 export default caseStudies;

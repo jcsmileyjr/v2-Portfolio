@@ -44,10 +44,10 @@ export default function Portfolio(props){
                             <Card.Subtitle className="rowWhiteSpace equalObjHeight">Paid Freelance project completed in April of 2019</Card.Subtitle>                        
                             <Row>
                                 <Col xs={{span:9, offset:2}} sm={{span:6, offset:5}} md={{span:10, offset:1}} lg={{span:10, offset:2}}>
-                                    <Button variant="link" >View GitHub Code</Button>
+                                    <Button onClick={props.showCaseStudy("Edge Motors Museum")} variant="link" >Read Case Study</Button>
                                 </Col>
                                 <Col xs={{span:9, offset:2}} sm={{span:6, offset:5}} md={{span:10, offset:1}} lg={{span:10, offset:2}}>
-                                    <Button variant="link" >Read Case Study</Button>
+                                    <strong>The code is private to my employer</strong>
                                 </Col>                                
                             </Row>                             
                         </Card.Body>

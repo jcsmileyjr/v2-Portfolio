@@ -68,9 +68,6 @@ export default function Intro(props){
                             <Card.Subtitle className="rowWhiteSpace center">Paid Freelance project completed in April of 2019</Card.Subtitle>                        
                             <Row>
                                 <Col xs={{span:9, offset:2}} sm={{span:6, offset:5}} md={{span:6, offset:3}} lg={{span:6, offset:4}}>
-                                    <Button variant="link" >View GitHub Code</Button>
-                                </Col>
-                                <Col xs={{span:9, offset:2}} sm={{span:6, offset:5}} md={{span:6, offset:3}} lg={{span:6, offset:4}}>
                                     <Button variant="link" >Read Case Study</Button>
                                 </Col>                                
                             </Row>                             

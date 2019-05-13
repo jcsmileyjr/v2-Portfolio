@@ -2,7 +2,6 @@ import React from 'react';
 import { Container, Row, Col, Image} from 'react-bootstrap';
 
 import '../App.css';
-import projects from '../caseStudies';
 
 export default function Project(props){
 
