@@ -36,7 +36,7 @@
             "Players will enter their weight daily into the web app.",
             "The web app will show only the gain or loss, not the actual weight, for players"
         ],
-        "myRole":"I work in an office of 25 people. Throughout the year I hosted several biggest loser style challenges using a chalk board to show weekly weight loss for participants.I wanted a web-based app that will allow each participant to weigh-in at their own convenient time and place, perfect calculation of weight-loss, and transparency in who won. This would allow me more time to encourage participate to lose weight instead of administration of challenge.",
+        "myRole":"I developed this app. I work in an office of 25 people. Throughout the year I hosted several biggest loser style challenges using a chalk board to show weekly weight loss for participants.I wanted a web-based app that will allow each participant to weigh-in at their own convenient time and place, perfect calculation of weight-loss, and transparency in who won. This would allow me more time to encourage participate to lose weight instead of administration of challenge.",
         "techStack":[
             "Bootstrap: Web development framework for developing responsive, mobile first front-end projects",
             "AngularJS: JavaScript-based front-end framework for building single page web applications.",
@@ -47,7 +47,6 @@
             "Heroku: A cloud platform (PaaS) for deploying web apps",
             "Node.js Server side development platform created to run JavaScript",
             "ExpressJS: A Node.js web application server framework "
-
         ],
         "development":[
             "Used pencil and paper to draw a lo-fi wireframe of the idea.",
@@ -56,7 +55,36 @@
             "The best feedback was the request to move the player’s data from the client and to a backend server for privacy. This prompt me to use a Node/Express server on the Heroku platform with a MongoDB to save data."
         ],
         "results":"In July 2018 I ran two successful weight loss challenges with the app in which participants raced to losing 10 pounds. The first was a select group 5 co-workers and the second was 6 family members."
-    }    
+    },
+    {
+        "pageTitle":"Active Cases",
+        "objectives":[
+            "A case management app designed to keep the user informed of the current status of each case",
+            "Allow management of the user's portfolio of cases.",
+            "It's deployed as a progressive web app designed for the desktop.",
+            "Separate status for legal and regulatory cases.",
+            "Provide information about the case via color-coding (quick peek) or text (in-depth study)"
+        ],
+        "myRole":"I developed this app. As a senior law enforcement/regulatory agent I have seen work cases lost, forgotten, and mismanaged due to inexperience or an overloaded case load. This will implement a formal process to organize cases and provide a quick summary of workload for management. The app will introduce a system of controls to assign status to cases and prioritize time sensitive cases.",
+        "techStack":[
+            "React: JavaScript front-end library for building user interfaces.",
+            "Heroku: A cloud platform (PaaS) for deploying web apps",
+            "Node.js Server side development platform created to run JavaScript",
+            "ExpressJS A Node.js web application server framework",
+            "Git-Hub: web-based version control repository and Internet hosting service",
+            "Bootstrap: Web development framework for developing responsive, mobile first front-end projects",
+            "JavaScript: object-oriented programming language for web pages",
+            "HTML5: Mark-up language for creating web pages and local storage of data in the browser",
+            "CSS: A formatting language for styling web pages"
+        ],
+        "development":[
+            "Used pencil and paper to draw a lo-fi wireframe of the idea.",
+            "I developed the app with dummy data",
+            "Based on the feedback from co-workers I would make more changes and then ask for another round of feedback",
+            "The best feedback was the request to more legat status for cases. I didn't think through all the ways a case can be lost in the legal process."
+        ],
+        "results":"The app is currently in use by myself and one other agent."
+    }        
 ];
 
 export default caseStudies;

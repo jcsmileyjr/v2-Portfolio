@@ -27,7 +27,7 @@ export default function Project(props){
                     <Image style={{marginTop:"13px"}} src={require("../img/lotscars-app.jpg")} fluid />
                 </Col>
                 <Col xs={12} lg={6}>
-                    <h3 className="center">My Role in the Project</h3>
+                    <h3 className="center">My Role in the Project/Motivation</h3>
                     <ul>{props.projectMyRole}</ul>
                 </Col>                
             </Row>

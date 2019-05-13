@@ -44,7 +44,7 @@ export default function Portfolio(props){
                             <Card.Subtitle className="rowWhiteSpace equalObjHeight">Paid Freelance project completed in April of 2019</Card.Subtitle>                        
                             <Row>
                                 <Col xs={{span:9, offset:2}} sm={{span:6, offset:5}} md={{span:10, offset:1}} lg={{span:10, offset:2}}>
-                                    <Button onClick={props.showCaseStudy("Edge Motors Museum")} variant="link" >Read Case Study</Button>
+                                    <Button onClick={() => {props.showCaseStudy("Edge Motors Museum")}} variant="link" >Read Case Study</Button>
                                 </Col>
                                 <Col xs={{span:9, offset:2}} sm={{span:6, offset:5}} md={{span:10, offset:1}} lg={{span:10, offset:2}}>
                                     <strong>The code is private to my employer</strong>
@@ -84,13 +84,13 @@ export default function Portfolio(props){
                             <Card.Subtitle className="rowWhiteSpace equalObjHeight">A biggest loser style web app designed specifically for my workplace. The objective is to be the first player to lose 10 pounds.</Card.Subtitle>                        
                             <Row>
                                 <Col xs={{span:9, offset:2}} sm={{span:6, offset:5}} md={{span:10, offset:1}} lg={{span:10, offset:2}}>
-                                    <Button variant="link" >View GitHub Code</Button>
+                                    <Button href="https://github.com/jcsmileyjr/10MON" variant="link" >View GitHub Code</Button>
                                 </Col>
                                 <Col xs={{span:9, offset:2}} sm={{span:6, offset:5}} md={{span:10, offset:1}} lg={{span:10, offset:2}}>
-                                    <Button variant="link" >Visit Project Demo</Button>
+                                    <Button href="https://jcsmileyjr.github.io/10MON/#!/logIn" variant="link" >Visit Project Demo</Button>
                                 </Col>                                
                                 <Col xs={{span:9, offset:2}} sm={{span:6, offset:5}} md={{span:10, offset:1}} lg={{span:10, offset:2}}>
-                                    <Button variant="link" >Read Case Study</Button>
+                                    <Button onClick={() => {props.showCaseStudy("Chasing the 10 Pound Monster")}} variant="link" >Read Case Study</Button>
                                 </Col>                                
                             </Row>                           
                         </Card.Body>
@@ -127,13 +127,13 @@ export default function Portfolio(props){
                             <Card.Subtitle className="rowWhiteSpace equalObjHeight">A case management app designed to keep the user informed of the current status of each case and allow management of the user's portfolio of cases.</Card.Subtitle>                        
                             <Row>
                                 <Col xs={{span:9, offset:2}} sm={{span:6, offset:5}} md={{span:10, offset:1}} lg={{span:10, offset:2}}>
-                                    <Button variant="link" >View GitHub Code</Button>
+                                    <Button href="https://github.com/jcsmileyjr/active-cases" variant="link" >View GitHub Code</Button>
                                 </Col>
                                 <Col xs={{span:9, offset:2}} sm={{span:6, offset:5}} md={{span:10, offset:1}} lg={{span:10, offset:2}}>
-                                    <Button variant="link" >Visit Project Demo</Button>
+                                    <Button href="https://active-cases.herokuapp.com/" variant="link" >Visit Project Demo</Button>
                                 </Col>                                 
                                 <Col xs={{span:9, offset:2}} sm={{span:6, offset:5}} md={{span:10, offset:1}} lg={{span:10, offset:2}}>
-                                    <Button variant="link" >Read Case Study</Button>
+                                    <Button onClick={() => {props.showCaseStudy("Active Cases")}} variant="link" >Read Case Study</Button>
                                 </Col>                                
                             </Row>                              
                         </Card.Body>

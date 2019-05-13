@@ -117,8 +117,6 @@ class App extends Component {
     this.setState(previousState => ({
       currentCaseStudyResults: currentProject[0].results,
     }));  
-    
-    this.showCaseStudyPage();
   }
 
   showAboutPage = () => {
@@ -175,7 +173,10 @@ class App extends Component {
     }));    
   }
 
-  showCaseStudyPage = () => {
+  showCaseStudyPage = (title) => {
+
+    this.updateCurrentCaseStudy(title);
+
     this.setState(previousState => ({
       intro: false,
     }));
@@ -205,7 +206,7 @@ class App extends Component {
               showHomePage={this.showHomePage} 
               showAboutPage={this.showAboutPage} />}
           {this.state.portfolio && <PortfolioPage
-              showCaseStudy = {this.updateCurrentCaseStudy}
+              showCaseStudy = {this.showCaseStudyPage}
               showPortfolioPage={this.showPortfolioPage}
               showHomePage={this.showHomePage} 
               showAboutPage={this.showAboutPage} />}              
