@@ -170,13 +170,13 @@ export default function Portfolio(props){
                             <Card.Subtitle className="rowWhiteSpace equalObjHeight">Online field guide for gaming law enforcment agents.</Card.Subtitle>                        
                             <Row>
                                 <Col xs={{span:9, offset:2}} sm={{span:6, offset:5}} md={{span:10, offset:1}} lg={{span:10, offset:2}}>
-                                    <Button variant="link" >View GitHub Code</Button>
+                                    <Button href="https://github.com/jcsmileyjr/agent-guide" variant="link" >View GitHub Code</Button>
                                 </Col>
                                 <Col xs={{span:9, offset:2}} sm={{span:6, offset:5}} md={{span:10, offset:1}} lg={{span:10, offset:2}}>
-                                    <Button variant="link" >Visit Project Demo</Button>
+                                    <Button href="https://jcsmileyjr.github.io/agent-guide/" variant="link" >Visit Project Demo</Button>
                                 </Col>                                 
                                 <Col xs={{span:9, offset:2}} sm={{span:6, offset:5}} md={{span:10, offset:1}} lg={{span:10, offset:2}}>
-                                    <Button variant="link" >Read Case Study</Button>
+                                    <Button onClick={() => {props.showCaseStudy("Agent-pedia")}} variant="link" >Read Case Study</Button>
                                 </Col>                                
                             </Row>                             
                         </Card.Body>
@@ -213,13 +213,13 @@ export default function Portfolio(props){
                             <Card.Subtitle className="rowWhiteSpace equalObjHeight">A biggest loser style web app designed specifically for my workplace. The objective is to be the first player to lose 10 pounds.</Card.Subtitle>                        
                             <Row>
                                 <Col xs={{span:9, offset:2}} sm={{span:6, offset:5}} md={{span:10, offset:1}} lg={{span:10, offset:2}}>
-                                    <Button variant="link" >View GitHub Code</Button>
+                                    <Button href="https://github.com/jcsmileyjr/Index-Cards" variant="link" >View GitHub Code</Button>
                                 </Col>
                                 <Col xs={{span:9, offset:2}} sm={{span:6, offset:5}} md={{span:10, offset:1}} lg={{span:10, offset:2}}>
-                                    <Button variant="link" >Visit Project Demo</Button>
+                                    <Button href="https://jcsmileyjr.github.io/Index-Cards/" variant="link" >Visit Project Demo</Button>
                                 </Col>                                 
                                 <Col xs={{span:9, offset:2}} sm={{span:6, offset:5}} md={{span:10, offset:1}} lg={{span:10, offset:2}}>
-                                    <Button variant="link" >Read Case Study</Button>
+                                    <Button onClick={() => {props.showCaseStudy("Index-Cards")}} variant="link" >Read Case Study</Button>
                                 </Col>                                
                             </Row>                           
                         </Card.Body>

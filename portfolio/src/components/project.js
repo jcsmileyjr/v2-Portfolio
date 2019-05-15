@@ -8,7 +8,6 @@ export default function Project(props){
     const displayObjectives = props.projectObjectives.map(objectives => <li>{objectives}</li>);
     const displayTech = props.projectTechStack.map(tech => <li>{tech}</li>);
     const displayDevelopment = props.projectDevelopment.map(process => <li>{process}</li>);
-    //const displayTech = projects[0].techStack.map((tech, index)=><li key={index}>{tech}</li>)
 
     return(
         <Container>
