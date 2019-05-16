@@ -19,6 +19,11 @@ function CaseStudyPage(props){
           showHomePage= {props.showHomePage} 
           showAboutPage= {props.showAboutPage}  />
       <Project
+          projectPhoto1 = {props.projectPhoto1}
+          projectPhoto2 = {props.projectPhoto2}
+          projectPhoto3 = {props.projectPhoto3}
+          projectPhoto4 = {props.projectPhoto4}
+          projectPhoto5 = {props.projectPhoto5}
           projectResults = {props.projectResults} 
           projectDevelopment = {props.projectDevelopment}
           projectTechStack = {props.projectTechStack} 
@@ -82,6 +87,11 @@ class App extends Component {
       currentCaseStudyTechStack:[],
       currentCaseStudyDevelopment:[],
       currentCaseStudyResults:"",
+      currentCaseStudyPhoto1:"",
+      currentCaseStudyPhoto2:"",
+      currentCaseStudyPhoto3:"",
+      currentCaseStudyPhoto4:"", 
+      currentCaseStudyPhoto5:"",            
     }
   }
 
@@ -116,7 +126,28 @@ class App extends Component {
     
     this.setState(previousState => ({
       currentCaseStudyResults: currentProject[0].results,
-    }));  
+    }));
+    
+    this.setState(previousState => ({
+      currentCaseStudyPhoto1: currentProject[0].photo1,
+    }));
+    
+    this.setState(previousState => ({
+      currentCaseStudyPhoto2: currentProject[0].photo2,
+    }));
+    
+    this.setState(previousState => ({
+      currentCaseStudyPhoto3: currentProject[0].photo3,
+    }));
+    
+    this.setState(previousState => ({
+      currentCaseStudyPhoto4: currentProject[0].photo4,
+    }));
+    
+    this.setState(previousState => ({
+      currentCaseStudyPhoto5: currentProject[0].photo5,
+    }));    
+
   }
 
   showAboutPage = () => {
@@ -211,6 +242,11 @@ class App extends Component {
               showHomePage={this.showHomePage} 
               showAboutPage={this.showAboutPage} />}              
           {this.state.caseStudy && <CaseStudyPage
+              projectPhoto5 ={this.state.currentCaseStudyPhoto5}
+              projectPhoto4 ={this.state.currentCaseStudyPhoto4}
+              projectPhoto3 ={this.state.currentCaseStudyPhoto3}
+              projectPhoto2 ={this.state.currentCaseStudyPhoto2}
+              projectPhoto1 ={this.state.currentCaseStudyPhoto1}
               projectResults ={this.state.currentCaseStudyResults}
               projectDevelopment ={this.state.currentCaseStudyDevelopment}
               projectTechStack ={this.state.currentCaseStudyTechStack}

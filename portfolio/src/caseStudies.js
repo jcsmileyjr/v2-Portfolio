@@ -13,9 +13,10 @@ const caseStudies = [
             "The patrons can view the displayed car, click a photo to view a summary page of the car, or click a button to see additional photos of the selected car."
 
         ],
+        "photo1":require('./img/car-boy.jpg'),
 
         "myRole":"I worked on the development team as a software developer along side a UI Designer/Developer. A design firm, Baby Grand, designed the app and passed to us photoshop documents, technical specs, copy, and images.",
-
+        "photo2":require('./img/lotscars-app.jpg'),
         "techStack":[
 
             "HTML, CSS, and JavaScript for app structuring, styling, and functionality",
@@ -35,7 +36,7 @@ const caseStudies = [
             "Photoshop documents was transformed into wire-frames to be developed with Adobe XD."
 
         ],
-
+        "photo3":require('./img/twocar-app.jpg'),
         "development":[
 
             "A component is scaffold using the wireframes and PSD as a guide",
@@ -55,9 +56,9 @@ const caseStudies = [
             "The final stage of the app was inserting the actual copy and photos to the app, building the mobile app SDK, and testing on the actual device that will be used."
 
         ],
-
-        "results":"The project started and ended in April 2019. We finished the app on time. The app passed the initial stress test of 700 patrons on the grand opening day."
-
+        "photo4":require('./img/redcar-app.jpg'),
+        "results":"The project started and ended in April 2019. We finished the app on time. The app passed the initial stress test of 700 patrons on the grand opening day.",
+        "photo5":require('./img/car-peoples.jpg'),
     },
 
     {

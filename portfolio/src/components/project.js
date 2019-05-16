@@ -14,7 +14,7 @@ export default function Project(props){
             <h1 className="center rowWhiteSpace">{props.projectTitle}</h1>
             <Row style={{marginBottom:"10px"}}>
                 <Col xs={12} lg={6} >
-                    <Image style={{marginTop:"10px"}} src={require("../img/car-boy.jpg")} fluid />
+                    <Image style={{marginTop:"10px"}} src={props.projectPhoto1} fluid />
                 </Col>
                 <Col xs={12} lg={6}>
                     <h3 className="center">Project Objectives</h3>
@@ -23,7 +23,7 @@ export default function Project(props){
             </Row>
             <Row style={{marginBottom:"10px"}}>
                 <Col xs={12} lg={6} >
-                    <Image style={{marginTop:"13px"}} src={require("../img/lotscars-app.jpg")} fluid />
+                    <Image style={{marginTop:"13px"}} src={props.projectPhoto2} fluid />
                 </Col>
                 <Col xs={12} lg={6}>
                     <h3 className="center">My Role in the Project/Motivation</h3>
@@ -32,7 +32,7 @@ export default function Project(props){
             </Row>
             <Row style={{marginBottom:"10px"}}>
                 <Col xs={12} lg={6} >
-                    <Image style={{marginTop:"13px"}} src={require("../img/twocar-app.jpg")} fluid />
+                    <Image style={{marginTop:"13px"}} src={props.projectPhoto3} fluid />
                 </Col>
                 <Col xs={12} lg={6}>
                     <h3 className="center">Tech Stack and Tools</h3>
@@ -41,7 +41,7 @@ export default function Project(props){
             </Row> 
             <Row style={{marginBottom:"10px"}}>
                 <Col xs={12} lg={6} >
-                    <Image style={{marginTop:"13px"}} src={require("../img/redcar-app.jpg")} fluid />
+                    <Image style={{marginTop:"13px"}} src={props.projectPhoto4} fluid />
                 </Col>
                 <Col xs={12} lg={6}>
                     <h3 className="center">Development Process</h3>
@@ -50,7 +50,7 @@ export default function Project(props){
             </Row>
             <Row style={{marginBottom:"10px"}}>
                 <Col xs={12} lg={6} >
-                    <Image style={{marginTop:"13px"}} src={require("../img/car-peoples.jpg")} fluid />
+                    <Image style={{marginTop:"13px"}} src={props.projectPhoto5} fluid />
                 </Col>
                 <Col xs={12} lg={6}>
                     <h3 className="center">Results</h3>
