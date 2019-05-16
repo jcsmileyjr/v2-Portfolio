@@ -74,7 +74,9 @@ export default function Intro(props){
                             </Row>                             
                         </Card.Body>
                     </Card>
+                    <h5 onClick={props.showPortfolioPage} style={{color:"navy"}} className="center rowWhiteSpace">Click to view other projects</h5>
                 </Col>
+                
             </Row>            
         </Container>       
     );

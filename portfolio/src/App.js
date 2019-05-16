@@ -36,7 +36,7 @@ function HomePage(props){
           showPortfolioPage= {props.showPortfolioPage}
           showHomePage= {props.showHomePage} 
           showAboutPage= {props.showAboutPage}  />
-      <Intro  />
+      <Intro showPortfolioPage= {props.showPortfolioPage}  />
     </div>
   );
 }
