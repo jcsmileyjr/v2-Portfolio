@@ -245,7 +245,121 @@ const caseStudies = [
 
         "results":"The project was created in Sept. 2017."
 
-    }                 
+    },
+
+    {
+
+        "pageTitle":"I Love Math",
+
+        "objectives":[
+
+            "A math practice app for a child",
+            "The user is given a choice of practicing addition, subtraction, division, or multiplication",
+			"The user will be given 10 problems with the numbers being 1-10",
+			"The user is constantly reminded of the number of questions remaining and the score",
+            "A non-distracting boy theme animation to make it fun",
+            "This app was original built with Angular and later with React Native"
+        ],
+
+        "myRole":"I was inspired by my daughter who wanted to help her little brother learn math with a app. She described how she wanted it to look and the functionality.",
+
+        "techStack":[
+			"Bootstrap: Web development framework for developing responsive, mobile first front-end projects",
+			"Angular: JavaScript-based front-end framework for building single page web applications.",
+			"GitHub: web-based version control repository and Internet hosting service",
+			"JavaScript: object-oriented programming language for web pages",
+			"HTML5: Mark-up language for creating web pages and local storage of data in the browser",
+            "CSS: A formatting language for styling web pages",
+            "Flexbox: A CSS based layout technology for building responsive websites",
+            "React Native: JavaScript mobile app framework"
+        ],
+
+        "development":[
+            "Pencil and paper were used to draw a lo-fi wireframe of the idea.",
+            "I used this app to update my previous knowlegde of AngularJS with the modern Angular versions",
+            "The biggest challenge was rebuilding the app with React Native to practice for the 'Edge Motor Museum' project."
+			
+        ],
+
+        "results":"The project was created in February of 2019."
+
+    },
+
+    {
+
+        "pageTitle":"Wheel of Fortune",
+
+        "objectives":[
+
+            "The user can spin the wheel to get a award amount for each letter correctly chosen or get the Bankrupt award.",
+            "The user can pick letters and increase the score based on correctly chosen letters.",
+            "The user is score is subtracted by -250 for each vowel",
+            "The user can choose to solve the phrase and win the game"
+        ],
+
+        "myRole":"This project was used to practice developing with React Native in preparation for the 'Edge Motor Museum' project",
+
+        "techStack":[
+            "React Native: JavaScript mobile app framework", 
+ 
+            "Git-Hub: Web-based version control repository and Internet hosting service",
+             
+            "Flexbox: A CSS based layout technology for building responsive websites",
+            
+            "Abode XD: A wire-framing tool used to create a mockup/visual of what is to be coded",
+              
+            "JavaScript: Object-oriented programming language for web pages",
+             
+            "HTML: Mark-up language for creating web pages",
+             
+            "CSS: A formatting language for styling web pages"
+        ],
+
+        "development":[
+            "Pencil and paper were used to draw a lo-fi wireframe of the idea.",
+            "Adobe XD were used to create a hi-fi wireframe of the idea",
+            "The app was develop with Expo.io"
+        ],
+
+        "results":"The project was created in March of 2019."
+
+    },
+
+    {
+
+        "pageTitle":"Calculator",
+
+        "objectives":[
+
+            "A calculator app for the android mobile device",
+            "The user can do calculations with any two numbers and a operator.",
+            "The user can clear the display screen.",
+            "The user can use the previous total as the first number in the calculation."
+        ],
+
+        "myRole":"I was inspired by a LinkedIn user who posted his calculator app. I used his design to practice with the React Native framework.",
+        "techStack":[
+            "React Native: JavaScript mobile app framework", 
+ 
+            "Git-Hub: Web-based version control repository and Internet hosting service",
+             
+            "Flexbox: A CSS based layout technology for building responsive websites",
+              
+            "JavaScript: Object-oriented programming language for web pages",
+             
+            "HTML: Mark-up language for creating web pages",
+             
+            "CSS: A formatting language for styling web pages"
+        ],
+
+        "development":[
+            "Pencil and paper were used to draw a lo-fi wireframe of the idea.",
+            "The app was develop with Expo.io"
+        ],
+
+        "results":"The project was created in February of 2019."
+
+    }                              
 
 ];
 

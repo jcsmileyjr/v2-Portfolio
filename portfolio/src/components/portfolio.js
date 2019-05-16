@@ -224,7 +224,93 @@ export default function Portfolio(props){
                             </Row>                           
                         </Card.Body>
                     </Card>
-                </Col>                                              
+                </Col> 
+
+                <Col className="spaceBetweenPortfolioCards" xs={12} md={4}>
+                    <Card className="h-100">
+                        <Card.Title className="center equalTitleHeight">Wheel of Fortune (mobile app)</Card.Title>
+                        <Card.Img
+                                className="equalImgHeight" 
+                                variant="top"
+                                fluid ={true}                         
+                                src={require("../img/wheel-of-fortune.gif")} />
+                        <Card.Body>
+                            <Row className="equalTechHeight">
+                                <Col className="center" xs={6} >
+                                    <FontAwesomeIcon style={{color:"navy"}} icon={['fab', 'react']} size="lg" />
+                                    <Card.Text>React Native</Card.Text>
+                                </Col>
+                                <Col className="center" xs={6} >
+                                    <FontAwesomeIcon style={{color:"black"}} icon={['fab', 'github']} size="lg" />
+                                    <Card.Text>GitHub</Card.Text>
+                                </Col>
+                                <Col className="center" xs={6} >
+                                    <FontAwesomeIcon style={{color:"orange"}} icon={['fab', 'html5']} size="lg" />
+                                    <Card.Text>HTML5</Card.Text>
+                                </Col>
+                                <Col className="center" xs={6} >
+                                    <FontAwesomeIcon style={{color:"navy"}} icon={['fab', 'css3']} size="lg" />
+                                    <Card.Text>CSS3</Card.Text>
+                                </Col>                                                                                                                                                               
+                            </Row>
+                            <Card.Subtitle className="rowWhiteSpace equalObjHeight">A math practice app for a child.</Card.Subtitle>                        
+                            <Row>
+                                <Col xs={{span:9, offset:2}} sm={{span:6, offset:5}} md={{span:10, offset:1}} lg={{span:10, offset:2}}>
+                                    <Button href="https://github.com/jcsmileyjr/WheelOfFortuneMobile" variant="link" >View GitHub Code</Button>
+                                </Col>
+                                <Col xs={{span:9, offset:2}} sm={{span:6, offset:5}} md={{span:10, offset:1}} lg={{span:10, offset:2}}>
+                                    <Button href="https://snack.expo.io/@jcsmileyjr/wheel-of-fortune" variant="link" >Visit Project Demo</Button>
+                                </Col>                                 
+                                <Col xs={{span:9, offset:2}} sm={{span:6, offset:5}} md={{span:10, offset:1}} lg={{span:10, offset:2}}>
+                                    <Button onClick={() => {props.showCaseStudy("Wheel of Fortune")}} variant="link" >Read Case Study</Button>
+                                </Col>                                
+                            </Row>                           
+                        </Card.Body>
+                    </Card>
+                </Col> 
+
+                <Col className="spaceBetweenPortfolioCards" xs={12} md={4}>
+                    <Card className="h-100">
+                        <Card.Title className="center equalTitleHeight">Calculator (mobile app)</Card.Title>
+                        <Card.Img
+                                className="equalImgHeight" 
+                                variant="top"
+                                fluid ={true}                         
+                                src={require("../img/Calculator.gif")} />
+                        <Card.Body>
+                            <Row className="equalTechHeight">
+                                <Col className="center" xs={6} >
+                                    <FontAwesomeIcon style={{color:"navy"}} icon={['fab', 'react']} size="lg" />
+                                    <Card.Text>React Native</Card.Text>
+                                </Col>
+                                <Col className="center" xs={6} >
+                                    <FontAwesomeIcon style={{color:"black"}} icon={['fab', 'github']} size="lg" />
+                                    <Card.Text>GitHub</Card.Text>
+                                </Col>
+                                <Col className="center" xs={6} >
+                                    <FontAwesomeIcon style={{color:"orange"}} icon={['fab', 'html5']} size="lg" />
+                                    <Card.Text>HTML5</Card.Text>
+                                </Col>
+                                <Col className="center" xs={6} >
+                                    <FontAwesomeIcon style={{color:"navy"}} icon={['fab', 'css3']} size="lg" />
+                                    <Card.Text>CSS3</Card.Text>
+                                </Col>                                                                                                                                                               
+                            </Row>
+                            <Card.Subtitle className="rowWhiteSpace equalObjHeight">A math practice app for a child.</Card.Subtitle>                        
+                            <Row>
+                                <Col xs={{span:9, offset:2}} sm={{span:6, offset:5}} md={{span:10, offset:1}} lg={{span:10, offset:2}}>
+                                    <Button href="https://github.com/jcsmileyjr/Calculator" variant="link" >View GitHub Code</Button>
+                                </Col>
+                                <Col xs={{span:9, offset:2}} sm={{span:6, offset:5}} md={{span:10, offset:1}} lg={{span:10, offset:2}}>
+                                    <Button href="https://snack.expo.io/@jcsmileyjr/calculator" variant="link" >Visit Project Demo</Button>
+                                </Col>                                 
+                                <Col xs={{span:9, offset:2}} sm={{span:6, offset:5}} md={{span:10, offset:1}} lg={{span:10, offset:2}}>
+                                    <Button onClick={() => {props.showCaseStudy("Calculator")}} variant="link" >Read Case Study</Button>
+                                </Col>                                
+                            </Row>                           
+                        </Card.Body>
+                    </Card>
+                </Col>                                                                              
             </Row>
 
         </Container>
