@@ -65,6 +65,7 @@ really wasn't working. The fix was to use a linear-gradient.
 }
 
 @media only screen and (max-width:425px){
+  /*Show a different background picture in mobile view on the intro component*/
   .showMobileImage {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(./img/meetup-me-standing-small.jpg);
   }
@@ -101,7 +102,7 @@ really wasn't working. The fix was to use a linear-gradient.
 }
 
 .equalImgHeight {
-  height: 30vh;
+  height: 40vh;
 }
 
 .equalTechHeight {
@@ -112,9 +113,10 @@ really wasn't working. The fix was to use a linear-gradient.
   height: 15vh;
 }
 
-@media screen and (max-width:1024px) and (min-width:768px){
+@media screen and (max-width:1020px) and (min-width:768px){
   .equalTechHeight {
-    height: 25vh;
+    
+    padding-bottom: 30vh;
   }
   
   .equalObjHeight {
