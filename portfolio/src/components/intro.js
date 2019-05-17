@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col, Button, Card} from 'react-bootstrap';
 
 import '../App.css';
+import resume from '../img/JC Smiley 2 Page Alpha.pdf';
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -17,31 +18,32 @@ export default function Intro(props){
                 <div className="introTitle">
                     <h1>JC Smiley</h1>
                     <h3>Software Developer & Tech Meetup Organizer</h3>
+                    <h5>Angular | React | React Native</h5>
                     <Row>
                         <Col xs={4}>
                             <FontAwesomeIcon style={{backgroundColor:"black"}} icon={['fab', 'linkedin']} size="lg" />
                             <br/>
-                            <Button href="#" variant="Link" style={{color:"white"}}>LinkedIn</Button>
+                            <Button href="https://​linkedin.com/in/jcsmileyjr " variant="Link" style={{color:"white"}}>jcsmileyjr</Button>
                         </Col> 
                         <Col  xs={4}>
                             <FontAwesomeIcon icon={['fab', 'twitter']} size="lg" />
                             <br/>
-                            <Button href="#" variant="Link" style={{color:"white"}}>Twitter</Button>
+                            <Button href="https://twitter.com/JCSmiley4" variant="Link" style={{color:"white"}}>JCSmiley4</Button>
                         </Col>
                         <Col  xs={4}>
                             <FontAwesomeIcon style={{backgroundColor:"black"}} icon={['fab', 'github']} size="lg" />
                             <br/>
-                            <Button href="#" variant="Link" style={{color:"white"}}>GitHub</Button>
+                            <Button href="https://github.com/jcsmileyjr" download variant="Link" style={{color:"white"}}>jcsmileyjr</Button>
                         </Col>                                                    
                     </Row>      
-                    <Button className="rowWhiteSpace" variant="primary">Download Resume PDF</Button>
+                    <Button href={resume} className="rowWhiteSpace" variant="primary">Download Resume PDF</Button>
                 </div>
             </Row>
             <Row>                
                 <Col xs={12} md={{span:8, offset:2}}>
                     <h2 className="center rowWhiteSpace" style={{color:"navy"}}>Featured Project</h2>
+                    <h5 className="center">Android Mobile Photo App for Edge Motors Car Museum</h5>
                     <Card>
-                        <Card.Title className="center">Android Mobile Photo App for Edge Motors Car Museum</Card.Title>
                         <Card.Img 
                                 variant="top"
                                 fluid ={true}                         
@@ -68,15 +70,14 @@ export default function Intro(props){
                             <Card.Subtitle className="rowWhiteSpace center">Paid Freelance project completed in April of 2019</Card.Subtitle>                        
                             <Row>
                                 <Col xs={{span:9, offset:2}} sm={{span:6, offset:5}} md={{span:6, offset:3}} lg={{span:6, offset:4}}>
-                                    <Button variant="link" >View GitHub Code</Button>
-                                </Col>
-                                <Col xs={{span:9, offset:2}} sm={{span:6, offset:5}} md={{span:6, offset:3}} lg={{span:6, offset:4}}>
-                                    <Button variant="link" >Read Case Study</Button>
+                                    <Button onClick={() => {props.showCaseStudy("Edge Motors Museum")}} variant="link" >Read Case Study</Button>
                                 </Col>                                
                             </Row>                             
                         </Card.Body>
                     </Card>
+                    <h5 onClick={props.showPortfolioPage} style={{color:"navy"}} className="center rowWhiteSpace">Click to view other projects</h5>
                 </Col>
+                
             </Row>            
         </Container>       
     );

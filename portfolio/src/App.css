@@ -6,9 +6,13 @@
 }
 
 /*Add space above and below the heading on the About Component*/
-.rowWhiteSpace, #intro > h1, h3, Button {
+.rowWhiteSpace {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.appBackGroundColor {
+  background-color: #eee9e9;
 }
 
 /********** End of Global App Styling **********/
@@ -20,7 +24,7 @@
   display: flex; /* Affect content of this container*/
   align-items: center; /*Center the content on the x axis*/
   justify-content: space-around; /*Center the content on the y axis*/ 
-  margin-bottom: 65px;
+  margin-bottom: 50px;
 }
 
 .navButton {
@@ -61,12 +65,13 @@ really wasn't working. The fix was to use a linear-gradient.
 }
 
 @media only screen and (max-width:425px){
+  /*Show a different background picture in mobile view on the intro component*/
   .showMobileImage {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(./img/meetup-me-standing-small.jpg);
   }
 }
 
-.introTitle > h1,h3 {
+.introTitle > h1 , .introTitle > h3, .introTitle > h5 {
   margin-bottom: 8vh ;
 }
 
@@ -84,7 +89,11 @@ really wasn't working. The fix was to use a linear-gradient.
 /********** End of About Component Styling **********/
 
 
-/********** Project Component Styling **********/
+/********** Portfolio Component Styling **********/
+.spaceBetweenPortfolioCards {
+  margin-bottom: 2vh;
+}
+
 .equalTitleHeight {
   height: 10vh;
   display:flex;
@@ -93,7 +102,7 @@ really wasn't working. The fix was to use a linear-gradient.
 }
 
 .equalImgHeight {
-  height: 30vh;
+  height: 40vh;
 }
 
 .equalTechHeight {
@@ -104,15 +113,18 @@ really wasn't working. The fix was to use a linear-gradient.
   height: 15vh;
 }
 
-@media screen and (max-width:1024px) and (min-width:768px){
+@media screen and (max-width:1020px) and (min-width:768px){
   .equalTechHeight {
-    height: 25vh;
+    
+    padding-bottom: 30vh;
   }
   
   .equalObjHeight {
     height: 25vh;
   }
 }
+/********** End of Portfolio Component Styling **********/
 
+/********** Start of Case Studies Component Styling **********/
 
-/********** End of Project Component Styling **********/
+/********** End of Case Studies Component Styling **********/
