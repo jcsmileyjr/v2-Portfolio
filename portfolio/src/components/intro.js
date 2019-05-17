@@ -18,21 +18,22 @@ export default function Intro(props){
                 <div className="introTitle">
                     <h1>JC Smiley</h1>
                     <h3>Software Developer & Tech Meetup Organizer</h3>
+                    <h5>Angular | React | React Native</h5>
                     <Row>
                         <Col xs={4}>
                             <FontAwesomeIcon style={{backgroundColor:"black"}} icon={['fab', 'linkedin']} size="lg" />
                             <br/>
-                            <Button href="https://​linkedin.com/in/jcsmileyjr " variant="Link" style={{color:"white"}}>LinkedIn</Button>
+                            <Button href="https://​linkedin.com/in/jcsmileyjr " variant="Link" style={{color:"white"}}>jcsmileyjr</Button>
                         </Col> 
                         <Col  xs={4}>
                             <FontAwesomeIcon icon={['fab', 'twitter']} size="lg" />
                             <br/>
-                            <Button href="https://twitter.com/JCSmiley4" variant="Link" style={{color:"white"}}>Twitter</Button>
+                            <Button href="https://twitter.com/JCSmiley4" variant="Link" style={{color:"white"}}>JCSmiley4</Button>
                         </Col>
                         <Col  xs={4}>
                             <FontAwesomeIcon style={{backgroundColor:"black"}} icon={['fab', 'github']} size="lg" />
                             <br/>
-                            <Button href="https://github.com/jcsmileyjr" download variant="Link" style={{color:"white"}}>GitHub</Button>
+                            <Button href="https://github.com/jcsmileyjr" download variant="Link" style={{color:"white"}}>jcsmileyjr</Button>
                         </Col>                                                    
                     </Row>      
                     <Button href={resume} className="rowWhiteSpace" variant="primary">Download Resume PDF</Button>
