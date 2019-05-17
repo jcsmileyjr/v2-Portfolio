@@ -111,16 +111,18 @@ really wasn't working. The fix was to use a linear-gradient.
 
 .equalObjHeight {
   height: 15vh;
+  padding-bottom: 10vh;
+  
 }
 
 @media screen and (max-width:1020px) and (min-width:768px){
-  .equalTechHeight {
-    
+  .equalTechHeight {    
     padding-bottom: 30vh;
   }
   
   .equalObjHeight {
     height: 25vh;
+    padding-bottom: 30vh;
   }
 }
 /********** End of Portfolio Component Styling **********/
