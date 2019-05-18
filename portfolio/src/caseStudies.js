@@ -297,9 +297,9 @@ const caseStudies = [
             "The user is score is subtracted by -250 for each vowel",
             "The user can choose to solve the phrase and win the game"
         ],
-
+        "photo1":require('./img/WOF-Wireframe.PNG'),
         "myRole":"This project was used to practice developing with React Native in preparation for the 'Edge Motor Museum' project",
-
+        "photo2":require('./img/WOF2.jpg'),
         "techStack":[
             "React Native: JavaScript mobile app framework", 
  
@@ -315,15 +315,15 @@ const caseStudies = [
              
             "CSS: A formatting language for styling web pages"
         ],
-
+        "photo3":require('./img/WOF3.jpg'),
         "development":[
             "Pencil and paper were used to draw a lo-fi wireframe of the idea.",
             "Adobe XD were used to create a hi-fi wireframe of the idea",
             "The app was develop with Expo.io"
         ],
-
-        "results":"The project was created in March of 2019."
-
+        "photo4":require('./img/WOF5.jpg'),
+        "results":"The project was created in March of 2019.",
+        "photo5":require('./img/WOF4.jpg')
     },
 
     {
