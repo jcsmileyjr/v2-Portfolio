@@ -224,9 +224,9 @@ const caseStudies = [
 			"The online test should show the correct answer if the student chooses incorrectly.",
 			"Bonus if the test can be reuse weeks later to study for final exams."
         ],
-
+        "photo1":require('./img/indexcards9.png'),
         "myRole":"This is my child’s first year in high school and she is not adjusting well. I watched her dedicated many hours writing vocabulary terms and definitions on index cards to study for tests. Sometime she would lose the cards, damage them with food or water, get side tracked and lose her place, or not know if she have done well or not.",
-
+        "photo2":require('./img/indexcards8.png'),
         "techStack":[
 			"Bootstrap: Web development framework for developing responsive, mobile first front-end projects",
 			"AngularJS: JavaScript-based front-end framework for building single page web applications.",
@@ -235,7 +235,7 @@ const caseStudies = [
 			"HTML5: Mark-up language for creating web pages and local storage of data in the browser",
 			"CSS: A formatting language for styling web pages"
         ],
-
+        "photo3":require('./img/indexcards1.png'),
         "development":[
             "Used pencil and paper to draw a lo-fi wireframe of the idea.",
 			"The biggest challenge was constantly redesigning the app for the growing needs of my daughter. The app needed to display a range of tests, different types of tests, and combined tests to repersent final exams by subject.",
@@ -243,9 +243,9 @@ const caseStudies = [
             "Based on feedback from the student a 'Beat your Top Score' feature hat displayed the highest score the student achevied for that test.",
 			"Because of the above feature requests, I had to learn HTML5's local-storage, animation, and new functionality was develop to enhanace the user experience and build confidence."
         ],
-
-        "results":"The project was created in Sept. 2017."
-
+        "photo4":require('./img/indexcards10.png'),
+        "results":"The project was created in Sept. 2017.",
+        "photo5":require('./img/indexcards4.png')
     },
 
     {
