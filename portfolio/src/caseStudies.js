@@ -337,8 +337,9 @@ const caseStudies = [
             "The user can clear the display screen.",
             "The user can use the previous total as the first number in the calculation."
         ],
-
+        "photo1":require('./img/calculator1.png'),
         "myRole":"I was inspired by a LinkedIn user who posted his calculator app. I used his design to practice with the React Native framework.",
+        "photo2":require('./img/calculator2.png'),
         "techStack":[
             "React Native: JavaScript mobile app framework", 
  
@@ -352,14 +353,14 @@ const caseStudies = [
              
             "CSS: A formatting language for styling web pages"
         ],
-
+        "photo3":require('./img/calculator3.png'),
         "development":[
             "Pencil and paper were used to draw a lo-fi wireframe of the idea.",
             "The app was develop with Expo.io"
         ],
-
-        "results":"The project was created in February of 2019."
-
+        "photo4":require('./img/calculator4.png'),
+        "results":"The project was created in February of 2019.",
+        "photo5":require('./img/calculator5.png')
     }                              
 
 ];
