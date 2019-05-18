@@ -163,7 +163,7 @@ const caseStudies = [
             "Used pencil and paper to draw a lo-fi wireframe of the idea.",
             "The biggest challenge was failing to convert the demo into a Electron desktop app. The solution was to learn about progressive web apps and successfully re-develop the app as one.",
 			"A major hurdle was learning React and redesigning the app after user testing came back negative.",
-            "The best feedback was the request to more legal status for cases. I didn't think through all the ways a case can be lost in the legal process."
+            "The best feedback was the request for more legal statuses for cases. I didn't think through all the ways a case can be lost in the legal process."
 
         ],
         "photo4":require('./img/active-case4.png'),
