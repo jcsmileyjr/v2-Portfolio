@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/v2-Portfolio/static/media/WOF2.567143da.jpg"
   },
   {
-    "revision": "74ed258e37e3d79ee697",
+    "revision": "a70fc016ec261bdbb150",
     "url": "/v2-Portfolio/static/css/main.55ea9777.chunk.css"
   },
   {
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/v2-Portfolio/static/media/car-boy.4f2dbaf0.jpg"
   },
   {
-    "revision": "74b0b8c6eea233bbf4a85c0644b1e8b8",
-    "url": "/v2-Portfolio/static/media/JC Smiley 2 Page Alpha.74b0b8c6.pdf"
+    "revision": "5a97e3bc57b1ffda447683c2db970b90",
+    "url": "/v2-Portfolio/static/media/JC Smiley 2 Page Alpha.5a97e3bc.pdf"
   },
   {
     "revision": "8ccc27079503e8bcca649f1093e57847",
@@ -80,8 +80,8 @@ self.__precacheManifest = [
     "url": "/v2-Portfolio/static/media/WOF-Wireframe.fd36bd16.PNG"
   },
   {
-    "revision": "74ed258e37e3d79ee697",
-    "url": "/v2-Portfolio/static/js/main.81db4194.chunk.js"
+    "revision": "a70fc016ec261bdbb150",
+    "url": "/v2-Portfolio/static/js/main.b43a6ee7.chunk.js"
   },
   {
     "revision": "a0b47fc5a7455aa21bf0d20d504092fe",
@@ -156,7 +156,7 @@ self.__precacheManifest = [
     "url": "/v2-Portfolio/static/css/2.84666c4f.chunk.css"
   },
   {
-    "revision": "fff71ee34940a9675c61031ec138d45a",
+    "revision": "7a5ab940201e3654c023597543af3bf7",
     "url": "/v2-Portfolio/index.html"
   }
 ];
