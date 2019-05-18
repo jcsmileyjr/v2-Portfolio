@@ -61,7 +61,7 @@ export default function Portfolio(props){
                                 className="equalImgHeight"
                                 variant="top"
                                 fluid ={true}                         
-                                src={require("../img/10mon-c-compressor.png")} />
+                                src={require("../img/10MON2.png")} />
                         <Card.Body>
                             <Row className="equalTechHeight">
                                 <Col className="center" xs={6} >
@@ -104,7 +104,7 @@ export default function Portfolio(props){
                                 className="equalImgHeight"
                                 variant="top"
                                 fluid ={true}                         
-                                src={require("../img/active-case-a-compressor.png")} />
+                                src={require("../img/active-case1.png")} />
                         <Card.Body>
                             <Row className="equalTechHeight">
                                 <Col className="center" xs={6} >

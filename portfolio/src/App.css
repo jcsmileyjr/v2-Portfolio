@@ -124,6 +124,11 @@ really wasn't working. The fix was to use a linear-gradient.
     height: 25vh;
     padding-bottom: 30vh;
   }
+
+  /*To fix bug on Edge Motors title text is overflowing the white box*/
+  .equalTitleHeight { 
+    height: 15vh;
+  }  
 }
 /********** End of Portfolio Component Styling **********/
 

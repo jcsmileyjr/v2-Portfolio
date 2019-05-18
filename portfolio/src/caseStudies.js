@@ -74,9 +74,9 @@ const caseStudies = [
             "The web app will show only the gain or loss, not the actual weight, for players"
 
         ],
-
+        "photo1":require('./img/10MON2.png'),
         "myRole":"I developed this app. I work in an office of 25 people. Throughout the year I hosted several biggest loser style challenges using a chalk board to show weekly weight loss for participants.I wanted a web-based app that will allow each participant to weigh-in at their own convenient time and place, perfect calculation of weight-loss, and transparency in who won. This would allow me more time to encourage participate to lose weight instead of administration of challenge.",
-
+        "photo2":require('./img/10MON3.png'),
         "techStack":[
 
             "Bootstrap: Web development framework for developing responsive, mobile first front-end projects",
@@ -99,7 +99,7 @@ const caseStudies = [
             "ExpressJS: A Node.js web application server framework "
 
         ],
-
+        "photo3":require('./img/10MON4.png'),
         "development":[
 
             "Used pencil and paper to draw a lo-fi wireframe of the idea.",
@@ -111,9 +111,9 @@ const caseStudies = [
             "The best feedback was the request to move the player’s data from the client and to a backend server for privacy. This prompt me to use a Node/Express server on the Heroku platform with a MongoDB to save data."
 
         ],
-
-        "results":"In July 2018 I ran two successful weight loss challenges with the app in which participants raced to losing 10 pounds. The first was a select group 5 co-workers and the second was 6 family members."
-
+        "photo4":require('./img/10MON5.png'),
+        "results":"In July 2018 I ran two successful weight loss challenges with the app in which participants raced to losing 10 pounds. The first was a select group 5 co-workers and the second was 6 family members.",
+        "photo5":require('./img/10MON6.png')
     },
 
     {
@@ -133,9 +133,9 @@ const caseStudies = [
             "Provide information about the case via color-coding (quick peek) or text (in-depth study)"
 
         ],
-
+        "photo1":require('./img/active-case-a-compressor.png'),
         "myRole":"I developed this app. As a senior law enforcement/regulatory agent I have seen work cases lost, forgotten, and mismanaged due to inexperience or an overloaded case load. This will implement a formal process to organize cases and provide a quick summary of workload for management. The app will introduce a system of controls to assign status to cases and prioritize time sensitive cases.",
-
+        "photo2":require('./img/active-case2.png'),
         "techStack":[
 
             "React: JavaScript front-end library for building user interfaces.",
@@ -157,7 +157,7 @@ const caseStudies = [
             "CSS: A formatting language for styling web pages"
 
         ],
-
+        "photo3":require('./img/active-case3.png'),
         "development":[
 
             "Used pencil and paper to draw a lo-fi wireframe of the idea.",
@@ -166,9 +166,9 @@ const caseStudies = [
             "The best feedback was the request to more legal status for cases. I didn't think through all the ways a case can be lost in the legal process."
 
         ],
-
-        "results":"The app is currently in use by myself and one other agent. It was created in July 2018"
-
+        "photo4":require('./img/active-case4.png'),
+        "results":"The app is currently in use by myself and one other agent. It was created in July 2018",
+        "photo5":require('./img/active-case1.png')
     },
 
     {

@@ -10,14 +10,14 @@ export default function Project(props){
     const displayDevelopment = props.projectDevelopment.map(process => <li>{process}</li>);
 
     return(
-        <Container>
+        <Container index="caseStudies">
             <h1 className="center rowWhiteSpace">{props.projectTitle}</h1>
             <Row style={{marginBottom:"10px"}}>
                 <Col xs={12} lg={6} >
                     <Image style={{marginTop:"10px"}} src={props.projectPhoto1} fluid />
                 </Col>
                 <Col xs={12} lg={6}>
-                    <h3 className="center">Project Objectives</h3>
+                    <h3 className="center rowWhiteSpace">Project Objectives</h3>
                     <ul>{displayObjectives}</ul>
                 </Col>                
             </Row>
@@ -26,7 +26,7 @@ export default function Project(props){
                     <Image style={{marginTop:"13px"}} src={props.projectPhoto2} fluid />
                 </Col>
                 <Col xs={12} lg={6}>
-                    <h3 className="center">My Role in the Project/Motivation</h3>
+                    <h3 className="center rowWhiteSpace">My Role in the Project/Motivation</h3>
                     <ul>{props.projectMyRole}</ul>
                 </Col>                
             </Row>
@@ -35,7 +35,7 @@ export default function Project(props){
                     <Image style={{marginTop:"13px"}} src={props.projectPhoto3} fluid />
                 </Col>
                 <Col xs={12} lg={6}>
-                    <h3 className="center">Tech Stack and Tools</h3>
+                    <h3 className="center rowWhiteSpace">Tech Stack and Tools</h3>
                     <ul>{displayTech}</ul>
                 </Col>                
             </Row> 
@@ -44,7 +44,7 @@ export default function Project(props){
                     <Image style={{marginTop:"13px"}} src={props.projectPhoto4} fluid />
                 </Col>
                 <Col xs={12} lg={6}>
-                    <h3 className="center">Development Process</h3>
+                    <h3 className="center rowWhiteSpace">Development Process</h3>
                     <ul>{displayDevelopment}</ul>
                 </Col>                
             </Row>
@@ -53,7 +53,7 @@ export default function Project(props){
                     <Image style={{marginTop:"13px"}} src={props.projectPhoto5} fluid />
                 </Col>
                 <Col xs={12} lg={6}>
-                    <h3 className="center">Results</h3>
+                    <h3 className="center rowWhiteSpace">Results</h3>
                     <ul>{props.projectResults}</ul>
                 </Col>                
             </Row>                                                  
