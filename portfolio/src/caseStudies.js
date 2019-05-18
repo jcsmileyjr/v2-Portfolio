@@ -185,9 +185,9 @@ const caseStudies = [
 			"State helpful hints on what to do when the problem is identified",
 			"Give examples of additional violations to investigate based on the current violation",
         ],
-
+        "photo1":require('./img/agent1.png'),
         "myRole":"I wanted a tool to list all the different ways to apply the gaming regulation to violations found in the casino. A cheat-sheet to make writing violations easier instead of spending time searching for the rules that was broken. A quick reminder of past strategies that have proven useful based on certain situation.",
-
+        "photo2":require('./img/agent-pedia-version2-main.png'),
         "techStack":[
 			"Materialize CSS: Web development framework for developing responsive, mobile first front-end projects",
 			"AngularJS: JavaScript-based front-end framework for building single page web applications.",
@@ -199,16 +199,16 @@ const caseStudies = [
 			"Node: Server side development platform created to run JavaScript",
 			"Express: A Node.js web application server framework" 
         ],
-
+        "photo3":require('./img/agent-wireframe.png'),
         "development":[
             "Used pencil and paper to draw a lo-fi wireframe of the idea.",
             "I used this project to learn MaterializeCSS.",
             "Based on feedback from co-workers I would make changes and then ask for another round of feedback",
             "The best feedback was the the challenge of deploying the app behind a login page and hiding sensitive information."
         ],
-
-        "results":"The project was created in May 2017."
-
+        "photo4":require('./img/agentpedia-version2-b-compressor.png'),
+        "results":"The project was created in May 2017.",
+        "photo5":require('./img/agent-Pedia mobile-200.png')
     },
 
     {

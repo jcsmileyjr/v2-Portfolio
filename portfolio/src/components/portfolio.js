@@ -147,7 +147,7 @@ export default function Portfolio(props){
                                 className="equalImgHeight"
                                 variant="top"
                                 fluid ={true}                         
-                                src={require("../img/agentpedia-version2-b-compressor.png")} />
+                                src={require("../img/agent1.png")} />
                         <Card.Body>
                             <Row className="equalTechHeight">
                                 <Col className="center" xs={6} >
