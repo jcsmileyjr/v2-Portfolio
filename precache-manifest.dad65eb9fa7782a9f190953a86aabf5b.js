@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/v2-Portfolio/static/media/WOF2.567143da.jpg"
   },
   {
-    "revision": "397f26a3298e19c15883",
+    "revision": "6f77be8224484f2c0ce8",
     "url": "/v2-Portfolio/static/css/main.55ea9777.chunk.css"
   },
   {
@@ -80,8 +80,8 @@ self.__precacheManifest = [
     "url": "/v2-Portfolio/static/media/WOF-Wireframe.fd36bd16.PNG"
   },
   {
-    "revision": "397f26a3298e19c15883",
-    "url": "/v2-Portfolio/static/js/main.18acd6b7.chunk.js"
+    "revision": "6f77be8224484f2c0ce8",
+    "url": "/v2-Portfolio/static/js/main.e01007bc.chunk.js"
   },
   {
     "revision": "a0b47fc5a7455aa21bf0d20d504092fe",
@@ -156,7 +156,7 @@ self.__precacheManifest = [
     "url": "/v2-Portfolio/static/css/2.84666c4f.chunk.css"
   },
   {
-    "revision": "c0bc6f11c4d7d76c4e6060ef583e1b1b",
+    "revision": "ab4ce682452a053d4c604d0d13a9c492",
     "url": "/v2-Portfolio/index.html"
   }
 ];
