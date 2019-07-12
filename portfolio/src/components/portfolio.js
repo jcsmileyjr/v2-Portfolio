@@ -427,9 +427,8 @@ export default function Portfolio(props) {
                 </Col>
               </Row>
               <Card.Subtitle className="rowWhiteSpace equalObjHeight">
-                A biggest loser style web app designed specifically for my
-                workplace. The objective is to be the first player to lose 10
-                pounds.
+                Online vocabulary test for high school kids. The test is split
+                into two types, multiple choice and a matching.
               </Card.Subtitle>
               <Row>
                 <Col
