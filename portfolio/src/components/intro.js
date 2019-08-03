@@ -16,7 +16,7 @@ export default function Intro(props) {
     <Container fluid={true}>
       <Row className="introContainer introImage showMobileImage">
         <div className="introTitle">
-          <h1>JC Smiley</h1>
+          <h1 className="enlargeTitle">JC Smiley</h1>
           <h3>Software Developer & Tech Meetup Organizer</h3>
           <h5>Angular | React | React Native</h5>
           <Row>
@@ -30,7 +30,7 @@ export default function Intro(props) {
               <Button
                 href="https://​linkedin.com/in/jcsmileyjr "
                 variant="Link"
-                style={{ color: "white" }}
+                style={{ color: "white", fontSize:"1.4rem" }}
               >
                 jcsmileyjr
               </Button>
@@ -41,7 +41,7 @@ export default function Intro(props) {
               <Button
                 href="https://twitter.com/JCSmiley4"
                 variant="Link"
-                style={{ color: "white" }}
+                style={{ color: "white", fontSize:"1.4rem" }}
               >
                 JCSmiley4
               </Button>
@@ -57,7 +57,7 @@ export default function Intro(props) {
                 href="https://github.com/jcsmileyjr"
                 download
                 variant="Link"
-                style={{ color: "white" }}
+                style={{ color: "white", fontize:"1.4rem" }}
               >
                 jcsmileyjr
               </Button>
@@ -70,7 +70,7 @@ export default function Intro(props) {
       </Row>
       <Row>
         <Col xs={12} md={{ span: 8, offset: 2 }}>
-          <h2 className="center rowWhiteSpace" style={{ color: "navy" }}>
+          <h2 className="center rowWhiteSpace" style={{ color: "rgb(32, 179, 199)" }}>
             Featured Project
           </h2>
           <h5 className="center">
@@ -141,7 +141,7 @@ export default function Intro(props) {
           </Card>
           <h5
             onClick={props.showPortfolioPage}
-            style={{ color: "navy" }}
+            style={{ color: "rgb(32, 179, 199)" }}
             className="center rowWhiteSpace"
           >
             Click to view other projects

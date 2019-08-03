@@ -20,7 +20,7 @@
 
 /********** Nav Component Styling **********/
 .navSection {
-  background-color: navy;
+  background-color: rgb(32, 179, 199);
   display: flex; /* Affect content of this container*/
   align-items: center; /*Center the content on the x axis*/
   justify-content: space-around; /*Center the content on the y axis*/ 
@@ -46,6 +46,11 @@
   text-align: center;
   color: white;
   z-index: 1;
+}
+
+/*Make my name bigger*/
+.enlargeTitle {
+  font-size: 4em;
 }
 
 /*
