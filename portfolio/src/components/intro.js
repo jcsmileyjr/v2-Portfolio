@@ -2,7 +2,6 @@ import React, {useEffect} from "react";
 import { Container, Row, Col, Button, Card } from "react-bootstrap";
 
 import "../App.css";
-import resume from "../img/JC Smiley Resume.pdf";
 
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -45,9 +44,6 @@ export default function Intro(props) {
               </a>
             </Col>
           </Row>
-          <Button href={resume} className="rowWhiteSpace" variant="primary">
-            Download Resume PDF
-          </Button>
         </div>
       </Row>
       <Row>
