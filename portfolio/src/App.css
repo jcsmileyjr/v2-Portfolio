@@ -77,7 +77,12 @@ really wasn't working. The fix was to use a linear-gradient.
 }
 
 .introTitle > h1 , .introTitle > h3, .introTitle > h5 {
-  margin-bottom: 2vh ;
+  margin-bottom: 3vh ;
+}
+
+/*Ensure social media icons/links look like icons*/
+.introSocialMediaLinks {
+  color:white;
 }
 
 /********** End Intro Component Styling **********/

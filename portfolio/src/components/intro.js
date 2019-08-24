@@ -21,46 +21,27 @@ export default function Intro(props) {
           <h5>Angular | React | React Native</h5>
           <Row>
             <Col xs={4}>
-              <FontAwesomeIcon
-                style={{ backgroundColor: "black" }}
-                icon={["fab", "linkedin"]}
-                size="lg"
-              />
-              <br />
-              <Button
-                href="https://​linkedin.com/in/jcsmileyjr "
-                variant="Link"
-                style={{ color: "white", fontSize:"1.4rem" }}
-              >
-                jcsmileyjr
-              </Button>
+              <a className="introSocialMediaLinks" href="https://​linkedin.com/in/jcsmileyjr ">
+                <FontAwesomeIcon
+                  style={{ backgroundColor: "black" }}
+                  icon={["fab", "linkedin"]}
+                  size="lg"
+                />
+              </a>
             </Col>
             <Col xs={4}>
-              <FontAwesomeIcon icon={["fab", "twitter"]} size="lg" />
-              <br />
-              <Button
-                href="https://twitter.com/JCSmiley4"
-                variant="Link"
-                style={{ color: "white", fontSize:"1.4rem" }}
-              >
-                JCSmiley4
-              </Button>
+              <a className="introSocialMediaLinks" href="https://twitter.com/JCSmiley4">
+                <FontAwesomeIcon icon={["fab", "twitter"]} size="lg" />
+              </a>
             </Col>
             <Col xs={4}>
-              <FontAwesomeIcon
-                style={{ backgroundColor: "black" }}
-                icon={["fab", "github"]}
-                size="lg"
-              />
-              <br />
-              <Button
-                href="https://github.com/jcsmileyjr"
-                download
-                variant="Link"
-                style={{ color: "white", fontize:"1.4rem" }}
-              >
-                jcsmileyjr
-              </Button>
+              <a className="introSocialMediaLinks" href="https://github.com/jcsmileyjr">
+                <FontAwesomeIcon
+                  style={{ backgroundColor: "black" }}
+                  icon={["fab", "github"]}
+                  size="lg"
+                />
+              </a>
             </Col>
           </Row>
           <Button href={resume} className="rowWhiteSpace" variant="primary">
@@ -79,7 +60,7 @@ export default function Intro(props) {
           <Card>
             <Card.Img
               variant="top"
-              fluid={true}
+              fluid="true"
               src={require("../img/car-boy.jpg")}
             />
             <Card.Body>
