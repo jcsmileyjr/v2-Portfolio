@@ -110,9 +110,7 @@ export default function Intro(props) {
                   lg={{ span: 6, offset: 4 }}
                 >
                   <Button
-                    onClick={() => {
-                      props.showCaseStudy("Edge Motors Museum");
-                    }}
+                    onClick={()=>{props.showCaseStudy("Edge Motors Museum")}}
                     variant="link"
                   >
                     Read Case Study
