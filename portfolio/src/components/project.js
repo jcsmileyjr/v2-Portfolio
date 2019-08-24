@@ -1,17 +1,23 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { Container, Row, Col, Image} from 'react-bootstrap';
 
 import '../App.css';
 
 export default function Project(props){
 
-    const displayObjectives = props.projectObjectives.map(objectives => <li>{objectives}</li>);
-    const displayTech = props.projectTechStack.map(tech => <li>{tech}</li>);
-    const displayDevelopment = props.projectDevelopment.map(process => <li>{process}</li>);
+    const displayObjectives = props.projectObjectives.map((objectives, index) => <li key={index}>{objectives}</li>);
+    const displayTech = props.projectTechStack.map((tech, index) => <li key={index}>{tech}</li>);
+    const displayDevelopment = props.projectDevelopment.map((process,index) => <li key={index}>{process}</li>);
+
+    useEffect(()=> window.scrollTo(0, 0));
 
     return(
         <Container index="caseStudies">
-            <h1 className="center rowWhiteSpace">{props.projectTitle}</h1>
+            <Row>
+                <Col>
+                    <h1 className="center whiteSpaceAboveFeatureArea">{props.projectTitle}</h1>
+                </Col>
+            </Row>
             <Row style={{marginBottom:"10px"}}>
                 <Col xs={12} lg={6} >
                     <Image style={{marginTop:"10px"}} src={props.projectPhoto1} fluid />

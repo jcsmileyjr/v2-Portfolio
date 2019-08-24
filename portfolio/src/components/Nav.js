@@ -6,9 +6,9 @@ export default function Nav(props){
     return(
         <Container className="navSection">
             <Navbar className="navSection center" fixed="top">      
-                    <Button onClick={props.showHomePage} variant="link" className="navButton">Home</Button>
-                    <Button onClick={props.showPortfolioPage} variant="link" className="navButton">Portfolio</Button>
-                    <Button onClick={props.showAboutPage} variant="link" className="navButton">About</Button>
+                    <Button onClick={props.showHomePage} variant="link" className="navButton" size="lg">Home</Button>
+                    <Button onClick={props.showPortfolioPage} variant="link" className="navButton" size="lg">Portfolio</Button>
+                    <Button onClick={props.showAboutPage} variant="link" className="navButton" size="lg">About</Button>
             </Navbar>
         </Container>       
     );

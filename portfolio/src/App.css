@@ -11,6 +11,11 @@
   margin-bottom: 10px;
 }
 
+/*White-space*/
+.whiteSpaceAboveFeatureArea {
+  margin-top: 2rem;
+}
+
 .appBackGroundColor {
   background-color: #eee9e9;
 }
@@ -20,7 +25,7 @@
 
 /********** Nav Component Styling **********/
 .navSection {
-  background-color: navy;
+  background-color: rgb(32, 179, 199);
   display: flex; /* Affect content of this container*/
   align-items: center; /*Center the content on the x axis*/
   justify-content: space-around; /*Center the content on the y axis*/ 
@@ -48,6 +53,11 @@
   z-index: 1;
 }
 
+/*Make my name bigger*/
+.enlargeTitle {
+  font-size: 4em;
+}
+
 /*
 Bug fix: Was using a dark overlay and z-index for text to darken image but show text on top but it 
 really wasn't working. The fix was to use a linear-gradient. 
@@ -72,7 +82,12 @@ really wasn't working. The fix was to use a linear-gradient.
 }
 
 .introTitle > h1 , .introTitle > h3, .introTitle > h5 {
-  margin-bottom: 8vh ;
+  margin-bottom: 3vh ;
+}
+
+/*Ensure social media icons/links look like icons*/
+.introSocialMediaLinks {
+  color:white;
 }
 
 /********** End Intro Component Styling **********/

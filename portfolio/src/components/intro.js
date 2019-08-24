@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import { Container, Row, Col, Button, Card } from "react-bootstrap";
 
 import "../App.css";
@@ -12,55 +12,37 @@ import { fab } from "@fortawesome/free-brands-svg-icons";
 library.add(fab, faSwimmer);
 
 export default function Intro(props) {
+  useEffect(()=> window.scrollTo(0, 0));
   return (
     <Container fluid={true}>
       <Row className="introContainer introImage showMobileImage">
         <div className="introTitle">
-          <h1>JC Smiley</h1>
+          <h1 className="enlargeTitle">JC Smiley</h1>
           <h3>Software Developer & Tech Meetup Organizer</h3>
           <h5>Angular | React | React Native</h5>
           <Row>
             <Col xs={4}>
-              <FontAwesomeIcon
-                style={{ backgroundColor: "black" }}
-                icon={["fab", "linkedin"]}
-                size="lg"
-              />
-              <br />
-              <Button
-                href="https://​linkedin.com/in/jcsmileyjr "
-                variant="Link"
-                style={{ color: "white" }}
-              >
-                jcsmileyjr
-              </Button>
+              <a className="introSocialMediaLinks" href="https://​linkedin.com/in/jcsmileyjr ">
+                <FontAwesomeIcon
+                  style={{ backgroundColor: "black" }}
+                  icon={["fab", "linkedin"]}
+                  size="lg"
+                />
+              </a>
             </Col>
             <Col xs={4}>
-              <FontAwesomeIcon icon={["fab", "twitter"]} size="lg" />
-              <br />
-              <Button
-                href="https://twitter.com/JCSmiley4"
-                variant="Link"
-                style={{ color: "white" }}
-              >
-                JCSmiley4
-              </Button>
+              <a className="introSocialMediaLinks" href="https://twitter.com/JCSmiley4">
+                <FontAwesomeIcon icon={["fab", "twitter"]} size="lg" />
+              </a>
             </Col>
             <Col xs={4}>
-              <FontAwesomeIcon
-                style={{ backgroundColor: "black" }}
-                icon={["fab", "github"]}
-                size="lg"
-              />
-              <br />
-              <Button
-                href="https://github.com/jcsmileyjr"
-                download
-                variant="Link"
-                style={{ color: "white" }}
-              >
-                jcsmileyjr
-              </Button>
+              <a className="introSocialMediaLinks" href="https://github.com/jcsmileyjr">
+                <FontAwesomeIcon
+                  style={{ backgroundColor: "black" }}
+                  icon={["fab", "github"]}
+                  size="lg"
+                />
+              </a>
             </Col>
           </Row>
           <Button href={resume} className="rowWhiteSpace" variant="primary">
@@ -70,7 +52,7 @@ export default function Intro(props) {
       </Row>
       <Row>
         <Col xs={12} md={{ span: 8, offset: 2 }}>
-          <h2 className="center rowWhiteSpace" style={{ color: "navy" }}>
+          <h2 className="whiteSpaceAboveFeatureArea center" style={{ color: "rgb(32, 179, 199)" }}>
             Featured Project
           </h2>
           <h5 className="center">
@@ -79,7 +61,7 @@ export default function Intro(props) {
           <Card>
             <Card.Img
               variant="top"
-              fluid={true}
+              fluid="true"
               src={require("../img/car-boy.jpg")}
             />
             <Card.Body>
@@ -117,21 +99,18 @@ export default function Intro(props) {
                   <Card.Text>JavaScript</Card.Text>
                 </Col>
               </Row>
-              <Card.Subtitle className="rowWhiteSpace center">
-                Paid Freelance project completed in April of 2019
-              </Card.Subtitle>
-              <Row>
-                <Col
-                  xs={{ span: 9, offset: 2 }}
-                  sm={{ span: 6, offset: 5 }}
-                  md={{ span: 6, offset: 3 }}
-                  lg={{ span: 6, offset: 4 }}
-                >
+              <Row className="whiteSpaceAboveFeatureArea">
+                <Col>
+                  <Card.Subtitle className="center">
+                  Paid Freelance project completed in April of 2019
+                  </Card.Subtitle>                
+                </Col>
+              </Row>
+              <Row className="whiteSpaceAboveFeatureArea">
+                <Col className="center">
                   <Button
-                    onClick={() => {
-                      props.showCaseStudy("Edge Motors Museum");
-                    }}
-                    variant="link"
+                    onClick={()=>{props.showCaseStudy("Edge Motors Museum")}}
+                    variant="primary"
                   >
                     Read Case Study
                   </Button>
@@ -141,10 +120,10 @@ export default function Intro(props) {
           </Card>
           <h5
             onClick={props.showPortfolioPage}
-            style={{ color: "navy" }}
+            style={{ color: "rgb(32, 179, 199)" }}
             className="center rowWhiteSpace"
           >
-            Click to view other projects
+            Click here to view other projects
           </h5>
         </Col>
       </Row>

@@ -41,7 +41,7 @@ function HomePage(props){
           showPortfolioPage= {props.showPortfolioPage}
           showHomePage= {props.showHomePage} 
           showAboutPage= {props.showAboutPage}  />
-      <Intro showPortfolioPage= {props.showPortfolioPage}  />
+      <Intro showPortfolioPage= {props.showPortfolioPage} showCaseStudy = {props.showCaseStudy}  />
     </div>
   );
 }
@@ -229,6 +229,7 @@ class App extends Component {
     return (
       <div className="appBackGroundColor">
           {this.state.intro && <HomePage
+              showCaseStudy = {this.showCaseStudyPage}
               showPortfolioPage={this.showPortfolioPage} 
               showHomePage={this.showHomePage}
               showAboutPage={this.showAboutPage} />}

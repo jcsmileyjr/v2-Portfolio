@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 
 import "../App.css";
@@ -10,10 +10,11 @@ import { faSwimmer } from "@fortawesome/free-solid-svg-icons";
 library.add(faSwimmer);
 
 export default function Portfolio(props) {
+  useEffect(()=> window.scrollTo(0, 0));
   return (
     <Container>
-      <Row className="center rowWhiteSpace">
-        <Col>
+      <Row className="center">
+        <Col className="whiteSpaceAboveFeatureArea">
           <h1>Portfolio</h1>
         </Col>
       </Row>
@@ -26,7 +27,7 @@ export default function Portfolio(props) {
             <Card.Img
               className="equalImgHeight"
               variant="top"
-              fluid={true}
+              fluid="true"
               src={require("../img/car-boy.jpg")}
             />
             <Card.Body>
@@ -83,12 +84,7 @@ export default function Portfolio(props) {
                     Read Case Study
                   </Button>
                 </Col>
-                <Col
-                  xs={{ span: 9, offset: 2 }}
-                  sm={{ span: 6, offset: 5 }}
-                  md={{ span: 10, offset: 1 }}
-                  lg={{ span: 10, offset: 2 }}
-                >
+                <Col className="center" >
                   <strong>The code is private to my employer</strong>
                 </Col>
               </Row>
@@ -104,7 +100,7 @@ export default function Portfolio(props) {
             <Card.Img
               className="equalImgHeight"
               variant="top"
-              fluid={true}
+              fluid="true"
               src={require("../img/10MON2.png")}
             />
             <Card.Body>
@@ -202,7 +198,7 @@ export default function Portfolio(props) {
             <Card.Img
               className="equalImgHeight"
               variant="top"
-              fluid={true}
+              fluid="true"
               src={require("../img/active-case1.png")}
             />
             <Card.Body>
@@ -296,7 +292,7 @@ export default function Portfolio(props) {
             <Card.Img
               className="equalImgHeight"
               variant="top"
-              fluid={true}
+              fluid="true"
               src={require("../img/agent1.png")}
             />
             <Card.Body>
@@ -388,7 +384,7 @@ export default function Portfolio(props) {
             <Card.Img
               className="equalImgHeight"
               variant="top"
-              fluid={true}
+              fluid="true"
               src={require("../img/Index Cards Landing Page.png")}
             />
             <Card.Body>
@@ -485,7 +481,7 @@ export default function Portfolio(props) {
             <Card.Img
               className="equalImgHeight"
               variant="top"
-              fluid={true}
+              fluid="true"
               src={require("../img/wheel-of-fortune.gif")}
             />
             <Card.Body>
@@ -581,7 +577,7 @@ export default function Portfolio(props) {
             <Card.Img
               className="equalImgHeight"
               variant="top"
-              fluid={true}
+              fluid="true"
               src={require("../img/Calculator.gif")}
             />
             <Card.Body>
