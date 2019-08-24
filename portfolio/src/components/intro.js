@@ -51,7 +51,7 @@ export default function Intro(props) {
       </Row>
       <Row>
         <Col xs={12} md={{ span: 8, offset: 2 }}>
-          <h2 className="center rowWhiteSpace" style={{ color: "rgb(32, 179, 199)" }}>
+          <h2 className="whiteSpaceAboveFeatureArea" style={{ color: "rgb(32, 179, 199)" }}>
             Featured Project
           </h2>
           <h5 className="center">

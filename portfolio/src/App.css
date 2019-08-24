@@ -85,6 +85,11 @@ really wasn't working. The fix was to use a linear-gradient.
   color:white;
 }
 
+/*White-space between feature project and intro area*/
+.whiteSpaceAboveFeatureArea {
+  margin-top: 2rem;
+}
+
 /********** End Intro Component Styling **********/
 
 
