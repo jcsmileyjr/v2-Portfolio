@@ -69,7 +69,7 @@ export default function About(props) {
             </Card.Body>
           </Card>
         </Col>
-        <Col xs={12} md={{ span: 5, offset: 1 }}>
+        <Col xs={12} lg={{ span: 5, offset: 1 }}>
           <Card className="h-100">
             <Card.Img variant="top" src={require("../img/hackMemphis.jpg")} />
             <Card.Body>
