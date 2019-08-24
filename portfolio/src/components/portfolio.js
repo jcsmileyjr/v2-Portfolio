@@ -27,7 +27,7 @@ export default function Portfolio(props) {
             <Card.Img
               className="equalImgHeight"
               variant="top"
-              fluid={true}
+              fluid="true"
               src={require("../img/car-boy.jpg")}
             />
             <Card.Body>
@@ -105,7 +105,7 @@ export default function Portfolio(props) {
             <Card.Img
               className="equalImgHeight"
               variant="top"
-              fluid={true}
+              fluid="true"
               src={require("../img/10MON2.png")}
             />
             <Card.Body>
@@ -203,7 +203,7 @@ export default function Portfolio(props) {
             <Card.Img
               className="equalImgHeight"
               variant="top"
-              fluid={true}
+              fluid="true"
               src={require("../img/active-case1.png")}
             />
             <Card.Body>
@@ -297,7 +297,7 @@ export default function Portfolio(props) {
             <Card.Img
               className="equalImgHeight"
               variant="top"
-              fluid={true}
+              fluid="true"
               src={require("../img/agent1.png")}
             />
             <Card.Body>
@@ -389,7 +389,7 @@ export default function Portfolio(props) {
             <Card.Img
               className="equalImgHeight"
               variant="top"
-              fluid={true}
+              fluid="true"
               src={require("../img/Index Cards Landing Page.png")}
             />
             <Card.Body>
@@ -486,7 +486,7 @@ export default function Portfolio(props) {
             <Card.Img
               className="equalImgHeight"
               variant="top"
-              fluid={true}
+              fluid="true"
               src={require("../img/wheel-of-fortune.gif")}
             />
             <Card.Body>
@@ -582,7 +582,7 @@ export default function Portfolio(props) {
             <Card.Img
               className="equalImgHeight"
               variant="top"
-              fluid={true}
+              fluid="true"
               src={require("../img/Calculator.gif")}
             />
             <Card.Body>
