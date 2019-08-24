@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import { Container, Row, Col, Button, Card } from "react-bootstrap";
 
 import "../App.css";
@@ -12,6 +12,7 @@ import { fab } from "@fortawesome/free-brands-svg-icons";
 library.add(fab, faSwimmer);
 
 export default function Intro(props) {
+  useEffect(()=> window.scrollTo(0, 0));
   return (
     <Container fluid={true}>
       <Row className="introContainer introImage showMobileImage">

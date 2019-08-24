@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { Container, Row, Col, Image} from 'react-bootstrap';
 
 import '../App.css';
@@ -8,6 +8,8 @@ export default function Project(props){
     const displayObjectives = props.projectObjectives.map(objectives => <li>{objectives}</li>);
     const displayTech = props.projectTechStack.map(tech => <li>{tech}</li>);
     const displayDevelopment = props.projectDevelopment.map(process => <li>{process}</li>);
+
+    useEffect(()=> window.scrollTo(0, 0));
 
     return(
         <Container index="caseStudies">

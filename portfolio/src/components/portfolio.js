@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 
 import "../App.css";
@@ -10,6 +10,7 @@ import { faSwimmer } from "@fortawesome/free-solid-svg-icons";
 library.add(faSwimmer);
 
 export default function Portfolio(props) {
+  useEffect(()=> window.scrollTo(0, 0));
   return (
     <Container>
       <Row className="center rowWhiteSpace">
