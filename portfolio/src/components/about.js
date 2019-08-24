@@ -30,7 +30,7 @@ export default function About(props) {
                   <li>Engagement Manager/Blog Editor </li>
                   <li>Memphis Chapter Leader (2 monthly meetups) </li>
                   <li>
-                    North Mississippi Chapter Co-founder (1 monthly meetups){" "}
+                    North Mississippi Chapter Co-founder (1 monthly meetups)
                   </li>
                   <li>
                     I was the lead presenter for an "Intro To Web Development"
