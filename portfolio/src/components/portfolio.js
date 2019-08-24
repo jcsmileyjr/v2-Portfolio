@@ -20,7 +20,7 @@ export default function Portfolio(props) {
       </Row>
       <Row>
         <Col className="spaceBetweenPortfolioCards" xs={12} md={4}>
-          <Card className="h-100">
+          <Card className="h-100 imageShadowBorder">
             <Card.Title className="center equalTitleHeight">
               Android Mobile Photo App for Edge Motors Car Museum
             </Card.Title>
@@ -93,7 +93,7 @@ export default function Portfolio(props) {
         </Col>
 
         <Col className="spaceBetweenPortfolioCards" xs={12} md={4}>
-          <Card className="h-100">
+          <Card className="h-100 imageShadowBorder">
             <Card.Title className="center equalTitleHeight">
               Chasing the 10 Pound Monster
             </Card.Title>
@@ -191,7 +191,7 @@ export default function Portfolio(props) {
         </Col>
 
         <Col className="spaceBetweenPortfolioCards" xs={12} md={4}>
-          <Card className="h-100">
+          <Card className="h-100 imageShadowBorder">
             <Card.Title className="center equalTitleHeight">
               Active Cases
             </Card.Title>
@@ -285,7 +285,7 @@ export default function Portfolio(props) {
         </Col>
         {/* Row 2*/}
         <Col className="spaceBetweenPortfolioCards" xs={12} md={4}>
-          <Card className="h-100">
+          <Card className="h-100 imageShadowBorder">
             <Card.Title className="center equalTitleHeight">
               Agent-Pedia
             </Card.Title>
@@ -377,7 +377,7 @@ export default function Portfolio(props) {
         </Col>
 
         <Col className="spaceBetweenPortfolioCards" xs={12} md={4}>
-          <Card className="h-100">
+          <Card className="h-100 imageShadowBorder">
             <Card.Title className="center equalTitleHeight">
               Index Cards
             </Card.Title>
@@ -474,7 +474,7 @@ export default function Portfolio(props) {
         </Col>
 
         <Col className="spaceBetweenPortfolioCards" xs={12} md={4}>
-          <Card className="h-100">
+          <Card className="h-100 imageShadowBorder">
             <Card.Title className="center equalTitleHeight">
               Wheel of Fortune (mobile app)
             </Card.Title>
@@ -570,7 +570,7 @@ export default function Portfolio(props) {
         </Col>
 
         <Col className="spaceBetweenPortfolioCards" xs={12} md={4}>
-          <Card className="h-100">
+          <Card className="h-100 imageShadowBorder">
             <Card.Title className="center equalTitleHeight">
               Calculator (mobile app)
             </Card.Title>

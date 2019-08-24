@@ -54,7 +54,7 @@ export default function Intro(props) {
           <h5 className="center whiteSpaceBelowText">
             Android Mobile Photo App for Edge Motors Car Museum
           </h5>
-          <Card>
+          <Card className="imageShadowBorder">
             <Card.Img
               variant="top"
               fluid="true"
