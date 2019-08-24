@@ -84,12 +84,7 @@ export default function Portfolio(props) {
                     Read Case Study
                   </Button>
                 </Col>
-                <Col
-                  xs={{ span: 9, offset: 2 }}
-                  sm={{ span: 6, offset: 5 }}
-                  md={{ span: 10, offset: 1 }}
-                  lg={{ span: 10, offset: 2 }}
-                >
+                <Col className="center" >
                   <strong>The code is private to my employer</strong>
                 </Col>
               </Row>
