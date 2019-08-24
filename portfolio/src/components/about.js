@@ -16,7 +16,7 @@ export default function About(props) {
         </Col>
       </Row>
       <Row>
-        <Col h-100 xs={12} lg={{ span: 5, offset: 1 }}>
+        <Col className="h-100" xs={12} lg={{ span: 5, offset: 1 }}>
           <Card className="h-100">
             <Card.Img variant="top" src={require("../img/cc_meetup2.jpg")} />
             <Card.Body>
