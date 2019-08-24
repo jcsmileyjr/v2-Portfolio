@@ -99,10 +99,14 @@ export default function Intro(props) {
                   <Card.Text>JavaScript</Card.Text>
                 </Col>
               </Row>
-              <Card.Subtitle className="rowWhiteSpace center">
-                Paid Freelance project completed in April of 2019
-              </Card.Subtitle>
-              <Row>
+              <Row className="whiteSpaceAboveFeatureArea">
+                <Col>
+                  <Card.Subtitle className="center">
+                  Paid Freelance project completed in April of 2019
+                  </Card.Subtitle>                
+                </Col>
+              </Row>
+              <Row className="whiteSpaceAboveFeatureArea">
                 <Col className="center">
                   <Button
                     onClick={()=>{props.showCaseStudy("Edge Motors Museum")}}
