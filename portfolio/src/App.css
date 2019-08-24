@@ -135,6 +135,8 @@ really wasn't working. The fix was to use a linear-gradient.
 
 .equalImgHeight {
   height: 40vh;
+  border-top: .1rem solid lightgrey;
+  border-bottom: .1rem solid lightgrey;
 }
 
 .equalTechHeight {
