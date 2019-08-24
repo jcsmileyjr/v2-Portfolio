@@ -5,9 +5,9 @@ import '../App.css';
 
 export default function Project(props){
 
-    const displayObjectives = props.projectObjectives.map(objectives => <li>{objectives}</li>);
-    const displayTech = props.projectTechStack.map(tech => <li>{tech}</li>);
-    const displayDevelopment = props.projectDevelopment.map(process => <li>{process}</li>);
+    const displayObjectives = props.projectObjectives.map((objectives, index) => <li key={index}>{objectives}</li>);
+    const displayTech = props.projectTechStack.map((tech, index) => <li key={index}>{tech}</li>);
+    const displayDevelopment = props.projectDevelopment.map((process,index) => <li key={index}>{process}</li>);
 
     useEffect(()=> window.scrollTo(0, 0));
 
