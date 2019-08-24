@@ -22,10 +22,8 @@ export default function About(props) {
             <Card.Body>
               <Card.Title className="center">Code Connector</Card.Title>
               <Card.Subtitle className="center greyColor">
-                {" "}
                 Nonprofit Tech Meetup
-              </Card.Subtitle>
-              <Card.Text>
+              </Card.Subtitle>              
                 <ul>
                   <li>Engagement Manager/Blog Editor </li>
                   <li>Memphis Chapter Leader (2 monthly meetups) </li>
@@ -42,7 +40,7 @@ export default function About(props) {
                     <a href="https://www.codeconnective.com">Code Connector</a>
                   </li>
                 </ul>
-              </Card.Text>
+              
             </Card.Body>
           </Card>
         </Col>
@@ -54,7 +52,6 @@ export default function About(props) {
             />
             <Card.Body>
               <Card.Title className="center">Give-Camp 2019</Card.Title>
-              <Card.Text>
                 <ul>
                   <li>
                     ​Collaborated with a small team of 4 to build a WordPress
@@ -69,7 +66,6 @@ export default function About(props) {
                     web pages from wireframes.
                   </li>
                 </ul>
-              </Card.Text>
             </Card.Body>
           </Card>
         </Col>
@@ -78,7 +74,6 @@ export default function About(props) {
             <Card.Img variant="top" src={require("../img/hackMemphis.jpg")} />
             <Card.Body>
               <Card.Title className="center">Hack-Memphis 2018</Card.Title>
-              <Card.Text>
                 <ul>
                   <li>
                     Collaborated with a small team of 6 to build a web app
@@ -86,13 +81,12 @@ export default function About(props) {
                   </li>
                   <li>
                     A video recording app that use machine learning to compare a
-                    picture of a person posing to the user’s pose.{" "}
+                    picture of a person posing to the user’s pose.
                   </li>
                   <li>
                     My contribution: building the user interface (HTML/CSS/JS)
                   </li>
                 </ul>
-              </Card.Text>
             </Card.Body>
           </Card>
         </Col>
@@ -106,7 +100,6 @@ export default function About(props) {
               <Card.Title className="center">
                 Smart City Hackathon 2019
               </Card.Title>
-              <Card.Text>
                 <ul>
                   <li>
                     ​​Collaborated with a small team of 5 to build a mobile app
@@ -122,7 +115,6 @@ export default function About(props) {
                     demo the app.
                   </li>
                 </ul>
-              </Card.Text>
             </Card.Body>
           </Card>
         </Col>
@@ -131,7 +123,6 @@ export default function About(props) {
             <Card.Img variant="top" src={require("../img/presentation.jpg")} />
             <Card.Body>
               <Card.Title className="center">Blog Posts</Card.Title>
-              <Card.Text>
                 <ul>
                   <li>
                     ​
@@ -145,7 +136,6 @@ export default function About(props) {
                     </a>
                   </li>
                 </ul>
-              </Card.Text>
             </Card.Body>
           </Card>
         </Col>
@@ -157,14 +147,12 @@ export default function About(props) {
             />
             <Card.Body>
               <Card.Title className="center">Meetups I Attend</Card.Title>
-              <Card.Text>
                 <ul>
                   <li>​DevMemphis</li>
                   <li>Memphis Web Workers</li>
                   <li>Code Connector Memphis</li>
                   <li>Code Connector North Mississippi</li>
                 </ul>
-              </Card.Text>
             </Card.Body>
           </Card>
         </Col>
@@ -180,7 +168,6 @@ export default function About(props) {
             <Card.Img variant="top" src={require("../img/hike1.jpg")} />
             <Card.Body>
               <Card.Title className="center">Nature Enthusiastic</Card.Title>
-              <Card.Text>
                 <ul>
                   <li>
                     I love to garden. My favorite vegetables to plant is
@@ -196,7 +183,6 @@ export default function About(props) {
                     parks in north Mississippi and around Memphis, TN.
                   </li>
                 </ul>
-              </Card.Text>
             </Card.Body>
           </Card>
         </Col>
