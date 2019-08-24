@@ -20,7 +20,7 @@ export default function Intro(props) {
           <h1 className="enlargeTitle">JC Smiley</h1>
           <h3>Software Developer & Tech Meetup Organizer</h3>
           <h5>Angular | React | React Native</h5>
-          <Row>
+          <Row className="whiteSpaceAboveFeatureArea">
             <Col xs={4}>
               <a className="introSocialMediaLinks" href="https://​linkedin.com/in/jcsmileyjr ">
                 <FontAwesomeIcon
@@ -55,7 +55,7 @@ export default function Intro(props) {
           <h2 className="whiteSpaceAboveFeatureArea center" style={{ color: "rgb(32, 179, 199)" }}>
             Featured Project
           </h2>
-          <h5 className="center">
+          <h5 className="center whiteSpaceBelowText">
             Android Mobile Photo App for Edge Motors Car Museum
           </h5>
           <Card>

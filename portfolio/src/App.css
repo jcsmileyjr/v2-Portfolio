@@ -81,6 +81,14 @@ really wasn't working. The fix was to use a linear-gradient.
   }
 }
 
+
+@media only screen and (min-width:426px){
+  /*Increase size of social media links on intro page in large views*/
+  .introSocialMediaLinks {
+    font-size: 1.5rem;
+  }
+}
+
 .introTitle > h1 , .introTitle > h3, .introTitle > h5 {
   margin-bottom: 3vh ;
 }
@@ -88,6 +96,11 @@ really wasn't working. The fix was to use a linear-gradient.
 /*Ensure social media icons/links look like icons*/
 .introSocialMediaLinks {
   color:white;
+}
+
+/*white space between feature's project title and image*/
+.whiteSpaceBelowText {
+  margin-bottom: 1rem;
 }
 
 /********** End Intro Component Styling **********/
