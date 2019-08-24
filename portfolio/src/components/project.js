@@ -13,7 +13,11 @@ export default function Project(props){
 
     return(
         <Container index="caseStudies">
-            <h1 className="center rowWhiteSpace">{props.projectTitle}</h1>
+            <Row>
+                <Col>
+                    <h1 className="center whiteSpaceAboveFeatureArea">{props.projectTitle}</h1>
+                </Col>
+            </Row>
             <Row style={{marginBottom:"10px"}}>
                 <Col xs={12} lg={6} >
                     <Image style={{marginTop:"10px"}} src={props.projectPhoto1} fluid />

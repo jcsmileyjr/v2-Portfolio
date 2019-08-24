@@ -6,7 +6,7 @@ export default function About(props) {
   return (
     <Container>
       <Row className="center">
-        <Col>
+        <Col className="whiteSpaceAboveFeatureArea">
           <h1>About</h1>
         </Col>
       </Row>

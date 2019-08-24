@@ -13,8 +13,8 @@ export default function Portfolio(props) {
   useEffect(()=> window.scrollTo(0, 0));
   return (
     <Container>
-      <Row className="center rowWhiteSpace">
-        <Col>
+      <Row className="center">
+        <Col className="whiteSpaceAboveFeatureArea">
           <h1>Portfolio</h1>
         </Col>
       </Row>

@@ -11,6 +11,11 @@
   margin-bottom: 10px;
 }
 
+/*White-space*/
+.whiteSpaceAboveFeatureArea {
+  margin-top: 2rem;
+}
+
 .appBackGroundColor {
   background-color: #eee9e9;
 }
@@ -83,11 +88,6 @@ really wasn't working. The fix was to use a linear-gradient.
 /*Ensure social media icons/links look like icons*/
 .introSocialMediaLinks {
   color:white;
-}
-
-/*White-space between feature project and intro area*/
-.whiteSpaceAboveFeatureArea {
-  margin-top: 2rem;
 }
 
 /********** End Intro Component Styling **********/
