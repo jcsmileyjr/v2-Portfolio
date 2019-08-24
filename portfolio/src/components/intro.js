@@ -103,15 +103,10 @@ export default function Intro(props) {
                 Paid Freelance project completed in April of 2019
               </Card.Subtitle>
               <Row>
-                <Col
-                  xs={{ span: 9, offset: 2 }}
-                  sm={{ span: 6, offset: 5 }}
-                  md={{ span: 6, offset: 3 }}
-                  lg={{ span: 6, offset: 4 }}
-                >
+                <Col className="center">
                   <Button
                     onClick={()=>{props.showCaseStudy("Edge Motors Museum")}}
-                    variant="link"
+                    variant="primary"
                   >
                     Read Case Study
                   </Button>
@@ -124,7 +119,7 @@ export default function Intro(props) {
             style={{ color: "rgb(32, 179, 199)" }}
             className="center rowWhiteSpace"
           >
-            Click to view other projects
+            Click here to view other projects
           </h5>
         </Col>
       </Row>
