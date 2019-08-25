@@ -69,12 +69,7 @@ export default function Portfolio(props) {
                 Paid Freelance project completed in April of 2019
               </Card.Subtitle>
               <Row>
-                <Col
-                  xs={{ span: 9, offset: 2 }}
-                  sm={{ span: 6, offset: 5 }}
-                  md={{ span: 10, offset: 1 }}
-                  lg={{ span: 10, offset: 2 }}
-                >
+                <Col xs={12} className="center">
                   <Button
                     onClick={() => {
                       props.showCaseStudy("Edge Motors Museum");
@@ -144,12 +139,7 @@ export default function Portfolio(props) {
                 pounds.
               </Card.Subtitle>
               <Row>
-                <Col
-                  xs={{ span: 9, offset: 2 }}
-                  sm={{ span: 6, offset: 5 }}
-                  md={{ span: 10, offset: 1 }}
-                  lg={{ span: 10, offset: 2 }}
-                >
+                <Col xs={12} className="center">
                   <Button
                     href="https://github.com/jcsmileyjr/10MON"
                     variant="link"
@@ -157,12 +147,7 @@ export default function Portfolio(props) {
                     View GitHub Code
                   </Button>
                 </Col>
-                <Col
-                  xs={{ span: 9, offset: 2 }}
-                  sm={{ span: 6, offset: 5 }}
-                  md={{ span: 10, offset: 1 }}
-                  lg={{ span: 10, offset: 2 }}
-                >
+                <Col xs={12} className="center">
                   <Button
                     href="https://jcsmileyjr.github.io/10MON/#!/logIn"
                     variant="link"
@@ -170,12 +155,7 @@ export default function Portfolio(props) {
                     Visit Project Demo
                   </Button>
                 </Col>
-                <Col
-                  xs={{ span: 9, offset: 2 }}
-                  sm={{ span: 6, offset: 5 }}
-                  md={{ span: 10, offset: 1 }}
-                  lg={{ span: 10, offset: 2 }}
-                >
+                <Col xs={12} className="center">
                   <Button
                     onClick={() => {
                       props.showCaseStudy("Chasing the 10 Pound Monster");
@@ -238,12 +218,7 @@ export default function Portfolio(props) {
                 portfolio of cases.
               </Card.Subtitle>
               <Row>
-                <Col
-                  xs={{ span: 9, offset: 2 }}
-                  sm={{ span: 6, offset: 5 }}
-                  md={{ span: 10, offset: 1 }}
-                  lg={{ span: 10, offset: 2 }}
-                >
+                <Col xs={12} className="center">
                   <Button
                     href="https://github.com/jcsmileyjr/active-cases"
                     variant="link"
@@ -251,12 +226,7 @@ export default function Portfolio(props) {
                     View GitHub Code
                   </Button>
                 </Col>
-                <Col
-                  xs={{ span: 9, offset: 2 }}
-                  sm={{ span: 6, offset: 5 }}
-                  md={{ span: 10, offset: 1 }}
-                  lg={{ span: 10, offset: 2 }}
-                >
+                <Col xs={12} className="center">
                   <Button
                     href="https://active-cases.herokuapp.com/"
                     variant="link"
@@ -264,12 +234,7 @@ export default function Portfolio(props) {
                     Visit Project Demo
                   </Button>
                 </Col>
-                <Col
-                  xs={{ span: 9, offset: 2 }}
-                  sm={{ span: 6, offset: 5 }}
-                  md={{ span: 10, offset: 1 }}
-                  lg={{ span: 10, offset: 2 }}
-                >
+                <Col xs={12} className="center">
                   <Button
                     onClick={() => {
                       props.showCaseStudy("Active Cases");
@@ -330,12 +295,7 @@ export default function Portfolio(props) {
                 Online field guide for gaming law enforcment agents.
               </Card.Subtitle>
               <Row>
-                <Col
-                  xs={{ span: 9, offset: 2 }}
-                  sm={{ span: 6, offset: 5 }}
-                  md={{ span: 10, offset: 1 }}
-                  lg={{ span: 10, offset: 2 }}
-                >
+                <Col xs={12} className="center">
                   <Button
                     href="https://github.com/jcsmileyjr/agent-guide"
                     variant="link"
@@ -343,12 +303,7 @@ export default function Portfolio(props) {
                     View GitHub Code
                   </Button>
                 </Col>
-                <Col
-                  xs={{ span: 9, offset: 2 }}
-                  sm={{ span: 6, offset: 5 }}
-                  md={{ span: 10, offset: 1 }}
-                  lg={{ span: 10, offset: 2 }}
-                >
+                <Col xs={12} className="center">
                   <Button
                     href="https://jcsmileyjr.github.io/agent-guide/"
                     variant="link"
@@ -356,12 +311,7 @@ export default function Portfolio(props) {
                     Visit Project Demo
                   </Button>
                 </Col>
-                <Col
-                  xs={{ span: 9, offset: 2 }}
-                  sm={{ span: 6, offset: 5 }}
-                  md={{ span: 10, offset: 1 }}
-                  lg={{ span: 10, offset: 2 }}
-                >
+                <Col xs={12} className="center">
                   <Button
                     onClick={() => {
                       props.showCaseStudy("Agent-pedia");
@@ -427,12 +377,7 @@ export default function Portfolio(props) {
                 into two types, multiple choice and a matching.
               </Card.Subtitle>
               <Row>
-                <Col
-                  xs={{ span: 9, offset: 2 }}
-                  sm={{ span: 6, offset: 5 }}
-                  md={{ span: 10, offset: 1 }}
-                  lg={{ span: 10, offset: 2 }}
-                >
+                <Col xs={12} className="center">
                   <Button
                     href="https://github.com/jcsmileyjr/Index-Cards"
                     variant="link"
@@ -440,12 +385,7 @@ export default function Portfolio(props) {
                     View GitHub Code
                   </Button>
                 </Col>
-                <Col
-                  xs={{ span: 9, offset: 2 }}
-                  sm={{ span: 6, offset: 5 }}
-                  md={{ span: 10, offset: 1 }}
-                  lg={{ span: 10, offset: 2 }}
-                >
+                <Col xs={12} className="center">
                   <Button
                     href="https://jcsmileyjr.github.io/Index-Cards/"
                     variant="link"
@@ -453,12 +393,7 @@ export default function Portfolio(props) {
                     Visit Project Demo
                   </Button>
                 </Col>
-                <Col
-                  xs={{ span: 9, offset: 2 }}
-                  sm={{ span: 6, offset: 5 }}
-                  md={{ span: 10, offset: 1 }}
-                  lg={{ span: 10, offset: 2 }}
-                >
+                <Col xs={12} className="center">
                   <Button
                     onClick={() => {
                       props.showCaseStudy("Index-Cards");
@@ -523,12 +458,7 @@ export default function Portfolio(props) {
                 A math practice app for a child.
               </Card.Subtitle>
               <Row>
-                <Col
-                  xs={{ span: 9, offset: 2 }}
-                  sm={{ span: 6, offset: 5 }}
-                  md={{ span: 10, offset: 1 }}
-                  lg={{ span: 10, offset: 2 }}
-                >
+                <Col xs={12} className="center">
                   <Button
                     href="https://github.com/jcsmileyjr/WheelOfFortuneMobile"
                     variant="link"
@@ -536,12 +466,7 @@ export default function Portfolio(props) {
                     View GitHub Code
                   </Button>
                 </Col>
-                <Col
-                  xs={{ span: 9, offset: 2 }}
-                  sm={{ span: 6, offset: 5 }}
-                  md={{ span: 10, offset: 1 }}
-                  lg={{ span: 10, offset: 2 }}
-                >
+                <Col xs={12} className="center">
                   <Button
                     href="https://snack.expo.io/@jcsmileyjr/wheel-of-fortune"
                     variant="link"
@@ -549,12 +474,7 @@ export default function Portfolio(props) {
                     Visit Project Demo
                   </Button>
                 </Col>
-                <Col
-                  xs={{ span: 9, offset: 2 }}
-                  sm={{ span: 6, offset: 5 }}
-                  md={{ span: 10, offset: 1 }}
-                  lg={{ span: 10, offset: 2 }}
-                >
+                <Col xs={12} className="center" >
                   <Button
                     onClick={() => {
                       props.showCaseStudy("Wheel of Fortune");
@@ -619,12 +539,7 @@ export default function Portfolio(props) {
                 A math practice app for a child.
               </Card.Subtitle>
               <Row>
-                <Col
-                  xs={{ span: 9, offset: 2 }}
-                  sm={{ span: 6, offset: 5 }}
-                  md={{ span: 10, offset: 1 }}
-                  lg={{ span: 10, offset: 2 }}
-                >
+                <Col xs={12} className="center">
                   <Button
                     href="https://github.com/jcsmileyjr/Calculator"
                     variant="link"
@@ -632,12 +547,7 @@ export default function Portfolio(props) {
                     View GitHub Code
                   </Button>
                 </Col>
-                <Col
-                  xs={{ span: 9, offset: 2 }}
-                  sm={{ span: 6, offset: 5 }}
-                  md={{ span: 10, offset: 1 }}
-                  lg={{ span: 10, offset: 2 }}
-                >
+                <Col xs={12} className="center">
                   <Button
                     href="https://snack.expo.io/@jcsmileyjr/calculator"
                     variant="link"
@@ -645,12 +555,7 @@ export default function Portfolio(props) {
                     Visit Project Demo
                   </Button>
                 </Col>
-                <Col
-                  xs={{ span: 9, offset: 2 }}
-                  sm={{ span: 6, offset: 5 }}
-                  md={{ span: 10, offset: 1 }}
-                  lg={{ span: 10, offset: 2 }}
-                >
+                <Col xs={12} className="center">
                   <Button
                     onClick={() => {
                       props.showCaseStudy("Calculator");
