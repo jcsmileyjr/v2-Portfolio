@@ -166,6 +166,10 @@ really wasn't working. The fix was to use a linear-gradient.
 }
 /********** End of Portfolio Component Styling **********/
 
-/********** Start of Case Studies Component Styling **********/
+/********** Start of Footer Component Styling **********/
+.footerStyling {
+  background-color: rgb(32, 179, 199);
+  margin-top: 1rem;
+}
 
-/********** End of Case Studies Component Styling **********/
+/********** End of Footer Component Styling **********/

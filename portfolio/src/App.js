@@ -10,6 +10,7 @@ import About from './components/about';
 import Nav from './components/Nav';
 import Portfolio from './components/portfolio';
 import Project from './components/project';
+import Footer from './components/footer';
 
 function CaseStudyPage(props){
   return(
@@ -29,7 +30,8 @@ function CaseStudyPage(props){
           projectTechStack = {props.projectTechStack} 
           projectMyRole = {props.projectMyRole}  
           projectObjectives = {props.projectObjectives} 
-          projectTitle = {props.projectTitle}  />      
+          projectTitle = {props.projectTitle}  />
+      <Footer />      
     </div>
   );
 }
@@ -42,6 +44,7 @@ function HomePage(props){
           showHomePage= {props.showHomePage} 
           showAboutPage= {props.showAboutPage}  />
       <Intro showPortfolioPage= {props.showPortfolioPage} showCaseStudy = {props.showCaseStudy}  />
+      <Footer />  
     </div>
   );
 }
@@ -54,6 +57,7 @@ function PortfolioPage(props){
           showHomePage= {props.showHomePage} 
           showAboutPage= {props.showAboutPage}  />
       <Portfolio showCaseStudy = {props.showCaseStudy}  />
+      <Footer />  
     </div>
   );
 }
@@ -67,6 +71,7 @@ function AboutPage(props){
             showHomePage= {props.showHomePage}
             showAboutPage= {props.showAboutPage} />
         <About />
+        <Footer />  
       </Row>
     </Container>
   );
