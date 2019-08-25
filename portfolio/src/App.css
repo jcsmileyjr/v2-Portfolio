@@ -140,13 +140,24 @@ really wasn't working. The fix was to use a linear-gradient.
 }
 
 .equalTechHeight {
-  height: 20vh;
+  height: 15vh;
 }
 
 .equalObjHeight {
   height: 15vh;
   padding-bottom: 10vh;
   
+}
+
+/*smaller text for Node/Express to make it fit */
+.smallText {
+  font-size: .8rem;
+}  
+
+@media screen and (max-width:470px){
+  .allTextSmall {
+    font-size: .8rem;
+  }
 }
 
 @media screen and (max-width:1020px) and (min-width:768px){
@@ -162,7 +173,7 @@ really wasn't working. The fix was to use a linear-gradient.
   /*To fix bug on Edge Motors title text is overflowing the white box*/
   .equalTitleHeight { 
     height: 15vh;
-  }  
+  }
 }
 /********** End of Portfolio Component Styling **********/
 

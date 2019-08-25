@@ -19,7 +19,7 @@ export default function Portfolio(props) {
         </Col>
       </Row>
       <Row>
-        <Col className="spaceBetweenPortfolioCards" xs={12} md={4}>
+        <Col className="spaceBetweenPortfolioCards" xs={12} lg={6}>
           <Card className="h-100 imageShadowBorder">
             <Card.Title className="center equalTitleHeight">
               Android Mobile Photo App for Edge Motors Car Museum
@@ -32,37 +32,37 @@ export default function Portfolio(props) {
             />
             <Card.Body>
               <Row className="equalTechHeight">
-                <Col className="center" xs={6}>
+                <Col className="center" xs={3}>
                   <FontAwesomeIcon
                     style={{ color: "navy" }}
                     icon={["fab", "react"]}
                     size="lg"
                   />
-                  <Card.Text>React Native</Card.Text>
+                  <Card.Text className="allTextSmall">React Native</Card.Text>
                 </Col>
-                <Col className="center" xs={6}>
+                <Col className="center" xs={3}>
                   <FontAwesomeIcon
                     style={{ color: "orange" }}
                     icon={["fab", "html5"]}
                     size="lg"
                   />
-                  <Card.Text>HTML5</Card.Text>
+                  <Card.Text className="allTextSmall">HTML5</Card.Text>
                 </Col>
-                <Col className="center" xs={6}>
+                <Col className="center" xs={3}>
                   <FontAwesomeIcon
                     style={{ color: "navy" }}
                     icon={["fab", "css3"]}
                     size="lg"
                   />
-                  <Card.Text>CSS3</Card.Text>
+                  <Card.Text className="allTextSmall">CSS3</Card.Text>
                 </Col>
-                <Col className="center" xs={6}>
+                <Col className="center" xs={3}>
                   <FontAwesomeIcon
                     style={{ color: "green" }}
                     icon={["fab", "js"]}
                     size="lg"
                   />
-                  <Card.Text>JavaScript</Card.Text>
+                  <Card.Text className="allTextSmall">JavaScript</Card.Text>
                 </Col>
               </Row>
               <Card.Subtitle className="rowWhiteSpace equalObjHeight">
@@ -87,7 +87,7 @@ export default function Portfolio(props) {
           </Card>
         </Col>
 
-        <Col className="spaceBetweenPortfolioCards" xs={12} md={4}>
+        <Col className="spaceBetweenPortfolioCards" xs={12} lg={6}>
           <Card className="h-100 imageShadowBorder">
             <Card.Title className="center equalTitleHeight">
               Chasing the 10 Pound Monster
@@ -100,37 +100,37 @@ export default function Portfolio(props) {
             />
             <Card.Body>
               <Row className="equalTechHeight">
-                <Col className="center" xs={6}>
+                <Col className="center" xs={3}>
                   <FontAwesomeIcon
                     style={{ color: "red" }}
                     icon={["fab", "angular"]}
                     size="lg"
                   />
-                  <Card.Text>AngularJS</Card.Text>
+                  <Card.Text className="allTextSmall">AngularJS</Card.Text>
                 </Col>
-                <Col className="center" xs={6}>
+                <Col className="center" xs={3}>
                   <FontAwesomeIcon
                     style={{ color: "purple" }}
                     icon={["fab", "bootstrap"]}
                     size="lg"
                   />
-                  <Card.Text>Bootstrap</Card.Text>
+                  <Card.Text className="allTextSmall">Bootstrap</Card.Text>
                 </Col>
-                <Col className="center" xs={6}>
+                <Col className="center" xs={3}>
                   <FontAwesomeIcon
                     style={{ color: "green" }}
                     icon={["fab", "node"]}
                     size="lg"
                   />
-                  <Card.Text>Node/Express</Card.Text>
+                  <Card.Text className="smallText">Node / Express</Card.Text>
                 </Col>
-                <Col className="center" xs={6}>
+                <Col className="center" xs={3}>
                   <FontAwesomeIcon
                     style={{ color: "black" }}
                     icon={["fab", "github"]}
                     size="lg"
                   />
-                  <Card.Text>GitHub</Card.Text>
+                  <Card.Text className="allTextSmall">GitHub</Card.Text>
                 </Col>
               </Row>
               <Card.Subtitle className="rowWhiteSpace equalObjHeight">
@@ -170,7 +170,7 @@ export default function Portfolio(props) {
           </Card>
         </Col>
 
-        <Col className="spaceBetweenPortfolioCards" xs={12} md={4}>
+        <Col className="spaceBetweenPortfolioCards" xs={12} lg={6}>
           <Card className="h-100 imageShadowBorder">
             <Card.Title className="center equalTitleHeight">
               Active Cases
@@ -183,33 +183,33 @@ export default function Portfolio(props) {
             />
             <Card.Body>
               <Row className="equalTechHeight">
-                <Col className="center" xs={6}>
+                <Col className="center" xs={3}>
                   <FontAwesomeIcon
                     style={{ color: "navy" }}
                     icon={["fab", "react"]}
                     size="lg"
                   />
-                  <Card.Text>React</Card.Text>
+                  <Card.Text className="allTextSmall">React</Card.Text>
                 </Col>
-                <Col className="center" xs={6}>
+                <Col className="center" xs={3}>
                   <FontAwesomeIcon
                     style={{ color: "purple" }}
                     icon={["fab", "bootstrap"]}
                     size="lg"
                   />
-                  <Card.Text>Bootstrap</Card.Text>
+                  <Card.Text className="allTextSmall">Bootstrap</Card.Text>
                 </Col>
-                <Col className="center" xs={6}>
+                <Col className="center" xs={3}>
                   <FontAwesomeIcon
                     style={{ color: "green" }}
                     icon={["fab", "node"]}
                     size="lg"
                   />
-                  <Card.Text>Node/Express</Card.Text>
+                  <Card.Text className="smallText">Node / Express</Card.Text>
                 </Col>
-                <Col className="center" xs={6}>
+                <Col className="center" xs={3}>
                   <FontAwesomeIcon icon={["fab", "css3"]} size="lg" />
-                  <Card.Text>CSS3</Card.Text>
+                  <Card.Text className="allTextSmall">CSS3</Card.Text>
                 </Col>
               </Row>
               <Card.Subtitle className="rowWhiteSpace equalObjHeight">
@@ -249,7 +249,7 @@ export default function Portfolio(props) {
           </Card>
         </Col>
         {/* Row 2*/}
-        <Col className="spaceBetweenPortfolioCards" xs={12} md={4}>
+        <Col className="spaceBetweenPortfolioCards" xs={12} lg={6}>
           <Card className="h-100 imageShadowBorder">
             <Card.Title className="center equalTitleHeight">
               Agent-Pedia
@@ -262,33 +262,33 @@ export default function Portfolio(props) {
             />
             <Card.Body>
               <Row className="equalTechHeight">
-                <Col className="center" xs={6}>
+                <Col className="center" xs={3}>
                   <FontAwesomeIcon
                     style={{ color: "red" }}
                     icon={["fab", "angular"]}
                     size="lg"
                   />
-                  <Card.Text>AngularJS</Card.Text>
+                  <Card.Text className="allTextSmall">AngularJS</Card.Text>
                 </Col>
-                <Col className="center" xs={6}>
+                <Col className="center" xs={3}>
                   <FontAwesomeIcon
                     style={{ color: "black" }}
                     icon={["fab", "github"]}
                     size="lg"
                   />
-                  <Card.Text>GitHub</Card.Text>
+                  <Card.Text className="allTextSmall">GitHub</Card.Text>
                 </Col>
-                <Col className="center" xs={6}>
+                <Col className="center" xs={3}>
                   <FontAwesomeIcon
                     style={{ color: "green" }}
                     icon={["fab", "node"]}
                     size="lg"
                   />
-                  <Card.Text>Node/Express</Card.Text>
+                  <Card.Text className="smallText">Node / Express</Card.Text>
                 </Col>
-                <Col className="center" xs={6}>
+                <Col className="center" xs={3}>
                   <Card.Text />
-                  <Card.Text>MatrializeCSS</Card.Text>
+                  <Card.Text className="smallText">MatrializeCSS</Card.Text>
                 </Col>
               </Row>
               <Card.Subtitle className="rowWhiteSpace equalObjHeight">
@@ -326,7 +326,7 @@ export default function Portfolio(props) {
           </Card>
         </Col>
 
-        <Col className="spaceBetweenPortfolioCards" xs={12} md={4}>
+        <Col className="spaceBetweenPortfolioCards" xs={12} lg={6}>
           <Card className="h-100 imageShadowBorder">
             <Card.Title className="center equalTitleHeight">
               Index Cards
@@ -339,37 +339,37 @@ export default function Portfolio(props) {
             />
             <Card.Body>
               <Row className="equalTechHeight">
-                <Col className="center" xs={6}>
+                <Col className="center" xs={3}>
                   <FontAwesomeIcon
                     style={{ color: "red" }}
                     icon={["fab", "angular"]}
                     size="lg"
                   />
-                  <Card.Text>AngularJS</Card.Text>
+                  <Card.Text className="allTextSmall">AngularJS</Card.Text>
                 </Col>
-                <Col className="center" xs={6}>
+                <Col className="center" xs={3}>
                   <FontAwesomeIcon
                     style={{ color: "black" }}
                     icon={["fab", "github"]}
                     size="lg"
                   />
-                  <Card.Text>GitHub</Card.Text>
+                  <Card.Text className="allTextSmall">GitHub</Card.Text>
                 </Col>
-                <Col className="center" xs={6}>
+                <Col className="center" xs={3}>
                   <FontAwesomeIcon
                     style={{ color: "orange" }}
                     icon={["fab", "html5"]}
                     size="lg"
                   />
-                  <Card.Text>HTML5</Card.Text>
+                  <Card.Text className="allTextSmall">HTML5</Card.Text>
                 </Col>
-                <Col className="center" xs={6}>
+                <Col className="center" xs={3}>
                   <FontAwesomeIcon
                     style={{ color: "purple" }}
                     icon={["fab", "bootstrap"]}
                     size="lg"
                   />
-                  <Card.Text>Bootstrap</Card.Text>
+                  <Card.Text className="allTextSmall">Bootstrap</Card.Text>
                 </Col>
               </Row>
               <Card.Subtitle className="rowWhiteSpace equalObjHeight">
@@ -408,7 +408,7 @@ export default function Portfolio(props) {
           </Card>
         </Col>
 
-        <Col className="spaceBetweenPortfolioCards" xs={12} md={4}>
+        <Col className="spaceBetweenPortfolioCards" xs={12} lg={6}>
           <Card className="h-100 imageShadowBorder">
             <Card.Title className="center equalTitleHeight">
               Wheel of Fortune (mobile app)
@@ -421,37 +421,37 @@ export default function Portfolio(props) {
             />
             <Card.Body>
               <Row className="equalTechHeight">
-                <Col className="center" xs={6}>
+                <Col className="center" xs={3}>
                   <FontAwesomeIcon
                     style={{ color: "navy" }}
                     icon={["fab", "react"]}
                     size="lg"
                   />
-                  <Card.Text>React Native</Card.Text>
+                  <Card.Text className="allTextSmall">React Native</Card.Text>
                 </Col>
-                <Col className="center" xs={6}>
+                <Col className="center" xs={3}>
                   <FontAwesomeIcon
                     style={{ color: "black" }}
                     icon={["fab", "github"]}
                     size="lg"
                   />
-                  <Card.Text>GitHub</Card.Text>
+                  <Card.Text className="allTextSmall">GitHub</Card.Text>
                 </Col>
-                <Col className="center" xs={6}>
+                <Col className="center" xs={3}>
                   <FontAwesomeIcon
                     style={{ color: "orange" }}
                     icon={["fab", "html5"]}
                     size="lg"
                   />
-                  <Card.Text>HTML5</Card.Text>
+                  <Card.Text className="allTextSmall">HTML5</Card.Text>
                 </Col>
-                <Col className="center" xs={6}>
+                <Col className="center" xs={3}>
                   <FontAwesomeIcon
                     style={{ color: "navy" }}
                     icon={["fab", "css3"]}
                     size="lg"
                   />
-                  <Card.Text>CSS3</Card.Text>
+                  <Card.Text className="allTextSmall">CSS3</Card.Text>
                 </Col>
               </Row>
               <Card.Subtitle className="rowWhiteSpace equalObjHeight">
@@ -489,7 +489,7 @@ export default function Portfolio(props) {
           </Card>
         </Col>
 
-        <Col className="spaceBetweenPortfolioCards" xs={12} md={4}>
+        <Col className="spaceBetweenPortfolioCards" xs={12} lg={6}>
           <Card className="h-100 imageShadowBorder">
             <Card.Title className="center equalTitleHeight">
               Calculator (mobile app)
@@ -502,37 +502,37 @@ export default function Portfolio(props) {
             />
             <Card.Body>
               <Row className="equalTechHeight">
-                <Col className="center" xs={6}>
+                <Col className="center" xs={3}>
                   <FontAwesomeIcon
                     style={{ color: "navy" }}
                     icon={["fab", "react"]}
                     size="lg"
                   />
-                  <Card.Text>React Native</Card.Text>
+                  <Card.Text className="allTextSmall">React Native</Card.Text>
                 </Col>
-                <Col className="center" xs={6}>
+                <Col className="center" xs={3}>
                   <FontAwesomeIcon
                     style={{ color: "black" }}
                     icon={["fab", "github"]}
                     size="lg"
                   />
-                  <Card.Text>GitHub</Card.Text>
+                  <Card.Text className="allTextSmall">GitHub</Card.Text>
                 </Col>
-                <Col className="center" xs={6}>
+                <Col className="center" xs={3}>
                   <FontAwesomeIcon
                     style={{ color: "orange" }}
                     icon={["fab", "html5"]}
                     size="lg"
                   />
-                  <Card.Text>HTML5</Card.Text>
+                  <Card.Text className="allTextSmall">HTML5</Card.Text>
                 </Col>
-                <Col className="center" xs={6}>
+                <Col className="center" xs={3}>
                   <FontAwesomeIcon
                     style={{ color: "navy" }}
                     icon={["fab", "css3"]}
                     size="lg"
                   />
-                  <Card.Text>CSS3</Card.Text>
+                  <Card.Text className="allTextSmall">CSS3</Card.Text>
                 </Col>
               </Row>
               <Card.Subtitle className="rowWhiteSpace equalObjHeight">
