@@ -199,7 +199,7 @@ export default function Portfolio(props) {
               className="equalImgHeight"
               variant="top"
               fluid="true"
-              src={require("../img/active-case1.png")}
+              src={require("../img/active-case5.png")}
             />
             <Card.Body>
               <Row className="equalTechHeight">
