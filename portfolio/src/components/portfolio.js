@@ -65,7 +65,7 @@ export default function Portfolio(props) {
                   <Card.Text className="allTextSmall">JavaScript</Card.Text>
                 </Col>
               </Row>
-              <Card.Subtitle className="rowWhiteSpace equalObjHeight">
+              <Card.Subtitle className="rowWhiteSpace equalObjHeight center">
                 Paid Freelance project completed in April of 2019
               </Card.Subtitle>
               <Row>
@@ -291,7 +291,7 @@ export default function Portfolio(props) {
                   <Card.Text className="smallText">MatrializeCSS</Card.Text>
                 </Col>
               </Row>
-              <Card.Subtitle className="rowWhiteSpace equalObjHeight">
+              <Card.Subtitle className="rowWhiteSpace equalObjHeight center">
                 Online field guide for gaming law enforcment agents.
               </Card.Subtitle>
               <Row>
@@ -454,7 +454,7 @@ export default function Portfolio(props) {
                   <Card.Text className="allTextSmall">CSS3</Card.Text>
                 </Col>
               </Row>
-              <Card.Subtitle className="rowWhiteSpace equalObjHeight">
+              <Card.Subtitle className="rowWhiteSpace equalObjHeight center">
                 A math practice app for a child.
               </Card.Subtitle>
               <Row>
@@ -535,7 +535,7 @@ export default function Portfolio(props) {
                   <Card.Text className="allTextSmall">CSS3</Card.Text>
                 </Col>
               </Row>
-              <Card.Subtitle className="rowWhiteSpace equalObjHeight">
+              <Card.Subtitle className="rowWhiteSpace equalObjHeight center">
                 A math practice app for a child.
               </Card.Subtitle>
               <Row>
