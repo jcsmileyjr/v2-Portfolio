@@ -134,7 +134,7 @@ really wasn't working. The fix was to use a linear-gradient.
 }
 
 .equalImgHeight {
-  height: 40vh;
+  height: 50vh;
   border-top: .1rem solid lightgrey;
   border-bottom: .1rem solid lightgrey;
 }
@@ -143,10 +143,9 @@ really wasn't working. The fix was to use a linear-gradient.
   height: 15vh;
 }
 
-.equalObjHeight {
+.equalObjHeight-WIP {
   height: 15vh;
-  padding-bottom: 10vh;
-  
+  padding-bottom: 10vh;  
 }
 
 /*smaller text for Node/Express to make it fit */
@@ -154,20 +153,28 @@ really wasn't working. The fix was to use a linear-gradient.
   font-size: .8rem;
 }  
 
+/*Make text smaller on smaller screens*/
 @media screen and (max-width:470px){
   .allTextSmall {
     font-size: .8rem;
   }
 }
 
-@media screen and (max-width:1020px) and (min-width:768px){
+/*Make text smaller on smaller screens*/
+@media screen and (min-width:768px) and (max-width:986px){
+  .equalImgHeight {
+    height: 70vh;
+  }  
+}
+
+@media screen and (min-width:987px){
   .equalTechHeight {    
-    padding-bottom: 30vh;
+    padding-bottom: 1vh;
   }
   
   .equalObjHeight {
-    height: 25vh;
-    padding-bottom: 30vh;
+    height: 10vh;
+    /*padding-bottom: 30vh;*/
   }
 
   /*To fix bug on Edge Motors title text is overflowing the white box*/
