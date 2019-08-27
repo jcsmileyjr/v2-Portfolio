@@ -81,6 +81,14 @@ really wasn't working. The fix was to use a linear-gradient.
   }
 }
 
+
+@media only screen and (min-width:426px){
+  /*Increase size of social media links on intro page in large views*/
+  .introSocialMediaLinks {
+    font-size: 1.5rem;
+  }
+}
+
 .introTitle > h1 , .introTitle > h3, .introTitle > h5 {
   margin-bottom: 3vh ;
 }
@@ -88,6 +96,15 @@ really wasn't working. The fix was to use a linear-gradient.
 /*Ensure social media icons/links look like icons*/
 .introSocialMediaLinks {
   color:white;
+}
+
+/*white space between feature's project title and image*/
+.whiteSpaceBelowText {
+  margin-bottom: 1rem;
+}
+
+.imageShadowBorder {
+  box-shadow: 1px 2px 5px 2px rgb(159, 166, 160); /*shadow under the button*/
 }
 
 /********** End Intro Component Styling **********/
@@ -117,36 +134,60 @@ really wasn't working. The fix was to use a linear-gradient.
 }
 
 .equalImgHeight {
-  height: 40vh;
+  height: 50vh;
+  border-top: .1rem solid lightgrey;
+  border-bottom: .1rem solid lightgrey;
 }
 
 .equalTechHeight {
-  height: 20vh;
-}
-
-.equalObjHeight {
   height: 15vh;
-  padding-bottom: 10vh;
-  
 }
 
-@media screen and (max-width:1020px) and (min-width:768px){
+.equalObjHeight-WIP {
+  height: 15vh;
+  padding-bottom: 10vh;  
+}
+
+/*smaller text for Node/Express to make it fit */
+.smallText {
+  font-size: .8rem;
+}  
+
+/*Make text smaller on smaller screens*/
+@media screen and (max-width:470px){
+  .allTextSmall {
+    font-size: .8rem;
+  }
+}
+
+/*Make text smaller on smaller screens*/
+@media screen and (min-width:768px) and (max-width:986px){
+  .equalImgHeight {
+    height: 70vh;
+  }  
+}
+
+@media screen and (min-width:987px){
   .equalTechHeight {    
-    padding-bottom: 30vh;
+    padding-bottom: 1vh;
   }
   
   .equalObjHeight {
-    height: 25vh;
-    padding-bottom: 30vh;
+    height: 10vh;
+    /*padding-bottom: 30vh;*/
   }
 
   /*To fix bug on Edge Motors title text is overflowing the white box*/
   .equalTitleHeight { 
     height: 15vh;
-  }  
+  }
 }
 /********** End of Portfolio Component Styling **********/
 
-/********** Start of Case Studies Component Styling **********/
+/********** Start of Footer Component Styling **********/
+.footerStyling {
+  background-color: rgb(32, 179, 199);
+  margin-top: 1rem;
+}
 
-/********** End of Case Studies Component Styling **********/
+/********** End of Footer Component Styling **********/
