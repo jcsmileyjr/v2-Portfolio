@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/v2-Portfolio/static/media/WOF2.567143da.jpg"
   },
   {
-    "revision": "6f77be8224484f2c0ce8",
-    "url": "/v2-Portfolio/static/css/main.55ea9777.chunk.css"
+    "revision": "dfafaca86df8f743f9bc",
+    "url": "/v2-Portfolio/static/css/main.db76b29c.chunk.css"
   },
   {
     "revision": "e5527dc131d49bf01a33",
@@ -16,8 +16,8 @@ self.__precacheManifest = [
     "url": "/v2-Portfolio/static/media/Calculator.d41f628b.gif"
   },
   {
-    "revision": "9c652a40352d8f718a2a",
-    "url": "/v2-Portfolio/static/js/2.6a998f0f.chunk.js"
+    "revision": "fc928ba2deb5c5332879",
+    "url": "/v2-Portfolio/static/js/2.d95f1513.chunk.js"
   },
   {
     "revision": "bfe60c5066844b70da06142c78be8feb",
@@ -80,8 +80,8 @@ self.__precacheManifest = [
     "url": "/v2-Portfolio/static/media/WOF-Wireframe.fd36bd16.PNG"
   },
   {
-    "revision": "6f77be8224484f2c0ce8",
-    "url": "/v2-Portfolio/static/js/main.e01007bc.chunk.js"
+    "revision": "dfafaca86df8f743f9bc",
+    "url": "/v2-Portfolio/static/js/main.8a45923a.chunk.js"
   },
   {
     "revision": "a0b47fc5a7455aa21bf0d20d504092fe",
@@ -152,11 +152,11 @@ self.__precacheManifest = [
     "url": "/v2-Portfolio/static/media/wheel-of-fortune.1b61db9d.gif"
   },
   {
-    "revision": "9c652a40352d8f718a2a",
+    "revision": "fc928ba2deb5c5332879",
     "url": "/v2-Portfolio/static/css/2.84666c4f.chunk.css"
   },
   {
-    "revision": "ab4ce682452a053d4c604d0d13a9c492",
+    "revision": "aafa96ed0335ded1db963f00981c79a5",
     "url": "/v2-Portfolio/index.html"
   }
 ];
