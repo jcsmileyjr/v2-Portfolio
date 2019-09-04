@@ -16,7 +16,7 @@ export default function About(props) {
         </Col>
       </Row>
       <Row>
-        <Col className="h-100" xs={12} lg={{ span: 5, offset: 1 }}>
+        <Col className="h-100 equalTechHeight " xs={12} lg={6}>
           <Card className="h-100">
             <Card.Img variant="top" src={require("../img/cc_meetup2.jpg")} />
             <Card.Body>
@@ -25,7 +25,7 @@ export default function About(props) {
                 Nonprofit Tech Meetup
               </Card.Subtitle>              
                 <ul>
-                  <li>Engagement Manager/Blog Editor </li>
+                  <li>Engagement Manager/Meetup Organizer </li>
                   <li>Memphis Chapter Leader (2 monthly meetups) </li>
                   <li>
                     North Mississippi Chapter Co-founder (1 monthly meetups)
@@ -37,14 +37,14 @@ export default function About(props) {
                     developing their first functional websites
                   </li>
                   <li>
-                    <a href="https://www.codeconnective.com">Code Connector</a>
+                    <a href="https://codeconnector.io/">Code Connector</a>
                   </li>
                 </ul>
               
             </Card.Body>
           </Card>
         </Col>
-        <Col xs={12} lg={{ span: 5, offset: 1 }}>
+        <Col xs={12} lg={6}>
           <Card className="h-100">
             <Card.Img
               variant="top"
@@ -69,7 +69,7 @@ export default function About(props) {
             </Card.Body>
           </Card>
         </Col>
-        <Col xs={12} lg={{ span: 5, offset: 1 }}>
+        <Col xs={12} lg={6}>
           <Card className="h-100">
             <Card.Img variant="top" src={require("../img/hackMemphis.jpg")} />
             <Card.Body>
@@ -90,7 +90,7 @@ export default function About(props) {
             </Card.Body>
           </Card>
         </Col>
-        <Col xs={12} lg={{ span: 5, offset: 1, height: "75%" }}>
+        <Col xs={12} lg={6}>
           <Card className="h-100">
             <Card.Img
               variant="top"
@@ -118,7 +118,7 @@ export default function About(props) {
             </Card.Body>
           </Card>
         </Col>
-        <Col xs={12} lg={{ span: 5, offset: 1 }}>
+        <Col xs={12} lg={6}>
           <Card className="h-100">
             <Card.Img variant="top" src={require("../img/presentation.jpg")} />
             <Card.Body>
@@ -139,7 +139,7 @@ export default function About(props) {
             </Card.Body>
           </Card>
         </Col>
-        <Col xs={12} lg={{ span: 5, offset: 1 }}>
+        <Col xs={12} lg={6}>
           <Card className="h-100">
             <Card.Img
               variant="top"
@@ -163,7 +163,7 @@ export default function About(props) {
         </Col>
       </Row>
       <Row>
-        <Col xs={12} lg={{ span: 5, offset: 1 }}>
+        <Col xs={12} lg={6}>
           <Card className="h-100">
             <Card.Img variant="top" src={require("../img/hike1.jpg")} />
             <Card.Body>

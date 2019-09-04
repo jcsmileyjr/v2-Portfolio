@@ -292,7 +292,7 @@ export default function Portfolio(props) {
                 </Col>
               </Row>
               <Card.Subtitle className="rowWhiteSpace equalObjHeight center">
-                Online field guide for gaming law enforcment agents.
+                Online field guide for gaming law enforcement agents.
               </Card.Subtitle>
               <Row>
                 <Col xs={12} className="center">
