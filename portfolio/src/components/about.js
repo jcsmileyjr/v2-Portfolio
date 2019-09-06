@@ -16,7 +16,7 @@ export default function About(props) {
         </Col>
       </Row>
       <Row className="whiteSpaceBelowText">
-        <Col xs={12} lg={6}>
+        <Col className="aboutCardCols" xs={12} lg={6}>
           <Card className="h-100 aboutCards">
             <Card.Img variant="top" src={require("../img/cc_meetup2.jpg")} />
             <Card.Body>
@@ -44,7 +44,7 @@ export default function About(props) {
             </Card.Body>
           </Card>
         </Col>
-        <Col xs={12} lg={6}>
+        <Col className="aboutCardCols" xs={12} lg={6}>
           <Card className="h-100 aboutCards">
             <Card.Img
               variant="top"
@@ -71,7 +71,7 @@ export default function About(props) {
         </Col>
         </Row>
         <Row className="whiteSpaceBelowText">
-        <Col xs={12} lg={6}>
+        <Col className="aboutCardCols" xs={12} lg={6}>
           <Card className="h-100 aboutCards">
             <Card.Img variant="top" src={require("../img/hackMemphis.jpg")} />
             <Card.Body>
@@ -92,7 +92,7 @@ export default function About(props) {
             </Card.Body>
           </Card>
         </Col>
-        <Col xs={12} lg={6}>
+        <Col className="aboutCardCols" xs={12} lg={6}>
           <Card className="h-100 aboutCards">
             <Card.Img
               variant="top"
@@ -122,7 +122,7 @@ export default function About(props) {
         </Col>
         </Row>
         <Row className="whiteSpaceBelowText">
-        <Col xs={12} lg={6}>
+        <Col className="aboutCardCols" xs={12} lg={6}>
           <Card className="h-100 aboutCards">
             <Card.Img variant="top" src={require("../img/presentation.jpg")} />
             <Card.Body>
@@ -143,7 +143,7 @@ export default function About(props) {
             </Card.Body>
           </Card>
         </Col>
-        <Col xs={12} lg={6}>
+        <Col className="aboutCardCols" xs={12} lg={6}>
           <Card className="h-100 aboutCards">
             <Card.Img
               variant="top"
@@ -167,7 +167,7 @@ export default function About(props) {
         </Col>
       </Row>
       <Row>
-        <Col xs={12} lg={6}>
+        <Col className="aboutCardCols" xs={12} lg={6}>
           <Card className="h-100 aboutCards">
             <Card.Img variant="top" src={require("../img/hike1.jpg")} />
             <Card.Body>
