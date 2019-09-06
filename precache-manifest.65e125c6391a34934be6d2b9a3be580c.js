@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/v2-Portfolio/static/media/WOF2.567143da.jpg"
   },
   {
-    "revision": "0317d98ef61be021cd71",
-    "url": "/v2-Portfolio/static/css/main.db76b29c.chunk.css"
+    "revision": "2cdc212ecb945cb25880",
+    "url": "/v2-Portfolio/static/css/main.a36ce0e8.chunk.css"
   },
   {
     "revision": "e5527dc131d49bf01a33",
@@ -16,8 +16,8 @@ self.__precacheManifest = [
     "url": "/v2-Portfolio/static/media/Calculator.d41f628b.gif"
   },
   {
-    "revision": "fc928ba2deb5c5332879",
-    "url": "/v2-Portfolio/static/js/2.d95f1513.chunk.js"
+    "revision": "0fc2abb40c3dd00086f0",
+    "url": "/v2-Portfolio/static/js/2.5748714a.chunk.js"
   },
   {
     "revision": "bfe60c5066844b70da06142c78be8feb",
@@ -80,8 +80,8 @@ self.__precacheManifest = [
     "url": "/v2-Portfolio/static/media/WOF-Wireframe.fd36bd16.PNG"
   },
   {
-    "revision": "0317d98ef61be021cd71",
-    "url": "/v2-Portfolio/static/js/main.b691a613.chunk.js"
+    "revision": "2cdc212ecb945cb25880",
+    "url": "/v2-Portfolio/static/js/main.590ee7f5.chunk.js"
   },
   {
     "revision": "a0b47fc5a7455aa21bf0d20d504092fe",
@@ -114,6 +114,10 @@ self.__precacheManifest = [
   {
     "revision": "52e23b72933417d614c5eccb0f5123d1",
     "url": "/v2-Portfolio/static/media/calculator5.52e23b72.png"
+  },
+  {
+    "revision": "587b97f1e25e51f5f0d911db22ab0b4c",
+    "url": "/v2-Portfolio/static/media/meetup-head-shot.587b97f1.jpg"
   },
   {
     "revision": "07e95474bd41134008216310758d2b56",
@@ -152,11 +156,11 @@ self.__precacheManifest = [
     "url": "/v2-Portfolio/static/media/wheel-of-fortune.1b61db9d.gif"
   },
   {
-    "revision": "fc928ba2deb5c5332879",
+    "revision": "0fc2abb40c3dd00086f0",
     "url": "/v2-Portfolio/static/css/2.84666c4f.chunk.css"
   },
   {
-    "revision": "178351c29013fa57b3accd426c5356dd",
+    "revision": "6ccfcb2eeda781ca502e3ea4582f58ef",
     "url": "/v2-Portfolio/index.html"
   }
 ];
