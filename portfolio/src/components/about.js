@@ -15,9 +15,9 @@ export default function About(props) {
           <h3>Community Involvment</h3>
         </Col>
       </Row>
-      <Row>
-        <Col className="h-100 equalTechHeight " xs={12} lg={6}>
-          <Card className="h-100">
+      <Row className="whiteSpaceBelowText">
+        <Col xs={12} lg={6}>
+          <Card className="h-100 aboutCards">
             <Card.Img variant="top" src={require("../img/cc_meetup2.jpg")} />
             <Card.Body>
               <Card.Title className="center">Code Connector</Card.Title>
@@ -45,7 +45,7 @@ export default function About(props) {
           </Card>
         </Col>
         <Col xs={12} lg={6}>
-          <Card className="h-100">
+          <Card className="h-100 aboutCards">
             <Card.Img
               variant="top"
               src={require("../img/intro_meetup_small.jpg")}
@@ -69,8 +69,10 @@ export default function About(props) {
             </Card.Body>
           </Card>
         </Col>
+        </Row>
+        <Row className="whiteSpaceBelowText">
         <Col xs={12} lg={6}>
-          <Card className="h-100">
+          <Card className="h-100 aboutCards">
             <Card.Img variant="top" src={require("../img/hackMemphis.jpg")} />
             <Card.Body>
               <Card.Title className="center">Hack-Memphis 2018</Card.Title>
@@ -91,7 +93,7 @@ export default function About(props) {
           </Card>
         </Col>
         <Col xs={12} lg={6}>
-          <Card className="h-100">
+          <Card className="h-100 aboutCards">
             <Card.Img
               variant="top"
               src={require("../img/smartCityLookOut.jpg")}
@@ -118,8 +120,10 @@ export default function About(props) {
             </Card.Body>
           </Card>
         </Col>
+        </Row>
+        <Row className="whiteSpaceBelowText">
         <Col xs={12} lg={6}>
-          <Card className="h-100">
+          <Card className="h-100 aboutCards">
             <Card.Img variant="top" src={require("../img/presentation.jpg")} />
             <Card.Body>
               <Card.Title className="center">Blog Posts</Card.Title>
@@ -140,7 +144,7 @@ export default function About(props) {
           </Card>
         </Col>
         <Col xs={12} lg={6}>
-          <Card className="h-100">
+          <Card className="h-100 aboutCards">
             <Card.Img
               variant="top"
               src={require("../img/inaugural-meetup.jpg")}
@@ -157,14 +161,14 @@ export default function About(props) {
           </Card>
         </Col>
       </Row>
-      <Row className="center rowWhiteSpace">
+      <Row className="center whiteSpaceAboveFeatureArea">
         <Col>
           <h3>Hobbies</h3>
         </Col>
       </Row>
       <Row>
         <Col xs={12} lg={6}>
-          <Card className="h-100">
+          <Card className="h-100 aboutCards">
             <Card.Img variant="top" src={require("../img/hike1.jpg")} />
             <Card.Body>
               <Card.Title className="center">Nature Enthusiastic</Card.Title>
