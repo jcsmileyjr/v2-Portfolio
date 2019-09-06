@@ -1,13 +1,20 @@
 import React from "react";
-import { Container, Row, Col, Card } from "react-bootstrap";
+import { Container, Row, Col, Card, Image } from "react-bootstrap";
 import "../App.css";
 
 export default function About(props) {
   return (
     <Container>
       <Row className="center">
-        <Col className="whiteSpaceAboveFeatureArea">
-          <h1>About</h1>
+        <Col className="whiteSpaceAboveFeatureArea aboutPicSmallView" xs={12} sm={6} lg={6}>
+          <Image src={require("../img/meetup-head-shot.jpg")} roundedCircle fluid />
+        </Col>
+        <Col className="whiteSpaceAboveFeatureArea verticalAlignText" xs={12} sm={6} lg={6}>
+          <p>
+            I'm a self-taught full-stack developer with a focus on web and mobile app development.
+            My primary passion is building up my local tech community by organizing tech meetups and moderating an online slack channel for local developers. 
+            You can contact me at jcsmileyjr@gmail.com or linkedin.com/in/jcsmileyjr. 
+          </p>
         </Col>
       </Row>
       <Row className="center rowWhiteSpace">

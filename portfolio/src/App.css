@@ -128,7 +128,19 @@ really wasn't working. The fix was to use a linear-gradient.
   }  
 }
 
+/*Center align the about me text*/
+.verticalAlignText {
+  margin: auto;
+  width: 50%; 
+  text-align:left;
+}
 
+@media only screen and (max-width:426px){
+  /*Increase whitespace around head-shot on the about page*/
+  .aboutPicSmallView {
+    margin-top: 3rem;
+  }
+}
 
 /********** End of About Component Styling **********/
 
