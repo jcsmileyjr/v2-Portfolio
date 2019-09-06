@@ -64,7 +64,6 @@ really wasn't working. The fix was to use a linear-gradient.
 */
 .introImage {
   background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(./img/intro_meetup.jpg);
-  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(./img/intro_meetup.jpg);
   background-size: cover;
   background-position: center center;
   overflow: hidden;
@@ -118,6 +117,31 @@ really wasn't working. The fix was to use a linear-gradient.
   margin-bottom: 10px;
 }
 
+.aboutCards {
+  box-shadow: 1px 2px 5px 2px rgb(159, 166, 160);
+}
+
+/*Make text smaller on smaller screens*/
+@media screen and (max-width:990px){
+  .aboutCardCols {
+    margin-bottom: 1.5rem;
+  }  
+}
+
+/*Center align the about me text*/
+.verticalAlignText {
+  margin: auto;
+  width: 50%; 
+  text-align:left;
+}
+
+@media only screen and (max-width:426px){
+  /*Increase whitespace around head-shot on the about page*/
+  .aboutPicSmallView {
+    margin-top: 3rem;
+  }
+}
+
 /********** End of About Component Styling **********/
 
 
@@ -167,6 +191,7 @@ really wasn't working. The fix was to use a linear-gradient.
   }  
 }
 
+/*CSS for bigger screens*/
 @media screen and (min-width:987px){
   .equalTechHeight {    
     padding-bottom: 1vh;
