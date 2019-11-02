@@ -455,7 +455,7 @@ export default function Portfolio(props) {
                 </Col>
               </Row>
               <Card.Subtitle className="rowWhiteSpace equalObjHeight center">
-                A math practice app for a child.
+              Clone of the classic Wheel of Fortune show but with tech words.
               </Card.Subtitle>
               <Row>
                 <Col xs={12} className="center">
