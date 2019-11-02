@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 
 import "../App.css";
@@ -10,7 +10,7 @@ import { faSwimmer } from "@fortawesome/free-solid-svg-icons";
 library.add(faSwimmer);
 
 export default function Portfolio(props) {
-  useEffect(()=> window.scrollTo(0, 0));
+  useEffect(() => window.scrollTo(0, 0));
   return (
     <Container>
       <Row className="center">
@@ -79,7 +79,7 @@ export default function Portfolio(props) {
                     Read Case Study
                   </Button>
                 </Col>
-                <Col className="center" >
+                <Col className="center">
                   <strong>The code is private to my employer</strong>
                 </Col>
               </Row>
@@ -455,7 +455,7 @@ export default function Portfolio(props) {
                 </Col>
               </Row>
               <Card.Subtitle className="rowWhiteSpace equalObjHeight center">
-              Clone of the classic Wheel of Fortune show but with tech words.
+                Clone of the classic Wheel of Fortune show but with tech words.
               </Card.Subtitle>
               <Row>
                 <Col xs={12} className="center">
@@ -474,7 +474,7 @@ export default function Portfolio(props) {
                     Visit Project Demo
                   </Button>
                 </Col>
-                <Col xs={12} className="center" >
+                <Col xs={12} className="center">
                   <Button
                     onClick={() => {
                       props.showCaseStudy("Wheel of Fortune");
