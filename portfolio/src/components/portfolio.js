@@ -569,6 +569,83 @@ export default function Portfolio(props) {
             </Card.Body>
           </Card>
         </Col>
+
+        <Col className="spaceBetweenPortfolioCards" xs={12} lg={6}>
+          <Card className="h-100 imageShadowBorder">
+            <Card.Title className="center equalTitleHeight">
+              Black-Jack
+            </Card.Title>
+            <Card.Img
+              className="equalImgHeight"
+              variant="top"
+              fluid="true"
+              src={require("../img/blackjack3.gif")}
+            />
+            <Card.Body>
+              <Row className="equalTechHeight">
+                <Col className="center" xs={3}>
+                  <FontAwesomeIcon
+                    style={{ color: "navy" }}
+                    icon={["fab", "react"]}
+                    size="lg"
+                  />
+                  <Card.Text className="allTextSmall">React</Card.Text>
+                </Col>
+                <Col className="center" xs={3}>
+                  <FontAwesomeIcon
+                    style={{ color: "purple" }}
+                    icon={["fab", "bootstrap"]}
+                    size="lg"
+                  />
+                  <Card.Text className="allTextSmall">Bootstrap</Card.Text>
+                </Col>
+                <Col className="center" xs={3}>
+                  <FontAwesomeIcon
+                    style={{ color: "orange" }}
+                    icon={["fab", "html5"]}
+                    size="lg"
+                  />
+                  <Card.Text className="allTextSmall">HTML5</Card.Text>
+                </Col>
+                <Col className="center" xs={3}>
+                  <FontAwesomeIcon icon={["fab", "css3"]} size="lg" />
+                  <Card.Text className="allTextSmall">CSS3</Card.Text>
+                </Col>
+              </Row>
+              <Card.Subtitle className="rowWhiteSpace equalObjHeight">
+              A traditional Black-Jack card game developed as a React web app.
+              </Card.Subtitle>
+              <Row>
+                <Col xs={12} className="center">
+                  <Button
+                    href="https://github.com/jcsmileyjr/BlackJack"
+                    variant="link"
+                  >
+                    View GitHub Code
+                  </Button>
+                </Col>
+                <Col xs={12} className="center">
+                  <Button
+                    href="https://jcsmileyjr.github.io/BlackJack/"
+                    variant="link"
+                  >
+                    Visit Project Demo
+                  </Button>
+                </Col>
+                <Col xs={12} className="center">
+                  <Button
+                    onClick={() => {
+                      props.showCaseStudy("Active Cases");
+                    }}
+                    variant="link"
+                  >
+                    Work in Progress
+                  </Button>
+                </Col>
+              </Row>
+            </Card.Body>
+          </Card>
+        </Col>        
       </Row>
     </Container>
   );
