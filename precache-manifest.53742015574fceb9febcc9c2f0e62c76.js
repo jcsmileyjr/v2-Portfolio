@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "567143dadc9d3fbba85da828478c2332",
-    "url": "/v2-Portfolio/static/media/WOF2.567143da.jpg"
+    "revision": "8cb478a02bb7632e8048adb00da421f4",
+    "url": "/v2-Portfolio/static/media/WOF4.8cb478a0.jpg"
   },
   {
-    "revision": "2cdc212ecb945cb25880",
+    "revision": "ce0428e5284b72a302a2",
     "url": "/v2-Portfolio/static/css/main.a36ce0e8.chunk.css"
   },
   {
@@ -12,12 +12,12 @@ self.__precacheManifest = [
     "url": "/v2-Portfolio/static/js/runtime~main.a49d2a84.js"
   },
   {
-    "revision": "d41f628b0467f1f1c5ca3df626c04145",
-    "url": "/v2-Portfolio/static/media/Calculator.d41f628b.gif"
+    "revision": "2fb155251c3949febe32c564387b4839",
+    "url": "/v2-Portfolio/static/media/blackjack3.2fb15525.gif"
   },
   {
-    "revision": "0fc2abb40c3dd00086f0",
-    "url": "/v2-Portfolio/static/js/2.5748714a.chunk.js"
+    "revision": "15e5a5764a8b92d51cf6",
+    "url": "/v2-Portfolio/static/js/2.c671ac3f.chunk.js"
   },
   {
     "revision": "bfe60c5066844b70da06142c78be8feb",
@@ -80,8 +80,8 @@ self.__precacheManifest = [
     "url": "/v2-Portfolio/static/media/WOF-Wireframe.fd36bd16.PNG"
   },
   {
-    "revision": "2cdc212ecb945cb25880",
-    "url": "/v2-Portfolio/static/js/main.590ee7f5.chunk.js"
+    "revision": "567143dadc9d3fbba85da828478c2332",
+    "url": "/v2-Portfolio/static/media/WOF2.567143da.jpg"
   },
   {
     "revision": "a0b47fc5a7455aa21bf0d20d504092fe",
@@ -92,8 +92,8 @@ self.__precacheManifest = [
     "url": "/v2-Portfolio/static/media/WOF5.60a48925.jpg"
   },
   {
-    "revision": "8cb478a02bb7632e8048adb00da421f4",
-    "url": "/v2-Portfolio/static/media/WOF4.8cb478a0.jpg"
+    "revision": "ce0428e5284b72a302a2",
+    "url": "/v2-Portfolio/static/js/main.4a5d0584.chunk.js"
   },
   {
     "revision": "b172e870869e487a5eee2bf0704d112d",
@@ -114,6 +114,26 @@ self.__precacheManifest = [
   {
     "revision": "52e23b72933417d614c5eccb0f5123d1",
     "url": "/v2-Portfolio/static/media/calculator5.52e23b72.png"
+  },
+  {
+    "revision": "952647e1f52acfa8c4a72012dd1893be",
+    "url": "/v2-Portfolio/static/media/blackjack2-0.952647e1.JPG"
+  },
+  {
+    "revision": "0f09e0e41504a47b3c280435af650dee",
+    "url": "/v2-Portfolio/static/media/blackjack2-0a.0f09e0e4.JPG"
+  },
+  {
+    "revision": "fb5703d57e4459667357ad22df071d96",
+    "url": "/v2-Portfolio/static/media/blackjack2-0b.fb5703d5.JPG"
+  },
+  {
+    "revision": "49b2a7ffcfbf31e077d712cb0e192310",
+    "url": "/v2-Portfolio/static/media/blackjack2-0c.49b2a7ff.JPG"
+  },
+  {
+    "revision": "39ceade77a9319ddd03ab4984d19844c",
+    "url": "/v2-Portfolio/static/media/blackjack2-0d.39ceade7.JPG"
   },
   {
     "revision": "587b97f1e25e51f5f0d911db22ab0b4c",
@@ -156,11 +176,15 @@ self.__precacheManifest = [
     "url": "/v2-Portfolio/static/media/wheel-of-fortune.1b61db9d.gif"
   },
   {
-    "revision": "0fc2abb40c3dd00086f0",
+    "revision": "d41f628b0467f1f1c5ca3df626c04145",
+    "url": "/v2-Portfolio/static/media/Calculator.d41f628b.gif"
+  },
+  {
+    "revision": "15e5a5764a8b92d51cf6",
     "url": "/v2-Portfolio/static/css/2.84666c4f.chunk.css"
   },
   {
-    "revision": "6ccfcb2eeda781ca502e3ea4582f58ef",
+    "revision": "e3ea26c6dd6912026912626fb402f9b5",
     "url": "/v2-Portfolio/index.html"
   }
 ];
