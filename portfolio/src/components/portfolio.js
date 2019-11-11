@@ -635,7 +635,7 @@ export default function Portfolio(props) {
                 <Col xs={12} className="center">
                   <Button
                     onClick={() => {
-                      props.showCaseStudy("Active Cases");
+                      props.showCaseStudy("Black Jack");
                     }}
                     variant="link"
                   >
