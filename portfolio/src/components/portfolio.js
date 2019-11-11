@@ -639,7 +639,7 @@ export default function Portfolio(props) {
                     }}
                     variant="link"
                   >
-                    Work in Progress
+                    Read Case Study
                   </Button>
                 </Col>
               </Row>
