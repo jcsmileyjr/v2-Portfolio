@@ -361,7 +361,42 @@ const caseStudies = [
         "photo4":require('./img/calculator4.png'),
         "results":"The project was created in February of 2019.",
         "photo5":require('./img/calculator5.png')
-    }                              
+    },
+
+    {
+
+        "pageTitle":"Black Jack",
+
+        "objectives":[
+
+            "A traditional Black-Jack card game developed as a React web app."
+        ],
+        "photo1":require('./img/blackjack2-0.JPG'),
+        "myRole":"The goal was to practice building apps in shorter time periods, write cleaner code, and improve user experience with animation.",
+        "photo2":require('./img/blackjack2-0a.JPG'),
+        "techStack":[
+            "React: JavaScript front-end library for building user interfaces",
+
+            "Git-Hub: Web-based version control repository and Internet hosting service",
+            
+            "Abode XD A wire-framing tool used to create a mockup/visual of what is to be coded",
+            
+            "JavaScript: Object-oriented programming language for web pages",
+            
+            "HTML: Mark-up language for creating web pages",
+            
+            "CSS: A formatting language for styling web pages"
+        ],
+        "photo3":require('./img/blackjack2-0b.JPG'),
+        "development":[
+            "Pencil and paper were used to draw a lo-fi wireframe of the idea.",
+            "Adobe XD was used to create a hi-fi wireframe of the idea",
+            "Based on feedback from co-workers, I improved the animation of the card being dealt"
+        ],
+        "photo4":require('./img/blackjack2-0c.JPG'),
+        "results":"The project was created in June of 2019.",
+        "photo5":require('./img/blackjack2-0d.JPG')
+    }                               
 
 ];
 
