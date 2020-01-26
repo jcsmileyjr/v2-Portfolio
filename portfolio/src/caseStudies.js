@@ -213,39 +213,36 @@ const caseStudies = [
 
     {
 
-        "pageTitle":"Index-Cards",
+        "pageTitle":"Level Up Dev",
 
         "objectives":[
-
-            "Online vocabulary test based on high school subjects.",
-            "Online version of using index cards as a effective learning strategy.",
-			"The test is split into two types, multiple choice and a matching.",
-			"The online test would show a constant grade for feedback.",
-			"The online test should show the correct answer if the student chooses incorrectly.",
-			"Bonus if the test can be reuse weeks later to study for final exams."
+            "Allow the user to view all goals.",
+            "Allow the user to create new goals with milestones.", 
+            "Allow the user to view a selected goal’s milestones and when click on a milestone, move it to the Achievement page.",
+            "Allow the user to view all past completed goals and milestones."
         ],
-        "photo1":require('./img/indexcards9.png'),
-        "myRole":"This is my child’s first year in high school and she is not adjusting well. I watched her dedicated many hours writing vocabulary terms and definitions on index cards to study for tests. Sometime she would lose the cards, damage them with food or water, get side tracked and lose her place, or not know if she have done well or not.",
-        "photo2":require('./img/indexcards8.png'),
+        "photo1":require('./img/levelUp_7_goal.PNG'),
+        "myRole":"Help developers guide their learning path by planning goals,  breaking those goals down into milestones, and displaying  a timeline of successes.",
+        "photo2":require('./img/levelUp_9_planning.PNG'),
         "techStack":[
-			"Bootstrap: Web development framework for developing responsive, mobile first front-end projects",
-			"AngularJS: JavaScript-based front-end framework for building single page web applications.",
+			"React Native: JavaScript mobile app framework",
+            "React-Navigation:  Navigation library for React’s web and mobile apps",
+            "Native-Base: Open source UI component library for React Native",
+            "Abode XD: A wire-framing tool used to create a mockup/visual of what is to be coded",
 			"Git-Hub: web-based version control repository and Internet hosting service",
 			"JavaScript: object-oriented programming language for web pages",
 			"HTML5: Mark-up language for creating web pages and local storage of data in the browser",
 			"CSS: A formatting language for styling web pages"
         ],
-        "photo3":require('./img/indexcards1.png'),
+        "photo3":require('./img/LevelUP5_progress2.png'),
         "development":[
-            "Used pencil and paper to draw a lo-fi wireframe of the idea.",
-			"The biggest challenge was constantly redesigning the app for the growing needs of my daughter. The app needed to display a range of tests, different types of tests, and combined tests to repersent final exams by subject.",
-            "Based on feedback from the student a 'Hot streak' feature was added that celebrated a student answering multiple questions correctly.",
-            "Based on feedback from the student a 'Beat your Top Score' feature hat displayed the highest score the student achevied for that test.",
-			"Because of the above feature requests, I had to learn HTML5's local-storage, animation, and new functionality was develop to enhanace the user experience and build confidence."
+            "Used pencil and paper to draw a lo-fi wireframe of the idea and then Adobe XD for a lo-fi wire-frame.",
+			"The biggest challenges was learning to use libraries for navigation, UI components, and a onboarding experience. ",
+            "Based on feedback during development the color design was change from purple/white to shades of blue."
         ],
-        "photo4":require('./img/indexcards10.png'),
-        "results":"The project was created in Sept. 2017.",
-        "photo5":require('./img/indexcards4.png')
+        "photo4":require('./img/levelUp-redesign.JPG'),
+        "results":"The project was created in December. 2019.",
+        "photo5":require('./img/levelup-hoodie-v3.png')
     },
 
     {

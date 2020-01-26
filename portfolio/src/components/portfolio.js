@@ -22,7 +22,7 @@ export default function Portfolio(props) {
         <Col className="spaceBetweenPortfolioCards" xs={12} lg={6}>
           <Card className="h-100 imageShadowBorder">
             <Card.Title className="center equalTitleHeight">
-              Android Mobile Photo App for Edge Motors Car Museum
+              Mobile Photo App for Edge Motors Car Museum
             </Card.Title>
             <Card.Img
               className="equalImgHeight"
@@ -329,23 +329,23 @@ export default function Portfolio(props) {
         <Col className="spaceBetweenPortfolioCards" xs={12} lg={6}>
           <Card className="h-100 imageShadowBorder">
             <Card.Title className="center equalTitleHeight">
-              Index Cards
+              Level Up Dev
             </Card.Title>
             <Card.Img
               className="equalImgHeight"
               variant="top"
               fluid="true"
-              src={require("../img/Index Cards Landing Page.png")}
+              src={require("../img/levelUp_10a.gif")}
             />
             <Card.Body>
-              <Row className="equalTechHeight">
+            <Row className="equalTechHeight">
                 <Col className="center" xs={3}>
                   <FontAwesomeIcon
-                    style={{ color: "red" }}
-                    icon={["fab", "angular"]}
+                    style={{ color: "navy" }}
+                    icon={["fab", "react"]}
                     size="lg"
                   />
-                  <Card.Text className="allTextSmall">AngularJS</Card.Text>
+                  <Card.Text className="allTextSmall">React Native</Card.Text>
                 </Col>
                 <Col className="center" xs={3}>
                   <FontAwesomeIcon
@@ -365,21 +365,20 @@ export default function Portfolio(props) {
                 </Col>
                 <Col className="center" xs={3}>
                   <FontAwesomeIcon
-                    style={{ color: "purple" }}
-                    icon={["fab", "bootstrap"]}
+                    style={{ color: "navy" }}
+                    icon={["fab", "css3"]}
                     size="lg"
                   />
-                  <Card.Text className="allTextSmall">Bootstrap</Card.Text>
+                  <Card.Text className="allTextSmall">CSS3</Card.Text>
                 </Col>
               </Row>
               <Card.Subtitle className="rowWhiteSpace equalObjHeight">
-                Online vocabulary test for high school kids. The test is split
-                into two types, multiple choice and a matching.
+                Mobile app to help developers guide their learning path by planning goals,  breaking those goals down into milestones, and displaying  a timeline of successes.
               </Card.Subtitle>
               <Row>
                 <Col xs={12} className="center">
                   <Button
-                    href="https://github.com/jcsmileyjr/Index-Cards"
+                    href="https://github.com/jcsmileyjr/LevelUp"
                     variant="link"
                   >
                     View GitHub Code
@@ -387,16 +386,16 @@ export default function Portfolio(props) {
                 </Col>
                 <Col xs={12} className="center">
                   <Button
-                    href="https://jcsmileyjr.github.io/Index-Cards/"
+                    href="https://play.google.com/store/apps/details?id=com.levelup.mobile"
                     variant="link"
                   >
-                    Visit Project Demo
+                    View on Google Play Store
                   </Button>
                 </Col>
                 <Col xs={12} className="center">
                   <Button
                     onClick={() => {
-                      props.showCaseStudy("Index-Cards");
+                      props.showCaseStudy("Level Up Dev");
                     }}
                     variant="link"
                   >
