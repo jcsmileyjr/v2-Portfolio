@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "8cb478a02bb7632e8048adb00da421f4",
-    "url": "/v2-Portfolio/static/media/WOF4.8cb478a0.jpg"
+    "revision": "a0b47fc5a7455aa21bf0d20d504092fe",
+    "url": "/v2-Portfolio/static/media/WOF3.a0b47fc5.jpg"
   },
   {
-    "revision": "ce0428e5284b72a302a2",
-    "url": "/v2-Portfolio/static/css/main.a36ce0e8.chunk.css"
+    "revision": "100bc919047b3f26eb2d",
+    "url": "/v2-Portfolio/static/css/main.a2c16756.chunk.css"
   },
   {
     "revision": "e5527dc131d49bf01a33",
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/v2-Portfolio/static/media/car-boy.4f2dbaf0.jpg"
   },
   {
-    "revision": "0542433188d646c993020cf6cec47803",
-    "url": "/v2-Portfolio/static/media/JC Smiley Resume.05424331.pdf"
+    "revision": "381c42f3b248dc3ab7bba70596b0590d",
+    "url": "/v2-Portfolio/static/media/JC Smiley Resume.381c42f3.pdf"
   },
   {
     "revision": "8ccc27079503e8bcca649f1093e57847",
@@ -76,6 +76,26 @@ self.__precacheManifest = [
     "url": "/v2-Portfolio/static/media/agent-Pedia mobile-200.cf001f69.png"
   },
   {
+    "revision": "83af1c9c8442bc0b98191eabc8107361",
+    "url": "/v2-Portfolio/static/media/levelUp_7_goal.83af1c9c.PNG"
+  },
+  {
+    "revision": "8cdd29bfe9296d8a275fc96f9e429265",
+    "url": "/v2-Portfolio/static/media/levelUp_9_planning.8cdd29bf.PNG"
+  },
+  {
+    "revision": "809418d9f54472808660cf31fc4304ca",
+    "url": "/v2-Portfolio/static/media/LevelUP5_progress2.809418d9.png"
+  },
+  {
+    "revision": "1b6e6929677014171d4a066e9ed1e359",
+    "url": "/v2-Portfolio/static/media/levelUp-redesign.1b6e6929.JPG"
+  },
+  {
+    "revision": "161b56220fa5e0e1cc9850f2c5668359",
+    "url": "/v2-Portfolio/static/media/levelup-hoodie-v3.161b5622.png"
+  },
+  {
     "revision": "fd36bd16070426b211c53c068c2e8dfa",
     "url": "/v2-Portfolio/static/media/WOF-Wireframe.fd36bd16.PNG"
   },
@@ -84,16 +104,16 @@ self.__precacheManifest = [
     "url": "/v2-Portfolio/static/media/WOF2.567143da.jpg"
   },
   {
-    "revision": "a0b47fc5a7455aa21bf0d20d504092fe",
-    "url": "/v2-Portfolio/static/media/WOF3.a0b47fc5.jpg"
+    "revision": "100bc919047b3f26eb2d",
+    "url": "/v2-Portfolio/static/js/main.8d5b94c1.chunk.js"
   },
   {
     "revision": "60a48925e102bc77d358b74523897172",
     "url": "/v2-Portfolio/static/media/WOF5.60a48925.jpg"
   },
   {
-    "revision": "ce0428e5284b72a302a2",
-    "url": "/v2-Portfolio/static/js/main.4a5d0584.chunk.js"
+    "revision": "8cb478a02bb7632e8048adb00da421f4",
+    "url": "/v2-Portfolio/static/media/WOF4.8cb478a0.jpg"
   },
   {
     "revision": "b172e870869e487a5eee2bf0704d112d",
@@ -168,8 +188,8 @@ self.__precacheManifest = [
     "url": "/v2-Portfolio/static/media/hike1.8987176c.jpg"
   },
   {
-    "revision": "56b65a1f365da487721ca5af52d2f15c",
-    "url": "/v2-Portfolio/static/media/Index Cards Landing Page.56b65a1f.png"
+    "revision": "5f0ade457c117b6162a28d21bc04ddee",
+    "url": "/v2-Portfolio/static/media/levelUp_10a.5f0ade45.gif"
   },
   {
     "revision": "1b61db9d2ff4ce34ddc2e0420a0f47a7",
@@ -184,7 +204,7 @@ self.__precacheManifest = [
     "url": "/v2-Portfolio/static/css/2.84666c4f.chunk.css"
   },
   {
-    "revision": "e3ea26c6dd6912026912626fb402f9b5",
+    "revision": "1c676f9e943844ae78a54e45996881da",
     "url": "/v2-Portfolio/index.html"
   }
 ];
