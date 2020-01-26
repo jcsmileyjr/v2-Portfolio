@@ -22,7 +22,7 @@ export default function Portfolio(props) {
         <Col className="spaceBetweenPortfolioCards" xs={12} lg={6}>
           <Card className="h-100 imageShadowBorder">
             <Card.Title className="center equalTitleHeight">
-              Android Mobile Photo App for Edge Motors Car Museum
+              Mobile Photo App for Edge Motors Car Museum
             </Card.Title>
             <Card.Img
               className="equalImgHeight"

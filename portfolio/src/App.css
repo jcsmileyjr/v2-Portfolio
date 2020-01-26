@@ -158,7 +158,7 @@ really wasn't working. The fix was to use a linear-gradient.
 }
 
 .equalImgHeight {
-  height: 50vh;
+  height: 60vh;
   border-top: .1rem solid lightgrey;
   border-bottom: .1rem solid lightgrey;
 }
@@ -204,7 +204,7 @@ really wasn't working. The fix was to use a linear-gradient.
 
   /*To fix bug on Edge Motors title text is overflowing the white box*/
   .equalTitleHeight { 
-    height: 15vh;
+    height: 10vh;
   }
 }
 /********** End of Portfolio Component Styling **********/
